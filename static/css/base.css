@@ -4,4 +4,125 @@ html {
 
 body{
     background: url('/media/sincerely-media-EmdXBCY_Cds-unsplash.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: calc(100vh - 164px);
+    color: #555;
+    font-family: 'Lato';
+    
 }
+
+#main-heading {
+    float: right;
+    padding-left: 20%;
+    font-weight: bolder;
+}
+
+#hero-img {
+    margin-top: 3%;
+}
+
+#highlights {
+    float: left;
+    height: 320px;
+    width: 100%;
+    border-style: solid;
+    border-color: white;
+    border-radius: 50%;
+    border-width: 5px;
+    background: url('/media/lidye-PZ_-sCaBCaQ-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.highlights-button {
+    background: rgb(207, 3, 169);
+    color: white;
+    min-width: 180px;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 50%;
+    margin-top: 70%;
+    margin-left: 20%;
+}
+
+/* from Bulma */
+.icon {
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.logo-font {
+    text-transform: uppercase;
+}
+
+.main-logo-link {
+    width: fit-content;
+}
+
+.discover-button {
+    background:rgb(207, 3, 169);
+    color: white;
+    min-width: 180px;
+    border-color: white;
+    border-width: 2px;
+    
+}
+
+.btn-black {
+    background: black;
+    color: white;
+}
+
+.discover-button:hover,
+.discover-button:active,
+.discover-button:focus,
+.highlights-button:hover,
+.highlights-button:active,
+.highlights-button:focus,
+.btn-black:hover,
+.btn-black:active,
+.btn-black:focus {
+    background: #222;
+    color: white;
+}
+
+.text-black {
+    color: #000 !important;
+}
+
+.border-black {
+    border: 1px solid black !important;
+}
+
+.bg-black {
+    background-color: #1a1919ac;
+}
+
+#nav-bar {
+    background-color: rgba(255, 223, 250, 0.699);
+}
+/* Media Queries */
+
+/* Slightly larger container on xl screens */
+@media (min-width: 1200px) {
+    .container {
+      max-width: 80%;
+    }
+  }
+  
+  /* fixed top navbar only on medium and up */
+  @media (min-width: 992px) {
+      .fixed-top-desktop-only {
+          position: fixed;
+          top: 0;
+          right: 0;
+          left: 0;
+          z-index: 1030;
+      }
+  
+      .header-container {
+          padding-top: 164px;
+      }
+  }
