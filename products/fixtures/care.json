@@ -1,0 +1,332 @@
+[
+    {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "skc01",
+            "name": "Facial Moisturizer Cream",
+            "description": "Awaken your skin's senses. Renew your inner radiance.",
+            "application": " Apply generously in the morning after cleansing and softening.",
+            "ingredients": "Water(Aqua/Eau), Ethylhexyl Methoxycinnamate, Glycerin, Dipropylene Glycol.",
+            "price": 15.90,
+            "rating": 4.9,
+            "image": "/media/sk13.jpg",
+            "category": 1
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.product",
+        "fields": {
+            "sku": "skc02",
+            "name": "Facial Moisturizer Cream",
+            "description": "Maximum moisture - the daily basis for fresh and vital-looking skin full of radiance.",
+            "application": " Apply every morning after cleansing and ULTIMUNE serum. Apply cream to cheeks, forehead, nose and chin with your fingertips",
+            "ingredients": "Water(Aqua/Eau), Ethylhexyl Methoxycinnamate, Glycerin, Dipropylene Glycol, Caprylic/Capric Triglyceride, Behenyl Alcohol, Dimethicone, Butylene Glycol, Alcohol, Octocrylene, Silica, Polybutylene Glycol/Ppg-9/1 Copolymer, Myristyl Myristate, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Isohexadecane, Phenylbenzimidazole Sulfonic Acid, Sorbitol, Beheneth-20, Stearyl Alcohol, Phytosteryl Macadamiate, Triethanolamine, Phenoxyethanol, Beheneth-30, Xanthan Gum, Fragrance (Parfum).",
+            "price": 15.90,
+            "rating": 4.9,
+            "image": "/media/sk18.jpg",
+            "category": 1
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.product",
+        "fields": {
+            "sku": "skc03",
+            "name": "Face Scrub",
+            "description": "Rich cleansing cream that removes makeup, dirt and residue quickly, easily and thoroughly.",
+            "application": "Apply the Scrub on face and massage gently to cleanse skin of oil and dirt. Then rinse thoroughly with water.",
+            "ingredients": "Ethylhexyl Palmitate, Carthamus Tinctorius (Safflower) Seed Oil, Caprylic/Capric Triglyceride, Sorbeth-30 Tetraoleate, Polyethylene, Peg-5 Glyceryl Triisostearate, Water/Aqua, Tocopherol, Phenoxyethanol.",
+            "price": 12.90,
+            "rating": 4.5,
+            "image": "/media/sk15.jpg",
+            "category": 1
+        }
+    },
+    {
+        "pk": 4,
+        "model": "products.product",
+        "fields": {
+            "sku": "skc04",
+            "name": "Face Cleanser",
+            "description": "A refreshing squalane facial cleanser for radiant skin. The skin-brightening formula offers the skin the benefits of vitamin C.",
+            "application": "Use this facial cleanser with vitamin C every morning. Wet your face and neck and massage the brightening facial cleanser in upward movements. Rinse with warm water.",
+            "ingredients": "Aqua (Water), Sodium Coco-Sulfate, Lauryl Glucoside, Glycerin, Glyceryl Oleate, Decyl Glucoside, Terminalia Ferdinandiana (Kakadu Plum).",
+            "price": 18.90,
+            "rating": 4.8,
+            "image": "/media/sk9.jpg",
+            "category": 1
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.product",
+        "fields": {
+            "sku": "skc05",
+            "name": "Skin Repair",
+            "description": "A moisturizer with a retinol alternative that's just as effective at smoothing fine lines and reducing sun damage without the irritation.",
+            "application": "Apply evenly to the face morning and evening after cleansing. Massage gently into the skin using upward movements.",
+            "ingredients": "Water (Aqua/Eau), Squalane, Butylene Glycol, Octyldodecanol, Glycerin, Butyrospermum Parkii (Shea) Butter, C10-18 Triglycerides, Cetearyl Olivate, Gossypium Herbaceum (Cotton) Seed Oil. ",
+            "price": 44.90,
+            "rating": 4.8,
+            "image": "/media/sk7.jpg",
+            "category": 1
+        }
+    },
+    {
+        "pk": 6,
+        "model": "products.product",
+        "fields": {
+            "sku": "skc06",
+            "name": "Facial Spray",
+            "description": "The impulse for vital skin! The pH value is regulated, the moisture level is optimized and vitality is promoted.",
+            "application": "Close your eyes and spray evenly onto your face.",
+            "ingredients": "Aqua (Water), Pentyleneglycol, Glycerin, Rosa Damascena Flower Water, Rosa Gallica Flower Extract.",
+            "price": 21.90,
+            "rating": 4.3,
+            "image": "/media/sk3.jpg",
+            "category": 1
+        }
+    },
+    {
+        "pk": 7,
+        "model": "products.product",
+        "fields": {
+            "sku": "skc07",
+            "name": "BB Cream",
+            "description": "The delicate cream is immediately absorbed by the skin and has multiple effects. It provides hyderation and reliable protection against daily environmental stress that can lead to premature skin aging.",
+            "application": "Apply to face and neck every morning after thorough cleansing. For a natural, fresh look.",
+            "ingredients": "src-complex™, Lipomoist, UVB filter, Orgasol.",
+            "price": 25.50,
+            "rating": 4.3,
+            "image": "/media/sk20.jpg",
+            "category": 1
+        }
+    },
+    {
+        "pk": 8,
+        "model": "products.product",
+        "fields": {
+            "sku": "skc08",
+            "name": "Face Care Set",
+            "description": "The facial care set with 5 products for daily cleansing and care of the skin.",
+            "application": "Spread the Face Wash on the moistened skin on the face and neck and massage it in well. Rinse it thoroughly.Complete your cleansing routine with a face cream. Apply the toner, Serum and moisturising cream.",
+            "ingredients": "Aqua/Water, Glycerin, Shea Butter Ethyl Esters, Crambe Abyssinica Seed Oil Phytosterol Esters, Distarch Phosphate, Hydrogenated Vegetable Glycerides, Glyceryl Stearate, Macadamia Ternifolia Seed Oil/Macadamia.",
+            "price": 65.90,
+            "rating": 4.7,
+            "image": "/media/sk14.jpg",
+            "category": 1
+        }
+    },
+    {
+        "pk": 9,
+        "model": "products.product",
+        "fields": {
+            "sku": "bc01",
+            "name": "Body Wash",
+            "description": "Our sulfate-free shower gel leaves your entire body with a balanced, radiant complexion - with a warm, sensual scent.",
+            "application": "Massage into skin all over the body for 30 to 60 seconds. Rinse well and reveal radiant skin.",
+            "ingredients": "Aqua/Eau, Sodium C14-16 Olefin Sulfonate, Cocamide Mipa, Cocamidopropyl Betaine, Sodium Cocoyl Isethionate, Coconut Acid, Sodium Isethionate, Cocamidopropyl Betaine, Sodium Chloride, Carica Papaya Fruit Extract, Glycerin.",
+            "price": 11.90,
+            "rating": 4.7,
+            "image": "/media/sk10.jpg",
+            "category": 3
+        }
+    },
+    {
+        "pk": 10,
+        "model": "products.product",
+        "fields": {
+            "sku": "bc02",
+            "name": "Body Lotion",
+            "description": "The rich body lotion cares for women's body and provides the pleasantly fragrant aroma.",
+            "application": "Massage into skin all over the body.",
+            "ingredients": "Aqua/Eau, Sodium C14-16 Olefin Sulfonate, Cocamide Mipa, Cocamidopropyl Betaine, Sodium Cocoyl Isethionate, Coconut Acid, Sodium Isethionate, Cocamidopropyl Betaine, Sodium Chloride, Carica Papaya Fruit Extract, Glycerin.",
+            "price": 12.90,
+            "rating": 4.7,
+            "image": "/media/sk1.jpg",
+            "category": 3
+        }
+    },
+    {
+        "pk": 11,
+        "model": "products.product",
+        "fields": {
+            "sku": "bc03",
+            "name": "Body Exfoliating",
+            "description": "A skin resurfacing scrub specifically designed to instantly exfoliate, detoxify, tone, renew and hydrate the skin.",
+            "application": "Apply Exfoliating Body Wash to your hand and massage into skin in circular motions to cleanse, exfoliate and surround yourself with a beautiful lather.",
+            "ingredients": "Glycerin, Sucrose, Aqua/Water/Eau, Sodium Cocoyl Isethionate, Ricinus Communis (Castor) Seed Oil, Lauryl Glucoside, C12-15 Alkyl Benzoate, Cetearyl Alcohol, Fragrance (Parfum).",
+            "price": 18.90,
+            "rating": 4.4,
+            "image": "/media/sk2.jpg",
+            "category": 3
+        }
+    },
+    {
+        "pk": 12,
+        "model": "products.product",
+        "fields": {
+            "sku": "bc04",
+            "name": "Body Shimmer",
+            "description": "The Shimmer Lotion is an ideal product which adds a slight shine to the body and gives a luminous smootheness.",
+            "application": "Massage into skin all over the body.",
+            "ingredients": "Aqua/Eau, Sodium C14-16 Olefin Sulfonate, Cocamide Mipa, Cocamidopropyl Betaine, Sodium Cocoyl Isethionate, Coconut Acid, Sodium Isethionate, Cocamidopropyl Betaine, Sodium Chloride, Carica Papaya Fruit Extract, Glycerin.",
+            "price": 22.90,
+            "rating": 4.9,
+            "image": "/media/sk12.jpg",
+            "category": 3
+        }
+    },
+    {
+        "pk": 13,
+        "model": "products.product",
+        "fields": {
+            "sku": "bc05",
+            "name": "Shower Gel",
+            "description": "The refreshing shower gel not only gently cleanses the skin, but is also ideal as a shampoo.",
+            "application": "Apply a small amount to damp skin, lather and then rinse thoroughly. For daily use.",
+            "ingredients": "Aqua/Eau, Sodium C14-16 Olefin Sulfonate, Cocamide Mipa, Cocamidopropyl Betaine, Sodium Cocoyl Isethionate, Coconut Acid, Sodium Isethionate, Cocamidopropyl Betaine, Sodium Chloride, Carica Papaya Fruit Extract, Glycerin.",
+            "price": 16.90,
+            "rating": 4.8,
+            "image": "/media/sk17.jpg",
+            "category": 3
+        }
+    },
+    {
+        "pk": 14,
+        "model": "products.product",
+        "fields": {
+            "sku": "bc06",
+            "name": "Body Care Set",
+            "description": "Are you traveling? We have just the thing! Our three body care bestsellers are easy to store in your suitcase and protect and care for your skin all day long.",
+            "application": "Massage the body wash into skin all over the body for 30 to 60 seconds. Rinse well and reveal radiant skin. Apply lotion after showering for optimal hydration. Apply body spray to feel fresh all day long.",
+            "ingredients": "Aqua/Eau, Sodium C14-16 Olefin Sulfonate, Cocamide Mipa, Cocamidopropyl Betaine, Sodium Cocoyl Isethionate, Coconut Acid, Sodium Isethionate, Cocamidopropyl Betaine, Sodium Chloride, Carica Papaya Fruit Extract, Glycerin.",
+            "price": 44.90,
+            "rating": 4.7,
+            "image": "/media/sk10.jpg",
+            "category": 3
+        }
+    },
+    {
+        "pk": 15,
+        "model": "products.product",
+        "fields": {
+            "sku": "hc01",
+            "name": "Shampoo",
+            "description": "The Monday smooth Shampoo is a scalp-friendly, anti-inflammatory and hair growth-stimulating shampoo. It treats and prevents dandruff and scalp problems and increases hair growth.",
+            "application": "Massage into damp hair, rinse and then care as usual. Can be used daily.",
+            "ingredients": "Aqua/Water/Eau, Cocamidopropyl Betaine, Sodium Lauroyl Methyl Isethionate, Disodium Laureth Sulfosuccinate, Sodium Lauryl Sulfoacetate, Glycol Distearate, Biotinoyl Tripeptide-1, Oleanolic Acid, Apigenin, Acetyl Tetrapeptide-3, Trifolium Pratense (Clover) Flower Extract.",
+            "price": 15.00,
+            "rating": 4.2,
+            "image": "/media/hc10.jpg",
+            "category": 2
+        }
+    },
+    {
+        "pk": 16,
+        "model": "products.product",
+        "fields": {
+            "sku": "hc02",
+            "name": "Conditioner",
+            "description": "The ULTIMATE REPAIR Conditioner ensures deep “hydration” of your hair. The hair conditioner is suitable for daily use.",
+            "application": "Apply deep hair repair treatment after every hair wash. Rinse carefully.",
+            "ingredients": "Aqua/Water/Eau, Cetyl Alcohol, Malic Acid, Paraffinum Liquidum/ Mineral Oil/ Huile Minerale, Isopropyl Myristate, Ceteareth-25, Cetrimonium Chloride, Sodium Hydroxide, Phenoxyethanol, Glyceryl Oleate.",
+            "price": 9.30,
+            "rating": 4.4,
+            "image": "/media/hc9.jpg",
+            "category": 2
+        }
+    },
+    {
+        "pk": 17,
+        "model": "products.product",
+        "fields": {
+            "sku": "hc03",
+            "name": "Hair Care Set ",
+            "description": "Enriched with biotin and hyaluronic acid, the shampoo and the conditioner visibly thickens the hair.",
+            "application": "Wash Hairs throughly with the shampoo. Apply conditioner into damp hair, rinse and then care as usual. Can be used daily.",
+            "ingredients": "Aqua/Water/Eau, Cocamidopropyl Betaine, Sodium Lauroyl Methyl Isethionate, Disodium Laureth Sulfosuccinate, Sodium Lauryl Sulfoacetate, Glycol Distearate, Biotinoyl Tripeptide-1, Oleanolic Acid, Apigenin, Acetyl Tetrapeptide-3, Trifolium Pratense (Clover) Flower Extract.",
+            "price": 30.00,
+            "rating": 4.6,
+            "image": "/media/hc1.jpg",
+            "category": 2
+        }
+    },
+    {
+        "pk": 18,
+        "model": "products.product",
+        "fields": {
+            "sku": "hc04",
+            "name": "Hair Mask",
+            "description": "An intensively nourishing and repairing hair mask for dry and damaged hair. ",
+            "application": "After shampooing, apply evenly to wet hair and scalp. Leave on for at least 3 minutes, but preferably longer for best results. Rinse thoroughly.",
+            "ingredients": "Aqua/Water/Eau, Cocamidopropyl Betaine, Sodium Lauroyl Methyl Isethionate, Disodium Laureth Sulfosuccinate, Sodium Lauryl Sulfoacetate, Glycol Distearate, Biotinoyl Tripeptide-1, Oleanolic Acid, Apigenin, Acetyl Tetrapeptide-3, Trifolium Pratense (Clover) Flower Extract.",
+            "price": 26.00,
+            "rating": 4.2,
+            "image": "/media/hc6.jpg",
+            "category": 2
+        }
+    },
+    {
+        "pk": 19,
+        "model": "products.product",
+        "fields": {
+            "sku": "hc05",
+            "name": "Styling Cream",
+            "description": "OLAPLEX No.6 Bond Smoother is a repairing leave-in styling treatment enriched with patented Bond Building technology. It smoothes, conditions and strengthens hair without weighing it down or weighing it down.",
+            "application": "Apply a small amount into damp or dry hair from the middle to the lengths. Comb through and style as desired.",
+            "ingredients": "Water, Cetearyl Alcohol, Dimethicone, Isohexadecane, Coco-Caprylate, Neopentyl Glycol Diheptanoate, Behentrimonium Chloride, Isododecane, Phenyl Trimethicone, Propanediol, Bis-Aminopropyl Diglycol Dimaleate, Fragrance (Parfum).",
+            "price": 22.90,
+            "rating": 5.0,
+            "image": "/media/hc12.jpg",
+            "category": 2
+        }
+    },
+    {
+        "pk": 20,
+        "model": "products.product",
+        "fields": {
+            "sku": "hc06",
+            "name": "Hair Oil",
+            "description": "Enjoy smoother hair with a smooth surface shine with Oil Reflections Light Luminous Reflective Hair Oil, with anti-frizz properties for softer, smoother hair.",
+            "application": "Apply 1-2 pumps to hair. Work into the lengths and ends of the hair before blow-drying or on dry hair.",
+            "ingredients": "Cold pressed Argan Oil.",
+            "price": 19.90,
+            "rating": 5.0,
+            "image": "/media/hc8.jpg",
+            "category": 2
+        }
+    },
+    {
+        "pk": 21,
+        "model": "products.product",
+        "fields": {
+            "sku": "hc07",
+            "name": "Hair Oil",
+            "description": "Enjoy smoother hair with a smooth surface shine with Oil Reflections Light Luminous Reflective Hair Oil, with anti-frizz properties for softer, smoother hair.",
+            "application": "Apply 1-2 pumps to hair. Work into the lengths and ends of the hair before blow-drying or on dry hair.",
+            "ingredients": "Cold pressed Coconut Oil.",
+            "price": 18.00,
+            "rating": 5.0,
+            "image": "/media/hc11.jpg",
+            "category": 2
+        }
+    },
+    {
+        "pk": 21,
+        "model": "products.product",
+        "fields": {
+            "sku": "hc08",
+            "name": "Colour Awakening Hair Treat Kit",
+            "description": "Start a new, clean era of your personal hair care with our Clean Hair Intro Kits. The Color Awakening Collection for color-treated, chemically treated or slightly dry hair detoxifies hair, frees it of silicone and product buildup and supports the transition to nutrient-rich care.",
+            "application": "Hair Mask: Apply to wet hair before shampooing and work in from roots to ends. Leave on for 3-5 minutes. Rinse thoroughly.Then use Innersense Hairbath and Conditioner. At the End apply Root AWakener spray.",
+            "ingredients": "Detox Hair MaskWater, Cetearyl Alcohol, Kaolin, Glycerin, Vinegar*, Charcoal Powder, Oryza Sativa (Rice) Bran Oil, Behentrimonium Methosulfate, Olea Europaea (Olive) Fruit Extract*, Butyrospermum Parkii (Shea) Butter*, Stearalkonium Chloride, Hydrolyzed Quinoa , Epilobium Angustifolum Flower/Leaf/Stem Extract, Panthenol (Vitamin B-5), Potassium Sorbate, Hydrolyzed Adansonia Digitata Seed Extract, Sodium Levulinate, Stearyl Alcohol, Amine HCL, Benzyl Alcohol, Sodium Benzoate, Glycine Soja (Soybean) Oil, Cananga Odorata (Ylang Ylang) Flower Oil, Citrus Aurantium Dulcis (Orange) Peel Oil, Lavandula.",
+            "price": 85.00,
+            "rating": 4.9,
+            "image": "/media/hc7.jpg",
+            "category": 2
+        }
+    }
+]

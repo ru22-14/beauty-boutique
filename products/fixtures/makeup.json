@@ -1,0 +1,293 @@
+[
+    {
+        "pk": 22,
+        "model": "products.product",
+        "fields": {
+            "sku": "cmp01",
+            "name": "Foundation",
+            "description": "Effortless application. Self-refreshing around the clock. Light as a feather. Allows the skin to breathe.",
+            "application": " Shake the bottle well. Rotate pump to activate. Hold the bottle and press the pump button to remove the product. After skin care, distribute evenly from the center of the face outwards. Repeat application until the desired coverage is achieved. Turn the pump back to close. Clean pump dispensers after use.",
+            "ingredients": "Dimethicone, Water(Aqua/Eau), Iron Oxides (Ci 77492), Glycerin, Trifluoropropyldimethyl/Trimethylsiloxysilicate, Ethylhexyl Methoxycinnamate, Iron Oxides (Ci 77491), Titanium Dioxide (Ci 77891), Phenyl Trimethicone, Peg-10 Dimethicone, Butylene Glycol.",
+            "price": 25.90,
+            "rating": 3.9,
+            "image": "/media/fc4.jpg",
+            "category": 4
+        }
+    },
+    {
+        "pk": 23,
+        "model": "products.product",
+        "fields": {
+            "sku": "cmp02",
+            "name": "Luminous Foundation",
+            "description": "Effortless application. Self-refreshing around the clock. Light as a feather. Allows the skin to breathe.",
+            "application": " Shake the bottle well. Rotate pump to activate. Hold the bottle and press the pump button to remove the product. After skin care, distribute evenly from the center of the face outwards. Repeat application until the desired coverage is achieved. Turn the pump back to close. Clean pump dispensers after use.",
+            "ingredients": "Dimethicone, Water(Aqua/Eau), Iron Oxides (Ci 77492), Glycerin, Trifluoropropyldimethyl/Trimethylsiloxysilicate, Ethylhexyl Methoxycinnamate, Iron Oxides (Ci 77491), Titanium Dioxide (Ci 77891), Phenyl Trimethicone, Peg-10 Dimethicone, Butylene Glycol.",
+            "price": 45.90,
+            "rating": 4.4,
+            "image": "/media/fc13.jpg",
+            "category": 4
+        }
+    },
+    {
+        "pk": 24,
+        "model": "products.product",
+        "fields": {
+            "sku": "cmp03",
+            "name": "Dark Foundation",
+            "description": "Effortless application. Self-refreshing around the clock. Light as a feather. Allows the skin to breathe.",
+            "application": " Shake the bottle well. Rotate pump to activate. Hold the bottle and press the pump button to remove the product. After skin care, distribute evenly from the center of the face outwards. Repeat application until the desired coverage is achieved. Turn the pump back to close. Clean pump dispensers after use.",
+            "ingredients": "Dimethicone, Water(Aqua/Eau), Iron Oxides (Ci 77492), Glycerin, Trifluoropropyldimethyl/Trimethylsiloxysilicate, Ethylhexyl Methoxycinnamate, Iron Oxides (Ci 77491), Titanium Dioxide (Ci 77891), Phenyl Trimethicone, Peg-10 Dimethicone, Butylene Glycol.",
+            "price": 48.90,
+            "rating": 4.9,
+            "image": "/media/fc19.jpg",
+            "category": 4
+        }
+    },
+    {
+        "pk": 25,
+        "model": "products.product",
+        "fields": {
+            "sku": "cmp04",
+            "name": "Foundation With Concealer",
+            "description": "Effortless application. Self-refreshing around the clock. Light as a feather. Allows the skin to breathe.",
+            "application": " Shake the bottle well. Rotate pump to activate. Hold the bottle and press the pump button to remove the product. After skin care, distribute evenly from the center of the face outwards. Repeat application until the desired coverage is achieved. Turn the pump back to close. Clean pump dispensers after use.",
+            "ingredients": "Dimethicone, Water(Aqua/Eau), Iron Oxides (Ci 77492), Glycerin, Trifluoropropyldimethyl/Trimethylsiloxysilicate, Ethylhexyl Methoxycinnamate, Iron Oxides (Ci 77491), Titanium Dioxide (Ci 77891), Phenyl Trimethicone, Peg-10 Dimethicone, Butylene Glycol.",
+            "price": 38.90,
+            "rating": 4.2,
+            "image": "/media/fc18.jpg",
+            "category": 4
+        }
+    },
+    {
+        "pk": 26,
+        "model": "products.product",
+        "fields": {
+            "sku": "cmp05",
+            "name": "Primer Spray",
+            "description": "A light water mist packed with vitamins and minerals, enriched with a blend of green tea, chamomile and cucumber to gently soothe and refresh the skin. Provides an instant boost of hydration and provides a soft shine to refresh and complete makeup. ",
+            "application": " Hold the bottle 15cm from your face and spray evenly. Use alone or to finish makeup.",
+            "ingredients": "WaterAquaEau, Glycerin, Butylene Glycol, Cucumis Sativus (Cucumber) Fruit Extract, Chamomilla Recutita (Matricaria) Extract, Camellia Sinensis (Green Tea) Leaf Extract, Rosa Damascena (Rose) Flower Water, Tocopheryl Acetate, Caffeine, Panthenol, Arginine, Caprylyl Glycol , Peg-40 Hydrogenated Castor Oil , Ppg-26-Buteth-26 , Citronellol , Geraniol , Disodium Edta , Phenoxyethanol.",
+            "price": 19.90,
+            "rating": 4.8,
+            "image": "/media/fc22.jpg",
+            "category": 4
+        }
+    },
+    {
+        "pk": 27,
+        "model": "products.product",
+        "fields": {
+            "sku": "cmp06",
+            "name": "Pore Minimizer Primer",
+            "description": "The POREminimizer Primer - the pore refiner from the tube! This super light, silky balm makes pores and fine lines almost disappear. ",
+            "application": "Simply POREfect! For a fresh kick in the morning, apply a thin layer of POREfessional Primer to cleansed skin. Gently spread from the center of the face outwards with your fingertips. Then tackle your usual make-up.",
+            "ingredients": "Cyclopentasiloxane, Dimethicone, Dimethicone/Vinyl Dimethicone Crosspolymer, Isononyl Isononanoate, Silica, Dimethicone Crosspolymer, Isododecane, Phenoxyethanol, Polymethyl Methacrylate, Titanium Dioxide (Ci 77891), Cyclohexasiloxane, Tocopheryl Acetate, Fragrance (Parfum), Mica, Iron Oxides (Ci 77492) , Limonene, Iron Oxides (Ci 77491), Iron Oxides (Ci 77499).",
+            "price": 24.30,
+            "rating": 4.6,
+            "image": "/media/fc8.jpg",
+            "category": 4
+        }
+    },
+    {
+        "pk": 28,
+        "model": "products.product",
+        "fields": {
+            "sku": "cmp07",
+            "name": "Loose Setting Powder",
+            "description": "Set your makeup with this silky powder and create a modern matte finish! The transparent powder formulation is suitable for normal to oily skin and adapts to every skin tone - from light to dark.",
+            "application": "The loose powder is easy to apply. Simply scoop up some powder with a powder puff and gently tap off any excess. Gently stroke the face in circular movements. The powder can be worn alone, under or over make-up.",
+            "ingredients": "Talc, Magnesium Myristate, Nylon-12, Caprylic/Capric Triglyceride, Ethylhexyl Palmitate, Zea Mays (Corn) Starch, Methicone, Lauroyl Lysine, Polymethyl Methacrylate, Ascorbyl Palmitate, Glycine Soja (Soybean) Oil, Tocopherol, Methylparaben, Sodium Dehydroacetate, Propylparaben , butylparaben. May Contain/Peut Contenir/(+/-):Iron Oxides (Ci 77491, Ci 77492, Ci 77499), Titanium Dioxide (Ci 77891), Yellow 5 Lake (Ci 19140), Ultramarines (Ci 77007).",
+            "price": 42.30,
+            "rating": 4.9,
+            "image": "/media/fc9.jpg",
+            "category": 4
+        }
+    },
+    {
+        "pk": 29,
+        "model": "products.product",
+        "fields": {
+            "sku": "cmp08",
+            "name": "Rouge",
+            "description": "Complementary, Matte shades fuse and harmonize together on the skin for unique color that lasts up to 12 hours. A single application of the stamp is enough to brighten your complexion and give it a healthy look.",
+            "application": "Apply to the cheekbones or apples of the cheeks depending on the shape of your face. Blend upwards in light, circular movements.For more intense color, dab, blend and pat with your brush of choice.",
+            "ingredients": "Talc, Synthetic Fluorphlogopite, Silica, Titanium Dioxide, Caprylyl Glycol, Diisostearyl Malate, Octyldodecystearoyl Stearate, Pentylene Glycol, Lauroyl Lysine, Hdi/Trimethylol Hexyllactone Crosspolymer, Sodium Dehydroacetate.",
+            "price": 34.30,
+            "rating": 4.6,
+            "image": "/media/fc7.jpg",
+            "category": 4
+        }
+    },
+    {
+        "pk": 30,
+        "model": "products.product",
+        "fields": {
+            "sku": "cmp09",
+            "name": "Contouring Palette",
+            "description": "The palette, put together by experts, contains three matte contouring powders and three slightly shimmering highlighting powders that emphasize and shape the best features of your face.",
+            "application": "Apply with an appropriate brush.",
+            "ingredients": "Synthetic Fluorphlogopite, C30-45 Alkyl Dimethicone, Silica, Butyrospermum Parkii (Shea) Butter, Sorbitan Isostearate, C20-24 Alkyl Dimethicone, Caprylyl Glycol.",
+            "price": 29.50,
+            "rating": 4.5,
+            "image": "/media/fc14.jpg",
+            "category": 4
+        }
+    },
+    {
+        "pk": 31,
+        "model": "products.product",
+        "fields": {
+            "sku": "cmp10",
+            "name": "Highlighter",
+            "description": "A luxurious, slow-baked, velvety-soft, dome-shaped powder for a radiantly beautiful finish. Apply to highlight areas of the face or all over the face to create a sheer glow.",
+            "application": "For a soft, iridescent highlight, apply to high points of the face (such as the cheekbones) with the 224 Brush. For a more intense and metallic highlight, spray the brush with Prep + Prime Fix + after absorbing the product and apply to the high points of the face.",
+            "ingredients": "Mica, Talc, Nylon-12, Dimethicone, Isopropyl Palmitate, Tocopheryl Acetate, Simmondsia Chinensis (Jojoba) Seed Oil, Yeast Extract Faex Extrait De Levure, Lauroyl Lysine, Isohexadecane, Cetearyl Ethylhexanoate, Glyceryl Ethylhexanoate/Stearate/Adipate, Zea Mays (Corn ) Starch, Magnesium Aluminum Silicate, Ethylhexyl.",
+            "price": 34.00,
+            "rating": 4.1,
+            "image": "/media/fc12.jpg",
+            "category": 4
+        }
+    },
+    {
+        "pk": 32,
+        "model": "products.product",
+        "fields": {
+            "sku": "cmp11",
+            "name": "Gel Eyeliner",
+            "description": "A true original! This award-winning eyeliner combines the precision of a liquid eyeliner with the lightness of a gel texture - waterproof, sweat and humidity resistant for up to 12 hours.",
+            "application": "Dip the tip of the Ultra Fine Eyeliner Brush completely into the gel texture and lightly brush off excess color. Work quickly, apply eyeliner in short, even strokes close to the edge of the eyelashes - from the inner corner of the eye to the outer.",
+            "ingredients": "Isododecane, Cyclopentasiloxane, Polyethylene, Trimethylsiloxysilicate, Disteardimonium Hectorite, Propylene Carbonate.",
+            "price": 28.50,
+            "rating": 4.8,
+            "image": "/media/fc5.jpg",
+            "category": 4
+        }
+    },
+    {
+        "pk": 33,
+        "model": "products.product",
+        "fields": {
+            "sku": "cmp12",
+            "name": "Waterproof Eyeliner",
+            "description": "Highlight your eyes with a precise eyeliner with Artliner, the liquid eyeliner. Thanks to its foam tip, the eyeliner can be applied optimally. ",
+            "application": "Always start in the middle of the eyelid and pull the eyeliner outward as hair-thin and as close to the edge of the eyelid as possible. Then add the missing piece, starting at the corner of the eye. The eyeliner should become increasingly narrow towards the corner of the eye. Finally, blur the edges with a cotton swab.",
+            "ingredients": "Aqua / Water, Oryza Sativa Cera / Rice Bran Wax, Copernicia Cerifera Cera / Carnauba Wax, Cera Alba / Beeswax, Stearic Acid, Candelilla Cera / Candelilla Wax, Triethanolamine, Palmitic Acid, Acacia Senegal / Acacia Senegal Gum.",
+            "price": 22.30,
+            "rating": 4.0,
+            "image": "/media/fc1.jpg",
+            "category": 4
+        }
+    },
+    {
+        "pk": 34,
+        "model": "products.product",
+        "fields": {
+            "sku": "esp01",
+            "name": "Eyeshadow Palette Festival",
+            "description": "The Ultimate Shadow Palette Festival Makeup makes a big impression, especially for inimitable festival looks. The eyeshadow palette with 16 highly pigmented shades features creamy matte and metallic finishes that attract everyone's attention. When mixed together, there are limitless possibilities for skillfully showcasing your own style.",
+            "application": "Apply the color to the eyelid using a micro-blending brush and distribute it there.",
+            "ingredients": "Mica, Calcium Sodium Borosilicate, Dimethicone, Ci 77891 / Titanium Dioxide, Magnesium Stearate, Ci 77491 / Iron Oxides, Silica, Tin Oxide, Dimethicone/Vinyl Dimethicone Crosspolymer, Trimethylsiloxysilicate, Alumina, Aluminum Hydroxide, Ethylhexylglycerin, Tocopheryl Acetate, Phenoxyethanol, Ci 77492 / Iron Oxides, Ci 19140 / Yellow 5 Lake, Ci 42090 / Blue 1 Lake",
+            "price": 32.30,
+            "rating": 4.0,
+            "image": "/media/es1.jpg",
+            "category": 5
+        }
+    },
+    {
+        "pk": 35,
+        "model": "products.product",
+        "fields": {
+            "sku": "esp02",
+            "name": "Eyeshadow Palette Festival",
+            "description": "The Ultimate Shadow Palette Festival Makeup makes a big impression, especially for inimitable festival looks. The eyeshadow palette with highly pigmented shades features creamy matte and metallic finishes that attract everyone's attention. When mixed together, there are limitless possibilities for skillfully showcasing your own style.",
+            "application": "Apply the color to the eyelid using a micro-blending brush and distribute it there.",
+            "ingredients": "Mica, Calcium Sodium Borosilicate, Dimethicone, Ci 77891 / Titanium Dioxide, Magnesium Stearate, Ci 77491 / Iron Oxides, Silica, Tin Oxide, Dimethicone/Vinyl Dimethicone Crosspolymer, Trimethylsiloxysilicate, Alumina, Aluminum Hydroxide, Ethylhexylglycerin, Tocopheryl Acetate, Phenoxyethanol, Ci 77492 / Iron Oxides, Ci 19140 / Yellow 5 Lake, Ci 42090 / Blue 1 Lake",
+            "price": 32.30,
+            "rating": 4.0,
+            "image": "/media/es1.jpg",
+            "category": 5
+        }
+    },
+    {
+        "pk": 36,
+        "model": "products.product",
+        "fields": {
+            "sku": "esp03",
+            "name": "Eyeshadow Palette Neutrals",
+            "description": "The  Shadow Palette Neutrals makes a big impression, especially for inimitable festival looks. The eyeshadow palette with highly pigmented shades features creamy matte and metallic finishes that attract everyone's attention. When mixed together, there are limitless possibilities for skillfully showcasing your own style.",
+            "application": "Apply the color to the eyelid using a micro-blending brush and distribute it there.",
+            "ingredients": "Mica, Calcium Sodium Borosilicate, Dimethicone, Ci 77891 / Titanium Dioxide, Magnesium Stearate, Ci 77491 / Iron Oxides, Silica, Tin Oxide, Dimethicone/Vinyl Dimethicone Crosspolymer, Trimethylsiloxysilicate, Alumina, Aluminum Hydroxide, Ethylhexylglycerin, Tocopheryl Acetate, Phenoxyethanol, Ci 77492 / Iron Oxides, Ci 19140 / Yellow 5 Lake, Ci 42090 / Blue 1 Lake",
+            "price": 35.30,
+            "rating": 4.0,
+            "image": "/media/es2.jpg",
+            "category": 5
+        }
+    },
+    {
+        "pk": 37,
+        "model": "products.product",
+        "fields": {
+            "sku": "esp04",
+            "name": "Eyeshadow Palette Glow",
+            "description": "The Shadow Palette Glow leaves a big impression, especially for inimitable festival looks. The eyeshadow palette with highly pigmented shades features creamy matte and metallic finishes that attract everyone's attention. When mixed together, there are limitless possibilities for skillfully showcasing your own style.",
+            "application": "For the shine apply the color to the eyelid using a micro-blending brush and distribute it there.",
+            "ingredients": "Mica, Calcium Sodium Borosilicate, Dimethicone, Ci 77891 / Titanium Dioxide, Magnesium Stearate, Ci 77491 / Iron Oxides, Silica, Tin Oxide, Dimethicone/Vinyl Dimethicone Crosspolymer, Trimethylsiloxysilicate, Alumina, Aluminum Hydroxide, Ethylhexylglycerin, Tocopheryl Acetate, Phenoxyethanol, Ci 77492 / Iron Oxides, Ci 19140 / Yellow 5 Lake, Ci 42090 / Blue 1 Lake",
+            "price": 25.30,
+            "rating": 4.0,
+            "image": "/media/es3.jpg",
+            "category": 5
+        }
+    },
+    {
+        "pk": 38,
+        "model": "products.product",
+        "fields": {
+            "sku": "esp05",
+            "name": "Eyeshadow Palette Glitter",
+            "description": "The Shadow Palette Glitter leaves a big impression, especially for inimitable festival looks. The eyeshadow palette with highly pigmented shades features creamy matte and metallic finishes that attract everyone's attention. When mixed together, there are limitless possibilities for skillfully showcasing your own style.",
+            "application": "For the glittery look apply the color to the eyelid using a micro-blending brush and distribute it there.",
+            "ingredients": "Mica, Calcium Sodium Borosilicate, Dimethicone, Ci 77891 / Titanium Dioxide, Magnesium Stearate, Ci 77491 / Iron Oxides, Silica, Tin Oxide, Dimethicone/Vinyl Dimethicone Crosspolymer, Trimethylsiloxysilicate, Alumina, Aluminum Hydroxide, Ethylhexylglycerin, Tocopheryl Acetate, Phenoxyethanol, Ci 77492 / Iron Oxides, Ci 19140 / Yellow 5 Lake, Ci 42090 / Blue 1 Lake",
+            "price": 30.30,
+            "rating": 4.8,
+            "image": "/media/es8.jpg",
+            "category": 5
+        }
+    },
+    {
+        "pk": 39,
+        "model": "products.product",
+        "fields": {
+            "sku": "esp06",
+            "name": "Eyeshadow Palette Rainbow",
+            "description": "The Shadow Palette Rainbow leaves a big impression, especially for inimitable festival looks. The eyeshadow palette with highly pigmented shades features creamy matte and metallic finishes that attract everyone's attention. When mixed together, there are limitless possibilities for skillfully showcasing your own style.",
+            "application": "Apply the color to the eyelid using a micro-blending brush and distribute it there.",
+            "ingredients": "Mica, Calcium Sodium Borosilicate, Dimethicone, Ci 77891 / Titanium Dioxide, Magnesium Stearate, Ci 77491 / Iron Oxides, Silica, Tin Oxide, Dimethicone/Vinyl Dimethicone Crosspolymer, Trimethylsiloxysilicate, Alumina, Aluminum Hydroxide, Ethylhexylglycerin, Tocopheryl Acetate, Phenoxyethanol, Ci 77492 / Iron Oxides, Ci 19140 / Yellow 5 Lake, Ci 42090 / Blue 1 Lake",
+            "price": 35.30,
+            "rating": 4.0,
+            "image": "/media/es3.jpg",
+            "category": 5
+        }
+    },
+    {
+        "pk": 40,
+        "model": "products.product",
+        "fields": {
+            "sku": "esp07",
+            "name": "Eyeshadow Palette Unicorn",
+            "description": "The Shadow Palette Unicorn leaves a big impression, especially for inimitable festival looks. The eyeshadow palette with highly pigmented shades features creamy matte and metallic finishes that attract everyone's attention. When mixed together, there are limitless possibilities for skillfully showcasing your own style.",
+            "application": "For the mesmerising look apply the color to the eyelid using a micro-blending brush and distribute it there.",
+            "ingredients": "Mica, Calcium Sodium Borosilicate, Dimethicone, Ci 77891 / Titanium Dioxide, Magnesium Stearate, Ci 77491 / Iron Oxides, Silica, Tin Oxide, Dimethicone/Vinyl Dimethicone Crosspolymer, Trimethylsiloxysilicate, Alumina, Aluminum Hydroxide, Ethylhexylglycerin, Tocopheryl Acetate, Phenoxyethanol, Ci 77492 / Iron Oxides, Ci 19140 / Yellow 5 Lake, Ci 42090 / Blue 1 Lake",
+            "price": 45.30,
+            "rating": 4.9,
+            "image": "/media/es7.jpg",
+            "category": 5
+        }
+    }
+
+
+
+
+
+
+]
