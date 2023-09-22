@@ -1,0 +1,182 @@
+[
+    {
+        "pk": 49,
+        "model": "products.product",
+        "fields": {
+            "sku": "pf01",
+            "name": "Eau De Parfum (30ml)",
+            "description": "This unique scent features a vegan formulation led by a powerful vanilla trio. The top note is a vanilla infusion with woody nuances, the heart note is a vanilla caviar with lush sweetness and the base note is vanilla absolute, enriched with bright lavender. ",
+            "application": "Spray the perfume generously onto pulse points such as the neck, wrists and décolleté to extend the wear of this sophisticated fragrance. Press gently into skin to preserve the essence of the scent.",
+            "ingredients": "Alcohol Denat., Parfum/Fragrance, Propylene Glycol, Aqua/Water/Eau, Ethylhexyl Salicylate, Benzyl Salicylate, Linalool, Hydroxycitronellal, Limonene, Coumarin, Butyl.",
+            "price": 65.40,
+            "rating": 4.9,
+            "image": "/media/pf4.jpg",
+            "category": 7
+        }
+    },
+    {
+        "pk": 50,
+        "model": "products.product",
+        "fields": {
+            "sku": "pf02",
+            "name": "Eau De Parfum (30ml)",
+            "description": "Chloé Eau de Parfum is the modern interpretation of the rose with French charm. The classic rose is beautifully interpreted in a fragrance that is both light and warm, elegant and yet very seductive.",
+            "application": "Spray the perfume generously onto pulse points such as the neck, wrists and décolleté to extend the wear of this sophisticated fragrance. Press gently into skin to preserve the essence of the scent.",
+            "ingredients": "Alcohol Denat., Parfum/Fragrance, Propylene Glycol, Aqua/Water/Eau, Ethylhexyl Salicylate, Benzyl Salicylate, Linalool, Hydroxycitronellal, Limonene, Coumarin, Butyl.",
+            "price": 65.40,
+            "rating": 4.9,
+            "image": "/media/pf6.jpg",
+            "category": 7
+        }
+    },
+    {
+        "pk": 51,
+        "model": "products.product",
+        "fields": {
+            "sku": "pf03",
+            "name": "Eau De Parfum (30ml)",
+            "description": "This perfume is complemented by ylang-ylang and frangipani flowers, while warm woody notes of cedar wood and cashmeran make the fragrance shine. This is a fragrance for the radiant woman who wants to express her magnetic attraction.",
+            "application": "Spray the perfume generously onto pulse points such as the neck, wrists and décolleté to extend the wear of this sophisticated fragrance. Press gently into skin to preserve the essence of the scent.",
+            "ingredients": "Alcohol Denat., Parfum/Fragrance, Propylene Glycol, Aqua/Water/Eau, Ethylhexyl Salicylate, Benzyl Salicylate, Linalool, Hydroxycitronellal, Limonene, Coumarin, Butyl.",
+            "price": 65.40,
+            "rating": 4.9,
+            "image": "/media/pf10.jpg",
+            "category": 7
+        }
+    },
+    {
+        "pk": 52,
+        "model": "products.product",
+        "fields": {
+            "sku": "pf04",
+            "name": "Eau De Parfum (30ml)",
+            "description": "This mysterious scent is a tribute to the dual nature of all women - where light and shadow seek each other in a mix of mysticism and extreme sensuality.",
+            "application": "Spray the perfume generously onto pulse points such as the neck, wrists and décolleté to extend the wear of this sophisticated fragrance. Press gently into skin to preserve the essence of the scent.",
+            "ingredients": "Alcohol Denat., Parfum/Fragrance, Propylene Glycol, Aqua/Water/Eau, Ethylhexyl Salicylate, Benzyl Salicylate, Linalool, Hydroxycitronellal, Limonene, Coumarin, Butyl.",
+            "price": 65.40,
+            "rating": 4.9,
+            "image": "/media/pf17.jpg",
+            "category": 7
+        }
+    },
+    {
+        "pk": 53,
+        "model": "products.product",
+        "fields": {
+            "sku": "pf05",
+            "name": "Eau De Parfum (30ml)",
+            "description": "The cool essence of lavender merges with the feminine, warm nuances of orange blossom. They form an olfactory contrast of sensual, cool and floral, which culminates in this Eau de Parfum. Feel the freedom!",
+            "application": "Spray the perfume generously onto pulse points such as the neck, wrists and décolleté to extend the wear of this sophisticated fragrance. Press gently into skin to preserve the essence of the scent.",
+            "ingredients": "Alcohol Denat., Parfum/Fragrance, Propylene Glycol, Aqua/Water/Eau, Ethylhexyl Salicylate, Benzyl Salicylate, Linalool, Hydroxycitronellal, Limonene, Coumarin, Butyl.",
+            "price": 65.40,
+            "rating": 4.9,
+            "image": "/media/pf16.jpg",
+            "category": 7
+        }
+    },
+    {
+        "pk": 54,
+        "model": "products.product",
+        "fields": {
+            "sku": "pf06",
+            "name": "Eau De Parfum (30ml)",
+            "description": "This is a new olfactory adventure between a salty vanilla accord and the freshness of floral notes. The unique balance of Ginger Lily and Water Jasmine gives this perfume a Oriental signature.",
+            "application": "Spray the perfume generously onto pulse points such as the neck, wrists and décolleté to extend the wear of this sophisticated fragrance. Press gently into skin to preserve the essence of the scent.",
+            "ingredients": "Alcohol Denat., Parfum/Fragrance, Propylene Glycol, Aqua/Water/Eau, Ethylhexyl Salicylate, Benzyl Salicylate, Linalool, Hydroxycitronellal, Limonene, Coumarin, Butyl.",
+            "price": 65.40,
+            "rating": 4.9,
+            "image": "/media/pf11.jpg",
+            "category": 7
+        }
+    },
+    {
+        "pk": 55,
+        "model": "products.product",
+        "fields": {
+            "sku": "pf07",
+            "name": "Eau De Parfum (30ml)",
+            "description": "In a subtly sensual way, musk represents elegance and balance. The essence triggers physical, mental and spiritual magnetism. It is said to promote wisdom, which is why kings used it to improve their leadership skills.",
+            "application": "Spray the perfume generously onto pulse points such as the neck, wrists and décolleté to extend the wear of this sophisticated fragrance. Press gently into skin to preserve the essence of the scent.",
+            "ingredients": " Guaiac wood, sandalwood, white rose, cedar wood, Alcohol Denat., Parfum/Fragrance, Propylene Glycol, Aqua/Water/Eau, Ethylhexyl Salicylate, Benzyl Salicylate, Linalool, Hydroxycitronellal, Limonene, Coumarin, Butyl.",
+            "price": 65.40,
+            "rating": 4.9,
+            "image": "/media/pf18.jpg",
+            "category": 7
+        }
+    },
+    {
+        "pk": 56,
+        "model": "products.product",
+        "fields": {
+            "sku": "atr01",
+            "name": "Arabian Oudh (30ml)",
+            "description": "This is a fragrance that has Nagarmotha grass, magnolia, ylang-ylang, Bulgarian rose, saffron & geranium,sandalwood, vanilla, musk & oud notes, like the new moon, leads to rebirth and brings happiness in abundance to those who have the privilege of wearing it. Because as we always say: We don't choose the scent, the scent chooses us. ",
+            "application": "Spray the perfume generously onto pulse points such as the neck, wrists and décolleté to extend the wear of this sophisticated fragrance. Press gently into skin to preserve the essence of the scent.",
+            "ingredients": " Alcohol Denat, Parfum, Limonene, Linalool, Alpha-Isomethyl Ionone, Coumarin, Citral, Cinnamyl Alcohol, Benzyl Cinnamate, Geraniol, Methyl 2-Octynoate.",
+            "price": 205.40,
+            "rating": 4.9,
+            "image": "/media/pf15.jpg",
+            "category": 8
+        }
+    },
+    {
+        "pk": 57,
+        "model": "products.product",
+        "fields": {
+            "sku": "atr02",
+            "name": "Arabian Perfume Oil (10ml)",
+            "description": "Floral Sudan perfume oil creates an elegant feeling that is suitable for both men and women. This perfume is suitable for any occasion, whether it is a special occasion or an evening.",
+            "application": "Apply the perfume oil generously onto pulse points such as the neck, wrists and décolleté to extend the wear of this sophisticated fragrance. Press gently into skin to preserve the essence of the scent.",
+            "ingredients": " Rose oil, Mint oil, Citrus, Lavender, Jasmine Sambac Extract",
+            "price": 20.40,
+            "rating": 4.8,
+            "image": "/media/pf14.jpg",
+            "category": 8
+        }
+    },
+    {
+        "pk": 58,
+        "model": "products.product",
+        "fields": {
+            "sku": "atr03",
+            "name": "Arabian Perfume Oil (10ml)",
+            "description": "This perfume is a TOP unisex fragrance, an exquisite olfactory composition that enchants the senses and radiates a sensual aura.",
+            "application": "Apply the perfume oil generously onto pulse points such as the neck, wrists and décolleté to extend the wear of this sophisticated fragrance. Press gently into skin to preserve the essence of the scent.",
+            "ingredients": " citrus fruits, caramel, vanilla, vetiver, jasmine, woody notes, musk, orchid.",
+            "price": 20.40,
+            "rating": 4.8,
+            "image": "/media/pf7.jpg",
+            "category": 8
+        }
+    },
+    {
+        "pk": 59,
+        "model": "products.product",
+        "fields": {
+            "sku": "atr04",
+            "name": "Arabian Perfume Oil (10ml)",
+            "description": "This perfume is a TOP unisex fragrance, Musc is a gourmet musk scent - oriental, lavender, jasmine and vanilla with sandalwood round it off",
+            "application": "Apply the perfume oil generously onto pulse points such as the neck, wrists and décolleté to extend the wear of this sophisticated fragrance. Press gently into skin to preserve the essence of the scent.",
+            "ingredients": " lavender, vanilla, jasmine, musk, sandalwood.",
+            "price": 20.40,
+            "rating": 4.4,
+            "image": "/media/pf1.jpg",
+            "category": 8
+        }
+    },
+    {
+        "pk": 60,
+        "model": "products.product",
+        "fields": {
+            "sku": "atr04",
+            "name": "Arabian Perfume Oil Set (10ml)",
+            "description": "First-class unisex musk fragrance set with 3x different fine fragrance nuances, from light to striking and sensual, a varying selection of popular fragrances",
+            "application": "Apply the perfume oil generously onto pulse points such as the neck, wrists and décolleté to extend the wear of this sophisticated fragrance. Press gently into skin to preserve the essence of the scent.",
+            "ingredients": " lavender, vanilla, jasmine, musk, sandalwood.",
+            "price": 60.40,
+            "rating": 4.9,
+            "image": "/media/pf8.jpg",
+            "category": 8
+        }
+    }
+]

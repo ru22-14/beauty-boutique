@@ -283,11 +283,126 @@
             "image": "/media/es7.jpg",
             "category": 5
         }
+    },
+    {
+        "pk": 41,
+        "model": "products.product",
+        "fields": {
+            "sku": "lps01",
+            "name": "Glitter Lipstick",
+            "description": "The brilliant Glitter lipstick ensures a lasting shimmer on the wearer's lips. The lipstick has a moisturizing effect and creates a soothing feeling on the lips.",
+            "application": "Distribute the lipstick evenly over the lips. Combine with lip liner and/or lip gloss for a perfect result.",
+            "ingredients": "Diisostearyl Malate, Hydrogenated Polyisobutene, Phenyl Trimethicone, Synthetic Wax, C12-15 Alkyl Benzoate, Cetyl Dimethicone, Octyldodecanol, Diisopropyl Dimer Dilinoleate, Phytosteryl Macadamiate, Pentaerythrityl.",
+            "price": 25.30,
+            "rating": 4.9,
+            "image": "/media/lp9.jpg",
+            "category": 6
+        }
+    },
+    {
+        "pk": 42,
+        "model": "products.product",
+        "fields": {
+            "sku": "lps02",
+            "name": "Nude Lipstick",
+            "description": "A velvety-soft lipstick for comfortable wearing. An alternative to glossy lipstick for deep color intensity. Melts completely into the lips.",
+            "application": "Distribute the lipstick evenly over the lips. Combine with lip liner and/or lip gloss for a perfect result.",
+            "ingredients": "Diisostearyl Malate, Hydrogenated Polyisobutene, Phenyl Trimethicone, Synthetic Wax, C12-15 Alkyl Benzoate, Cetyl Dimethicone, Octyldodecanol, Diisopropyl Dimer Dilinoleate, Phytosteryl Macadamiate, Pentaerythrityl.",
+            "price": 25.30,
+            "rating": 4.9,
+            "image": "/media/lp11.jpg",
+            "category": 6
+        }
+    },
+    {
+        "pk": 43,
+        "model": "products.product",
+        "fields": {
+            "sku": "lps03",
+            "name": "Matte Lipstick",
+            "description": "This creamy, rich formula features strong color pigmentation and a matte, non-shine finish.",
+            "application": "Distribute the lipstick evenly over the lips. Combine with lip liner and/or lip gloss for a perfect result.",
+            "ingredients": "Diisostearyl Malate, Hydrogenated Polyisobutene, Phenyl Trimethicone, Synthetic Wax, C12-15 Alkyl Benzoate, Cetyl Dimethicone, Octyldodecanol, Diisopropyl Dimer Dilinoleate, Phytosteryl Macadamiate, Pentaerythrityl.",
+            "price": 25.30,
+            "rating": 4.9,
+            "image": "/media/lp3.jpg",
+            "category": 6
+        }
+    },
+    {
+        "pk": 44,
+        "model": "products.product",
+        "fields": {
+            "sku": "lps04",
+            "name": "LipGloss",
+            "description": "Nourishing lip gloss with 3D effect for a brilliant result. The smooth and sensual texture melts onto the lips, leaving them smooth and radiant.",
+            "application": "Distribute the lipsgloss evenly over the lips.",
+            "ingredients": "Diisostearyl Malate, Hydrogenated Polyisobutene, Phenyl Trimethicone, Synthetic Wax, C12-15 Alkyl Benzoate, Cetyl Dimethicone, Octyldodecanol, Diisopropyl Dimer Dilinoleate, Phytosteryl Macadamiate, Pentaerythrityl.",
+            "price": 15.30,
+            "rating": 4.9,
+            "image": "/media/lp14.jpg",
+            "category": 6
+        }
+    },
+    {
+        "pk": 45,
+        "model": "products.product",
+        "fields": {
+            "sku": "lps05",
+            "name": "Lip Balm",
+            "description": "Discover the natural beauty of lips with Rose Perfecto, lip balm that combines fresh, long-lasting color with equally long-lasting moisture. ",
+            "application": "Distribute the lips balm evenly over the lips.",
+            "ingredients": "Diisostearyl Malate, Hydrogenated Polyisobutene, Phenyl Trimethicone, Synthetic Wax, C12-15 Alkyl Benzoate, Cetyl Dimethicone, Octyldodecanol, Diisopropyl Dimer Dilinoleate, Phytosteryl Macadamiate, Pentaerythrityl.",
+            "price": 12.30,
+            "rating": 4.9,
+            "image": "/media/lp6.jpg",
+            "category": 6
+        }
+    },
+    {
+        "pk": 46,
+        "model": "products.product",
+        "fields": {
+            "sku": "lps06",
+            "name": "Lipstick Trio",
+            "description": "An exclusive limited edition lipstick trio featuring new shades and iconic best-selling shades.",
+            "application": "Distribute the lipsstick evenly over the lips.",
+            "ingredients": "Diisostearyl Malate, Hydrogenated Polyisobutene, Phenyl Trimethicone, Synthetic Wax, C12-15 Alkyl Benzoate, Cetyl Dimethicone, Octyldodecanol, Diisopropyl Dimer Dilinoleate, Phytosteryl Macadamiate, Pentaerythrityl.",
+            "price": 45.30,
+            "rating": 4.9,
+            "image": "/media/lp10.jpg",
+            "category": 6
+        }
+    },
+    {
+        "pk": 47,
+        "model": "products.product",
+        "fields": {
+            "sku": "lps07",
+            "name": "Lip Makeup Set",
+            "description": "A limited edition lipMakeup Set featuring beautiful Red in liquid and solid form.",
+            "application": "Distribute the lipsstick or Lipgloss evenly over the lips.",
+            "ingredients": "Diisostearyl Malate, Hydrogenated Polyisobutene, Phenyl Trimethicone, Synthetic Wax, C12-15 Alkyl Benzoate, Cetyl Dimethicone, Octyldodecanol, Diisopropyl Dimer Dilinoleate, Phytosteryl Macadamiate, Pentaerythrityl.",
+            "price": 35.30,
+            "rating": 4.9,
+            "image": "/media/lp4.jpg",
+            "category": 6
+        }
+    },
+    {
+        "pk": 48,
+        "model": "products.product",
+        "fields": {
+            "sku": "lps08",
+            "name": "Lipliner set",
+            "description": "High definition needed! With just one application, these high performance lip liners prevents lipstick and lip gloss from running and leaves a satin matte finish.",
+            "application": "Long-lasting lip liner. Contains refreshing mint oil. Smudge and waterproof.",
+            "ingredients": "Diisostearyl Malate, Hydrogenated Polyisobutene, Phenyl Trimethicone, Synthetic Wax, C12-15 Alkyl Benzoate, Cetyl Dimethicone, Octyldodecanol, Diisopropyl Dimer Dilinoleate, Phytosteryl Macadamiate, Pentaerythrityl.",
+            "price": 35.30,
+            "rating": 4.9,
+            "image": "/media/lp20.jpg",
+            "category": 6
+        }
     }
-
-
-
-
-
-
 ]
+
