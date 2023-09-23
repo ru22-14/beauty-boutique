@@ -10,7 +10,7 @@
             "ingredients": "Alcohol Denat., Parfum/Fragrance, Propylene Glycol, Aqua/Water/Eau, Ethylhexyl Salicylate, Benzyl Salicylate, Linalool, Hydroxycitronellal, Limonene, Coumarin, Butyl.",
             "price": 65.40,
             "rating": 4.9,
-            "image": "/media/pf4.jpg",
+            "image": "pf4.jpg",
             "category": 7
         }
     },
@@ -25,7 +25,7 @@
             "ingredients": "Alcohol Denat., Parfum/Fragrance, Propylene Glycol, Aqua/Water/Eau, Ethylhexyl Salicylate, Benzyl Salicylate, Linalool, Hydroxycitronellal, Limonene, Coumarin, Butyl.",
             "price": 65.40,
             "rating": 4.9,
-            "image": "/media/pf6.jpg",
+            "image": "pf6.jpg",
             "category": 7
         }
     },
@@ -40,7 +40,7 @@
             "ingredients": "Alcohol Denat., Parfum/Fragrance, Propylene Glycol, Aqua/Water/Eau, Ethylhexyl Salicylate, Benzyl Salicylate, Linalool, Hydroxycitronellal, Limonene, Coumarin, Butyl.",
             "price": 65.40,
             "rating": 4.9,
-            "image": "/media/pf10.jpg",
+            "image": "pf10.jpg",
             "category": 7
         }
     },
@@ -55,7 +55,7 @@
             "ingredients": "Alcohol Denat., Parfum/Fragrance, Propylene Glycol, Aqua/Water/Eau, Ethylhexyl Salicylate, Benzyl Salicylate, Linalool, Hydroxycitronellal, Limonene, Coumarin, Butyl.",
             "price": 65.40,
             "rating": 4.9,
-            "image": "/media/pf17.jpg",
+            "image": "pf17.jpg",
             "category": 7
         }
     },
@@ -70,7 +70,7 @@
             "ingredients": "Alcohol Denat., Parfum/Fragrance, Propylene Glycol, Aqua/Water/Eau, Ethylhexyl Salicylate, Benzyl Salicylate, Linalool, Hydroxycitronellal, Limonene, Coumarin, Butyl.",
             "price": 65.40,
             "rating": 4.9,
-            "image": "/media/pf16.jpg",
+            "image": "pf16.jpg",
             "category": 7
         }
     },
@@ -85,7 +85,7 @@
             "ingredients": "Alcohol Denat., Parfum/Fragrance, Propylene Glycol, Aqua/Water/Eau, Ethylhexyl Salicylate, Benzyl Salicylate, Linalool, Hydroxycitronellal, Limonene, Coumarin, Butyl.",
             "price": 65.40,
             "rating": 4.9,
-            "image": "/media/pf11.jpg",
+            "image": "pf11.jpg",
             "category": 7
         }
     },
@@ -100,7 +100,7 @@
             "ingredients": " Guaiac wood, sandalwood, white rose, cedar wood, Alcohol Denat., Parfum/Fragrance, Propylene Glycol, Aqua/Water/Eau, Ethylhexyl Salicylate, Benzyl Salicylate, Linalool, Hydroxycitronellal, Limonene, Coumarin, Butyl.",
             "price": 65.40,
             "rating": 4.9,
-            "image": "/media/pf18.jpg",
+            "image": "pf18.jpg",
             "category": 7
         }
     },
@@ -115,7 +115,7 @@
             "ingredients": " Alcohol Denat, Parfum, Limonene, Linalool, Alpha-Isomethyl Ionone, Coumarin, Citral, Cinnamyl Alcohol, Benzyl Cinnamate, Geraniol, Methyl 2-Octynoate.",
             "price": 205.40,
             "rating": 4.9,
-            "image": "/media/pf15.jpg",
+            "image": "pf15.jpg",
             "category": 8
         }
     },
@@ -130,7 +130,7 @@
             "ingredients": " Rose oil, Mint oil, Citrus, Lavender, Jasmine Sambac Extract",
             "price": 20.40,
             "rating": 4.8,
-            "image": "/media/pf14.jpg",
+            "image": "pf14.jpg",
             "category": 8
         }
     },
@@ -145,7 +145,7 @@
             "ingredients": " citrus fruits, caramel, vanilla, vetiver, jasmine, woody notes, musk, orchid.",
             "price": 20.40,
             "rating": 4.8,
-            "image": "/media/pf7.jpg",
+            "image": "pf7.jpg",
             "category": 8
         }
     },
@@ -160,7 +160,7 @@
             "ingredients": " lavender, vanilla, jasmine, musk, sandalwood.",
             "price": 20.40,
             "rating": 4.4,
-            "image": "/media/pf1.jpg",
+            "image": "pf1.jpg",
             "category": 8
         }
     },
@@ -175,7 +175,7 @@
             "ingredients": " lavender, vanilla, jasmine, musk, sandalwood.",
             "price": 60.40,
             "rating": 4.9,
-            "image": "/media/pf8.jpg",
+            "image": "pf8.jpg",
             "category": 8
         }
     }

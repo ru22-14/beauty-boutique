@@ -1,0 +1,107 @@
+[
+    {
+        "pk": 61,
+        "model": "products.product",
+        "fields": {
+            "sku": "hgl01",
+            "name": "Travel size Contour Palette",
+            "description": "A limited-edition blush palette with four new shades for contouring, highlighting and adding color wherever you are. Experience the full glow.",
+            "application": "Apply with an appropriate brush.",
+            "ingredients": " Synthetic Fluorphlogopite, C30-45 Alkyl Dimethicone, Silica, Butyrospermum Parkii (Shea) Butter, Sorbitan Isostearate, C20-24 Alkyl Dimethicone, Caprylyl Glycol.",
+            "price": 22.40,
+            "rating": 4.3,
+            "image": "fc16.jpg",
+            "category": 9
+        }
+    },
+    {
+        "pk": 62,
+        "model": "products.product",
+        "fields": {
+            "sku": "hgl02",
+            "name": "soft Glam Eyeshadow and Contour Palette",
+            "description": "A limited-edition Contour and blush palette with beautiful warm Nude tones. Experience the full glam.",
+            "application": "Apply with an appropriate brush.",
+            "ingredients": " Synthetic Fluorphlogopite, C30-45 Alkyl Dimethicone, Silica, Butyrospermum Parkii (Shea) Butter, Sorbitan Isostearate, C20-24 Alkyl Dimethicone, Caprylyl Glycol.",
+            "price": 42.40,
+            "rating": 4.6,
+            "image": "fc23.jpg",
+            "category": 9
+        }
+    },
+    {
+        "pk": 63,
+        "model": "products.product",
+        "fields": {
+            "sku": "hgl03",
+            "name": "Transluscent Setting powder",
+            "description": "Set your makeup with this silky powder and create a modern matte finish! The transparent powder formulation is suitable for normal to oily skin and adapts to every skin tone - from light to dark.",
+            "application": "The loose powder is easy to apply. Simply scoop up some powder with a powder puff and gently tap off any excess. Gently stroke the face in circular movements. The powder can be worn alone, under or over make-up.",
+            "ingredients": "Talc, Magnesium Myristate, Nylon-12, Caprylic/Capric Triglyceride, Ethylhexyl Palmitate, Zea Mays (Corn) Starch, Methicone, Lauroyl Lysine, Polymethyl Methacrylate, Ascorbyl Palmitate, Glycine Soja (Soybean) Oil, Tocopherol, Methylparaben, Sodium Dehydroacetate, Propylparaben , butylparaben. May Contain/Peut Contenir/(+/-):Iron Oxides (Ci 77491, Ci 77492, Ci 77499), Titanium Dioxide (Ci 77891), Yellow 5 Lake (Ci 19140), Ultramarines (Ci 77007).",
+            "price": 45.40,
+            "rating": 4.6,
+            "image": "fc21.jpg",
+            "category": 9
+        }
+    },
+    {
+        "pk": 64,
+        "model": "products.product",
+        "fields": {
+            "sku": "hgl04",
+            "name": "Face Mist",
+            "description": "The impulse for vital skin! The pH value is regulated, the moisture level is optimized and vitality is promoted.",
+            "application": "Close your eyes and spray evenly onto your face.",
+            "ingredients": "Aqua (Water), Pentyleneglycol, Glycerin, Rosa Damascena Flower Water, Rosa Gallica Flower Extract.",
+            "price": 23.90,
+            "rating": 4.3,
+            "image": "fc20.jpg",
+            "category": 9
+        }
+    },
+    {
+        "pk": 65,
+        "model": "products.product",
+        "fields": {
+            "sku": "hgl05",
+            "name": "Eyeshadow Palette Sunshine",
+            "description": "The  Sunlight inspired Shadow Palette makes a big impression, especially for inimitable festival looks. The eyeshadow palette with highly pigmented shades features creamy and metallic finishes that attract everyone's attention. When mixed together, there are limitless possibilities for skillfully showcasing your own style.",
+            "application": "Apply the color to the eyelid using a micro-blending brush and distribute it there.",
+            "ingredients": "Mica, Calcium Sodium Borosilicate, Dimethicone, Ci 77891 / Titanium Dioxide, Magnesium Stearate, Ci 77491 / Iron Oxides, Silica, Tin Oxide, Dimethicone/Vinyl Dimethicone Crosspolymer, Trimethylsiloxysilicate, Alumina, Aluminum Hydroxide, Ethylhexylglycerin, Tocopheryl Acetate, Phenoxyethanol, Ci 77492 / Iron Oxides, Ci 19140 / Yellow 5 Lake, Ci 42090 / Blue 1 Lake",
+            "price": 35.30,
+            "rating": 4.0,
+            "image": "es4.jpg",
+            "category": 9
+        }
+    },
+    {
+        "pk": 66,
+        "model": "products.product",
+        "fields": {
+            "sku": "hgl06",
+            "name": "Red Rose Lipstick",
+            "description": "A velvety-soft lipstick for comfortable wearing. An alternative to glossy lipstick for deep color intensity. Melts completely into the lips.",
+            "application": "Distribute the lipstick evenly over the lips. Combine with lip liner and/or lip gloss for a perfect result.",
+            "ingredients": "Diisostearyl Malate, Hydrogenated Polyisobutene, Phenyl Trimethicone, Synthetic Wax, C12-15 Alkyl Benzoate, Cetyl Dimethicone, Octyldodecanol, Diisopropyl Dimer Dilinoleate, Phytosteryl Macadamiate, Pentaerythrityl.",
+            "price": 35.30,
+            "rating": 4.9,
+            "image": "lp1.jpg",
+            "category": 9
+        }
+    },
+    {
+        "pk": 67,
+        "model": "products.product",
+        "fields": {
+            "sku": "hgl07",
+            "name": "Holiday Lipstick",
+            "description": "A set of warm tone velvety-soft lipsticks for comfortable wearing. Melts completely into the lips.",
+            "application": "Distribute the lipstick evenly over the lips. Combine with lip liner and/or lip gloss for a perfect result.",
+            "ingredients": "Diisostearyl Malate, Hydrogenated Polyisobutene, Phenyl Trimethicone, Synthetic Wax, C12-15 Alkyl Benzoate, Cetyl Dimethicone, Octyldodecanol, Diisopropyl Dimer Dilinoleate, Phytosteryl Macadamiate, Pentaerythrityl.",
+            "price": 55.30,
+            "rating": 4.9,
+            "image": "lp12.jpg",
+            "category": 9
+        }
+    }
+]

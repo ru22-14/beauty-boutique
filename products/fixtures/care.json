@@ -10,7 +10,7 @@
             "ingredients": "Water(Aqua/Eau), Ethylhexyl Methoxycinnamate, Glycerin, Dipropylene Glycol.",
             "price": 15.90,
             "rating": 4.9,
-            "image": "/media/sk13.jpg",
+            "image": "sk13.jpg",
             "category": 1
         }
     },
@@ -25,7 +25,7 @@
             "ingredients": "Water(Aqua/Eau), Ethylhexyl Methoxycinnamate, Glycerin, Dipropylene Glycol, Caprylic/Capric Triglyceride, Behenyl Alcohol, Dimethicone, Butylene Glycol, Alcohol, Octocrylene, Silica, Polybutylene Glycol/Ppg-9/1 Copolymer, Myristyl Myristate, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Isohexadecane, Phenylbenzimidazole Sulfonic Acid, Sorbitol, Beheneth-20, Stearyl Alcohol, Phytosteryl Macadamiate, Triethanolamine, Phenoxyethanol, Beheneth-30, Xanthan Gum, Fragrance (Parfum).",
             "price": 15.90,
             "rating": 4.9,
-            "image": "/media/sk18.jpg",
+            "image": "sk18.jpg",
             "category": 1
         }
     },
@@ -40,7 +40,7 @@
             "ingredients": "Ethylhexyl Palmitate, Carthamus Tinctorius (Safflower) Seed Oil, Caprylic/Capric Triglyceride, Sorbeth-30 Tetraoleate, Polyethylene, Peg-5 Glyceryl Triisostearate, Water/Aqua, Tocopherol, Phenoxyethanol.",
             "price": 12.90,
             "rating": 4.5,
-            "image": "/media/sk15.jpg",
+            "image": "sk15.jpg",
             "category": 1
         }
     },
@@ -55,7 +55,7 @@
             "ingredients": "Aqua (Water), Sodium Coco-Sulfate, Lauryl Glucoside, Glycerin, Glyceryl Oleate, Decyl Glucoside, Terminalia Ferdinandiana (Kakadu Plum).",
             "price": 18.90,
             "rating": 4.8,
-            "image": "/media/sk9.jpg",
+            "image": "sk9.jpg",
             "category": 1
         }
     },
@@ -70,7 +70,7 @@
             "ingredients": "Water (Aqua/Eau), Squalane, Butylene Glycol, Octyldodecanol, Glycerin, Butyrospermum Parkii (Shea) Butter, C10-18 Triglycerides, Cetearyl Olivate, Gossypium Herbaceum (Cotton) Seed Oil. ",
             "price": 44.90,
             "rating": 4.8,
-            "image": "/media/sk7.jpg",
+            "image": "sk7.jpg",
             "category": 1
         }
     },
@@ -85,7 +85,7 @@
             "ingredients": "Aqua (Water), Pentyleneglycol, Glycerin, Rosa Damascena Flower Water, Rosa Gallica Flower Extract.",
             "price": 21.90,
             "rating": 4.3,
-            "image": "/media/sk3.jpg",
+            "image": "sk3.jpg",
             "category": 1
         }
     },
@@ -100,7 +100,7 @@
             "ingredients": "src-complex™, Lipomoist, UVB filter, Orgasol.",
             "price": 25.50,
             "rating": 4.3,
-            "image": "/media/sk20.jpg",
+            "image": "sk20.jpg",
             "category": 1
         }
     },
@@ -115,7 +115,7 @@
             "ingredients": "Aqua/Water, Glycerin, Shea Butter Ethyl Esters, Crambe Abyssinica Seed Oil Phytosterol Esters, Distarch Phosphate, Hydrogenated Vegetable Glycerides, Glyceryl Stearate, Macadamia Ternifolia Seed Oil/Macadamia.",
             "price": 65.90,
             "rating": 4.7,
-            "image": "/media/sk14.jpg",
+            "image": "sk14.jpg",
             "category": 1
         }
     },
@@ -130,7 +130,7 @@
             "ingredients": "Aqua/Eau, Sodium C14-16 Olefin Sulfonate, Cocamide Mipa, Cocamidopropyl Betaine, Sodium Cocoyl Isethionate, Coconut Acid, Sodium Isethionate, Cocamidopropyl Betaine, Sodium Chloride, Carica Papaya Fruit Extract, Glycerin.",
             "price": 11.90,
             "rating": 4.7,
-            "image": "/media/sk10.jpg",
+            "image": "sk10.jpg",
             "category": 3
         }
     },
@@ -145,7 +145,7 @@
             "ingredients": "Aqua/Eau, Sodium C14-16 Olefin Sulfonate, Cocamide Mipa, Cocamidopropyl Betaine, Sodium Cocoyl Isethionate, Coconut Acid, Sodium Isethionate, Cocamidopropyl Betaine, Sodium Chloride, Carica Papaya Fruit Extract, Glycerin.",
             "price": 12.90,
             "rating": 4.7,
-            "image": "/media/sk1.jpg",
+            "image": "sk1.jpg",
             "category": 3
         }
     },
@@ -160,7 +160,7 @@
             "ingredients": "Glycerin, Sucrose, Aqua/Water/Eau, Sodium Cocoyl Isethionate, Ricinus Communis (Castor) Seed Oil, Lauryl Glucoside, C12-15 Alkyl Benzoate, Cetearyl Alcohol, Fragrance (Parfum).",
             "price": 18.90,
             "rating": 4.4,
-            "image": "/media/sk2.jpg",
+            "image": "sk2.jpg",
             "category": 3
         }
     },
@@ -175,7 +175,7 @@
             "ingredients": "Aqua/Eau, Sodium C14-16 Olefin Sulfonate, Cocamide Mipa, Cocamidopropyl Betaine, Sodium Cocoyl Isethionate, Coconut Acid, Sodium Isethionate, Cocamidopropyl Betaine, Sodium Chloride, Carica Papaya Fruit Extract, Glycerin.",
             "price": 22.90,
             "rating": 4.9,
-            "image": "/media/sk12.jpg",
+            "image": "sk12.jpg",
             "category": 3
         }
     },
@@ -190,7 +190,7 @@
             "ingredients": "Aqua/Eau, Sodium C14-16 Olefin Sulfonate, Cocamide Mipa, Cocamidopropyl Betaine, Sodium Cocoyl Isethionate, Coconut Acid, Sodium Isethionate, Cocamidopropyl Betaine, Sodium Chloride, Carica Papaya Fruit Extract, Glycerin.",
             "price": 16.90,
             "rating": 4.8,
-            "image": "/media/sk17.jpg",
+            "image": "sk17.jpg",
             "category": 3
         }
     },
@@ -205,7 +205,7 @@
             "ingredients": "Aqua/Eau, Sodium C14-16 Olefin Sulfonate, Cocamide Mipa, Cocamidopropyl Betaine, Sodium Cocoyl Isethionate, Coconut Acid, Sodium Isethionate, Cocamidopropyl Betaine, Sodium Chloride, Carica Papaya Fruit Extract, Glycerin.",
             "price": 44.90,
             "rating": 4.7,
-            "image": "/media/sk10.jpg",
+            "image": "sk10.jpg",
             "category": 3
         }
     },
@@ -220,7 +220,7 @@
             "ingredients": "Aqua/Water/Eau, Cocamidopropyl Betaine, Sodium Lauroyl Methyl Isethionate, Disodium Laureth Sulfosuccinate, Sodium Lauryl Sulfoacetate, Glycol Distearate, Biotinoyl Tripeptide-1, Oleanolic Acid, Apigenin, Acetyl Tetrapeptide-3, Trifolium Pratense (Clover) Flower Extract.",
             "price": 15.00,
             "rating": 4.2,
-            "image": "/media/hc10.jpg",
+            "image": "hc10.jpg",
             "category": 2
         }
     },
@@ -235,7 +235,7 @@
             "ingredients": "Aqua/Water/Eau, Cetyl Alcohol, Malic Acid, Paraffinum Liquidum/ Mineral Oil/ Huile Minerale, Isopropyl Myristate, Ceteareth-25, Cetrimonium Chloride, Sodium Hydroxide, Phenoxyethanol, Glyceryl Oleate.",
             "price": 9.30,
             "rating": 4.4,
-            "image": "/media/hc9.jpg",
+            "image": "hc9.jpg",
             "category": 2
         }
     },
@@ -250,7 +250,7 @@
             "ingredients": "Aqua/Water/Eau, Cocamidopropyl Betaine, Sodium Lauroyl Methyl Isethionate, Disodium Laureth Sulfosuccinate, Sodium Lauryl Sulfoacetate, Glycol Distearate, Biotinoyl Tripeptide-1, Oleanolic Acid, Apigenin, Acetyl Tetrapeptide-3, Trifolium Pratense (Clover) Flower Extract.",
             "price": 30.00,
             "rating": 4.6,
-            "image": "/media/hc1.jpg",
+            "image": "hc1.jpg",
             "category": 2
         }
     },
@@ -265,7 +265,7 @@
             "ingredients": "Aqua/Water/Eau, Cocamidopropyl Betaine, Sodium Lauroyl Methyl Isethionate, Disodium Laureth Sulfosuccinate, Sodium Lauryl Sulfoacetate, Glycol Distearate, Biotinoyl Tripeptide-1, Oleanolic Acid, Apigenin, Acetyl Tetrapeptide-3, Trifolium Pratense (Clover) Flower Extract.",
             "price": 26.00,
             "rating": 4.2,
-            "image": "/media/hc6.jpg",
+            "image": "hc6.jpg",
             "category": 2
         }
     },
@@ -280,7 +280,7 @@
             "ingredients": "Water, Cetearyl Alcohol, Dimethicone, Isohexadecane, Coco-Caprylate, Neopentyl Glycol Diheptanoate, Behentrimonium Chloride, Isododecane, Phenyl Trimethicone, Propanediol, Bis-Aminopropyl Diglycol Dimaleate, Fragrance (Parfum).",
             "price": 22.90,
             "rating": 5.0,
-            "image": "/media/hc12.jpg",
+            "image": "hc12.jpg",
             "category": 2
         }
     },
@@ -295,7 +295,7 @@
             "ingredients": "Cold pressed Argan Oil.",
             "price": 19.90,
             "rating": 5.0,
-            "image": "/media/hc8.jpg",
+            "image": "hc8.jpg",
             "category": 2
         }
     },
@@ -310,7 +310,7 @@
             "ingredients": "Cold pressed Coconut Oil.",
             "price": 18.00,
             "rating": 5.0,
-            "image": "/media/hc11.jpg",
+            "image": "hc11.jpg",
             "category": 2
         }
     },
@@ -325,7 +325,7 @@
             "ingredients": "Detox Hair MaskWater, Cetearyl Alcohol, Kaolin, Glycerin, Vinegar*, Charcoal Powder, Oryza Sativa (Rice) Bran Oil, Behentrimonium Methosulfate, Olea Europaea (Olive) Fruit Extract*, Butyrospermum Parkii (Shea) Butter*, Stearalkonium Chloride, Hydrolyzed Quinoa , Epilobium Angustifolum Flower/Leaf/Stem Extract, Panthenol (Vitamin B-5), Potassium Sorbate, Hydrolyzed Adansonia Digitata Seed Extract, Sodium Levulinate, Stearyl Alcohol, Amine HCL, Benzyl Alcohol, Sodium Benzoate, Glycine Soja (Soybean) Oil, Cananga Odorata (Ylang Ylang) Flower Oil, Citrus Aurantium Dulcis (Orange) Peel Oil, Lavandula.",
             "price": 85.00,
             "rating": 4.9,
-            "image": "/media/hc7.jpg",
+            "image": "hc7.jpg",
             "category": 2
         }
     }
