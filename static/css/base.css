@@ -21,6 +21,10 @@ body{
     margin-top: 3%;
 }
 
+#delivery-banner {
+    margin-top: 0;
+}
+
 #highlights {
     float: left;
     height: 320px;
@@ -102,6 +106,7 @@ body{
 
 #nav-bar {
     background-color: rgba(255, 223, 250, 0.699);
+    
 }
 
 .overlay {
@@ -136,3 +141,14 @@ body{
           padding-top: 164px;
       }
   }
+
+  /* pad the top a bit when navbar is collapsed on mobile */
+@media (max-width: 991px) {
+    .header-container {
+        padding-top: 116px;
+    }
+
+    body {
+        height: calc(100vh - 116px);
+    }
+}
