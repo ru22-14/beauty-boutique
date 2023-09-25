@@ -131,7 +131,7 @@
             "price": 11.90,
             "rating": 4.7,
             "image": "sk10.jpg",
-            "category": 3
+            "category": 2
         }
     },
     {
@@ -146,7 +146,7 @@
             "price": 12.90,
             "rating": 4.7,
             "image": "sk1.jpg",
-            "category": 3
+            "category": 2
         }
     },
     {
@@ -161,7 +161,7 @@
             "price": 18.90,
             "rating": 4.4,
             "image": "sk2.jpg",
-            "category": 3
+            "category": 2
         }
     },
     {
@@ -176,7 +176,7 @@
             "price": 22.90,
             "rating": 4.9,
             "image": "sk12.jpg",
-            "category": 3
+            "category": 2
         }
     },
     {
@@ -191,7 +191,7 @@
             "price": 16.90,
             "rating": 4.8,
             "image": "sk17.jpg",
-            "category": 3
+            "category": 2
         }
     },
     {
@@ -206,7 +206,7 @@
             "price": 44.90,
             "rating": 4.7,
             "image": "sk10.jpg",
-            "category": 3
+            "category": 2
         }
     },
     {
@@ -221,7 +221,7 @@
             "price": 15.00,
             "rating": 4.2,
             "image": "hc10.jpg",
-            "category": 2
+            "category": 3
         }
     },
     {
@@ -236,7 +236,7 @@
             "price": 9.30,
             "rating": 4.4,
             "image": "hc9.jpg",
-            "category": 2
+            "category": 3
         }
     },
     {
@@ -251,7 +251,7 @@
             "price": 30.00,
             "rating": 4.6,
             "image": "hc1.jpg",
-            "category": 2
+            "category": 3
         }
     },
     {
@@ -266,7 +266,7 @@
             "price": 26.00,
             "rating": 4.2,
             "image": "hc6.jpg",
-            "category": 2
+            "category": 3
         }
     },
     {
@@ -281,7 +281,7 @@
             "price": 22.90,
             "rating": 5.0,
             "image": "hc12.jpg",
-            "category": 2
+            "category": 3
         }
     },
     {
@@ -296,7 +296,7 @@
             "price": 19.90,
             "rating": 5.0,
             "image": "hc8.jpg",
-            "category": 2
+            "category": 3
         }
     },
     {
@@ -311,7 +311,7 @@
             "price": 18.00,
             "rating": 5.0,
             "image": "hc11.jpg",
-            "category": 2
+            "category": 3
         }
     },
     {
@@ -326,7 +326,7 @@
             "price": 85.00,
             "rating": 4.9,
             "image": "hc7.jpg",
-            "category": 2
+            "category": 3
         }
     }
 ]
