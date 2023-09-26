@@ -20,7 +20,7 @@
         "fields": {
             "sku": "pf02",
             "name": "Eau De Parfum (30ml)",
-            "description": "Chloé Eau de Parfum is the modern interpretation of the rose with French charm. The classic rose is beautifully interpreted in a fragrance that is both light and warm, elegant and yet very seductive.",
+            "description": "Eau de Parfum is the modern interpretation of the rose with French charm. The classic rose is beautifully interpreted in a fragrance that is both light and warm, elegant and yet very seductive.",
             "application": "Spray the perfume generously onto pulse points such as the neck, wrists and décolleté to extend the wear of this sophisticated fragrance. Press gently into skin to preserve the essence of the scent.",
             "ingredients": "Alcohol Denat., Parfum/Fragrance, Propylene Glycol, Aqua/Water/Eau, Ethylhexyl Salicylate, Benzyl Salicylate, Linalool, Hydroxycitronellal, Limonene, Coumarin, Butyl.",
             "price": 65.40,
@@ -86,7 +86,7 @@
             "price": 65.40,
             "rating": 4.9,
             "image": "pf11.jpg",
-            "category": 7
+            "category": 10
         }
     },
     {

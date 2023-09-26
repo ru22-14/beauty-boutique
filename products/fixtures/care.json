@@ -26,7 +26,7 @@
             "price": 15.90,
             "rating": 4.9,
             "image": "sk18.jpg",
-            "category": 1
+            "category": 10
         }
     },
     {
@@ -71,7 +71,7 @@
             "price": 44.90,
             "rating": 4.8,
             "image": "sk7.jpg",
-            "category": 1
+            "category": 10
         }
     },
     {
@@ -191,7 +191,7 @@
             "price": 16.90,
             "rating": 4.8,
             "image": "sk17.jpg",
-            "category": 2
+            "category": 10
         }
     },
     {
@@ -311,7 +311,7 @@
             "price": 18.00,
             "rating": 5.0,
             "image": "hc11.jpg",
-            "category": 3
+            "category": 10
         }
     },
     {

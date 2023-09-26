@@ -26,7 +26,7 @@
             "price": 45.90,
             "rating": 4.4,
             "image": "fc13.jpg",
-            "category": 4
+            "category": 10
         }
     },
     {
@@ -206,7 +206,7 @@
             "price": 32.30,
             "rating": 4.0,
             "image": "es1.jpg",
-            "category": 5
+            "category": 10
         }
     },
     {

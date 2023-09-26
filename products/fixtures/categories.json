@@ -70,5 +70,13 @@
             "name": "new_arrivals",
             "friendly_name": "Highlights"
         }
+    },
+    {
+        "pk": 10,
+        "model": "products.category",
+        "fields": {
+            "name": "sale",
+            "friendly_name": "Sale"
+        }
     }
 ]
