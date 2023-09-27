@@ -43,6 +43,7 @@
                                     <td class="py-3">
                                         <p class="my-0 mt-4"><strong>{{ item.product.name }}</strong></p>
                                         <p class="my-0 small text-muted">SKU: {{ item.product.sku | upper }}</p>
+                                        <p class="text-success font-weight-bold mt-2">{{ product.available_products }} In stock</p>
                                         <form class="form update-form" method="POST" action="{% url 'update_basket' item.item_id %}">
                                             {% csrf_token %}
                                             <div class="form-group mt-4"style="max-width: 150px;">
