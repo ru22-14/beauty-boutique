@@ -1,6 +1,9 @@
 {% extends "base.html" %}
 {% load static %}
 
+{% load basket_tools %}
+
+
 {% block page_header %}
     <div class="container header-container">
         <div class="row">
@@ -72,7 +75,7 @@
                                         <a class="remove-item text-danger mx-4 mt-2" id="remove_{{ item.item_id }}">Remove</a>    
                                     </td>
                                     <td class="py-3">
-                                        <p class="my-0">${{ item.product.price }}</p>
+                                        <p class="my-0">${{ item.product.price | calc_subtotal:item.quantity }}</p>
                                         
                                     </td>
                                 </tr>
