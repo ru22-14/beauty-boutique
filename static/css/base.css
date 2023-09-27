@@ -48,6 +48,11 @@ body{
     margin-left: 25%;
 }
 
+#sub-heading {
+    background-color: #fff;
+    margin-top: 5%;
+}
+
 /* from Bulma */
 .icon {
     align-items: center;
