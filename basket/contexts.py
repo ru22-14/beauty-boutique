@@ -4,7 +4,9 @@ from django.shortcuts import get_object_or_404
 from products.models import Product
 
 def basket_contents(request):
-
+    """
+    Allows access to basket data thoroughout site
+    """
     basket_items = []
     total = 0
     product_count = 0

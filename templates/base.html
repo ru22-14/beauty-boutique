@@ -85,10 +85,17 @@
                           {% endif %}
                       </div>
                   </li>
-                  <li class="list-inline-item dropdown">
-                    <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <li class="list-inline-item my-4">
+                    <a class="text-black nav-link" href="{% url 'view_favourites' %}" id="user-options"  aria-haspopup="true" aria-expanded="false">
                       <div class="text-center">
-                        <div><i class="fa-sharp fa-solid fa-heart fa-lg"></i></div>
+                        <div class="text-center">
+                            {% if users_wishlist %}
+                            <div><i class="fa-solid fa-heart icon fa-beat-fade"
+                                    style="--fa-beat-fade-opacity: 0.75; --fa-beat-fade-scale: 1.075;"></i>
+                            </div>
+                            {% else %}
+                            <div><i class="fa-solid fa-heart icon "></i></div>
+                            {% endif %}
                             <p class="my-0">
                               {% if product_quantity %}
                                   {{ product_quantity }}
