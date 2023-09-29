@@ -10,17 +10,22 @@
 {% endblock %}
 
 {% block content %}
+    {% if user_favourites %}
+    
+    {% endif%}
 
-<div class="favourite-container">
-    <div class="col text-center">
-        {% if user_favourites %}
+
+
+<!-- <div class="favourite-container">
+    <div class="col text-center"> -->
+        <!-- {% if user_favourites %}
             <h6 class="logo-font font-weight-bold  mt-4 mb-4">My Favourites</h6>
 
 
         <!-- favourite Products -->
 
-            {% for product in user_favourites %}
-            <div class="fvt-product-container container-fluid">
+            <!-- {% for product in user_favourites %} -->
+            <!-- <div class="fvt-product-container container-fluid">
                 <div class="row">
                     <div class="col-sm-12 col-lg-3 d-flex align-items-center ">
                         <div class="fvt-image-container">
@@ -69,16 +74,16 @@
                         </form>      
                     </div>
                 </div>    
-            </div>
-            {% endfor %} 
+            </div> -->
+            <!-- {% endfor %}   -->
         <!-- Wishlist Empty -->
 
-        <h4>
+        <!-- <h4>
             No products in Favourites.
         </h4>
         {% endif %}
     </div>
 </div>
-</div>
+</div> -->
 
 {% endblock %}

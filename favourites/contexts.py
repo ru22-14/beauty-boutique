@@ -9,8 +9,8 @@ def favourites_contents(request):
     if request.user_is_authenticated:
         products = Product.object.filter(user_favourites=request.user)
 
-    context = {
-        "user_favourites": products
-        }    
+        context = {
+            "user_favourites": products
+            }    
 
     return(context)    
