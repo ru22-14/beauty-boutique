@@ -58,9 +58,14 @@ def product_detail(request, product_id):
     """A view to show all products, including sorting and search queries"""
 
     product = get_object_or_404(Product, pk=product_id)
+    is_favourite = False
+
+    if product.user_favourites.filter(id=request.user.id).exists():
+        is_favourite = True
 
     context = {
         'product' : product,
+        'is_favourite' : is_favourite,
     }
 
     return render(request, 'products/product_detail.html', context)

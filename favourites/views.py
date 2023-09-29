@@ -5,21 +5,22 @@ from products.models import Product
 # Create your views here.
 
 def view_favourites(request):
-    """View that renders favourites page content"""
+    """ View that renders favourites page content """
 
-    return render(request, 'favourites/favourites.html',)
+    return render(request, 'favourites/favourites.html')
 
-def add_to_favourites(request, id):
-    """View to add/remove products to/from favourites"""
 
-    product = get_object_or_404(Product, id=id)
+def add_to_favourites(request, product_id):
+    """ View to add/remove products to/from favourites """
+
+    product = get_object_or_404(Product, pk=product_id)
     if product.user_favourites.filter(id=request.user.id).exists():
         product.user_favourites.remove(request.user)
         messages.success(request, 'Product removed from Favourites!')
     else:
          product.user_favourites.add(request.user)
          messages.success(request, 'Successfully added to Favourites!')   
-    return render(request, 'favourites/favourites.html')
+    return HttpResponseRedirect(request.META["HTTP_REFERER"],)
 
  
 

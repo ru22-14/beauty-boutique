@@ -10,36 +10,31 @@
 {% endblock %}
 
 {% block content %}
-    {% if user_favourites %}
-    
-    {% endif%}
 
-
-
-<!-- <div class="favourite-container">
-    <div class="col text-center"> -->
-        <!-- {% if user_favourites %}
+<div class="overlay favourite-container ">
+    <div class="col text-center"> 
+        {% if user_favourites %}
             <h6 class="logo-font font-weight-bold  mt-4 mb-4">My Favourites</h6>
 
 
         <!-- favourite Products -->
 
-            <!-- {% for product in user_favourites %} -->
-            <!-- <div class="fvt-product-container container-fluid">
+            {% for product in user_favourites %}
+            <div class="fvt-product-container container-fluid">
                 <div class="row">
-                    <div class="col-sm-12 col-lg-3 d-flex align-items-center ">
+                    <div class="col-sm-12 col-lg-3 d-flex align-items-center">
                         <div class="fvt-image-container">
-                            <img class="fvt-img" src="{{ product.image.url }}" alt="{{ product.name }}">
+                            <img class="fvt-img py-3 w-50" src="{{ product.image.url }}">
                         </div>
                     </div>
                     <div class="col-sm-12 col-lg-3 fvt-align d-flex align-items-center">
-                        <div class="col-12">
-                            <div class="col-12 ml-1 mb-1">
-                                <h3 class="fvt-heading">{{ product.name }}</h3>
+                        <div class="col-8">
+                            <div class="col-6 ml-1 mb-1 mt-4">
+                                <h3 class="fvt-heading"><small>{{ product.name }}</small></h3>
                             </div>
-                            <div class="col-12 ml-1 mb-1">
+                            <div class="col-6 ml-1 mb-1">
                                 <h4 class="fvt-heading">${{ product.price }}</h4>
-                            </div><div class="col-12 ml-1 mb-1">
+                            </div><div class="col-6 ml-1 mb-1">
                             {% if product.available_products %}
                             <small class="text-center availability">In Stock 
                                 <i class="fa-solid fa-circle-check text-success"></i>
@@ -57,33 +52,33 @@
                         
                         <form class="form" action="{% url 'add_to_basket' product.id %}" method="POST">
                             {% csrf_token %}
-                                {% if product.available_products %}
-                                <div class="col-12 ml-1 mb-1">
-                                    <input class="btn btn-black text-center rounded-0 text-uppercase mt-2" type="submit" value="Add To Basket">
-                                </div>
-                                <input type="hidden" name="redirect_url" value="{{ request.path }}">
-                                {% endif %}
-                                <div class="col-12  mb-1">
-                                    <a class="btn btn-black" href="{% url 'add_to_favourites' product.id  %}">
-                                        <span class="icon"><i class="fa-solid fa-trash"></i></span>
-                                        <span>Remove from Favourites</span>
-                                    </a>
-                                </div>
+                            {% if product.available_products %}
+                            <div class="col-12 ml-1 mb-1">
+                                <input class="btn btn-black btn-sm text-center rounded-0 text-uppercase mt-2" type="submit" value="Add To Basket">
+                            </div>
+                            <input type="hidden" name="redirect_url" value="{{ request.path }}">
+                            {% endif %}
+
+                            <div class="icon">
+                                <a class="btn btn-black btn-lg" href="{% url 'add_to_favourites' product.id  %}">
+                                    <i class="fa-solid fa-trash-can-arrow-up"></i>
+                                </a>
+                            </div>
+                                
                                 
                             </div>
                         </form>      
                     </div>
                 </div>    
-            </div> -->
-            <!-- {% endfor %}   -->
-        <!-- Wishlist Empty -->
-
-        <!-- <h4>
+            </div>
+            {% endfor %}
+        {% else %}
+        <h4>
             No products in Favourites.
         </h4>
         {% endif %}
     </div>
 </div>
-</div> -->
+
 
 {% endblock %}
