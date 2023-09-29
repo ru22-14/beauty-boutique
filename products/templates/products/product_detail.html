@@ -71,6 +71,24 @@
                                                 </span>
                                             </button>
                                         </div>
+                                        <div class="col-12 mt-2">
+                                            {% if user.is_authenticated %}
+                                            {% if product.name in user_favourites %}
+                                            <a href="{% url 'add_to_favourites' product.id %}"
+                                                class=" btn fvt-button text-center rounded-0 mt-2">
+                                                <span class="text-uppercase">Remove</span>    
+                                            </a>
+                                            {% else %}
+                                            <a href="{% url 'add_to_favourites' product.id %}"
+                                                class=" btn fvt-button text-center rounded-0 mt-2">
+                                                <span class="text-uppercase">Add</span>    
+                                            </a>
+
+                                            {% endif %}
+                                            {% else %}
+                                            <a href="{% url 'account_login' %}">
+                                            </a>
+                                            {% endif %}
                                     </div>
                                 </div>
                             </div>
