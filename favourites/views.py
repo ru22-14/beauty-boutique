@@ -9,10 +9,10 @@ def view_favourites(request):
 
     return render(request, 'favourites/favourites.html',)
 
-def add_to_favourites(request, item_id):
+def add_to_favourites(request, product_id):
     """View to add/remove products to/from favourites"""
 
-    product = get_object_or_404(Product, pk=item_id)
+    product = get_object_or_404(Product, pk=product_id)
     if product.user_favourites.filter(id=request.user.id).exists():
         product.user_favourites.remove(request.user)
         messages.success(request, 'Product removed from Favourites!')
@@ -21,16 +21,15 @@ def add_to_favourites(request, item_id):
          messages.success(request, 'Successfully added to Favourites!')   
     return render(request, 'favourites/favourites.html')
 
-def product_favourite_list(request):
-    """display list of products added to favourites"""
+def product_favourite_list(request, id):
     user=request.user
-    favourite_products = user.user_favourites.all()
+    favourite_products = user.favourites.all()
     
     context = {
         'favourite_products': favourite_products
     }
 
-    return render(request, 'favourites/favourites.html', context)    
+    return render(request, 'favourites/product_favourite_list.html', context)  
 
 
 

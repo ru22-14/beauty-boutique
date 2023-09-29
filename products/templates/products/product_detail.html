@@ -71,24 +71,6 @@
                                                 </span>
                                             </button>
                                         </div>
-                                        <div class="col-12 mt-2">
-                                            {% if user.is_authenticated %}
-                                            {% if product.name in user_favourites %}
-                                            <a href="{% url 'add_to_favourites' product.id %}"
-                                                class=" btn fvt-button text-center rounded-0 mt-2">
-                                                <span class="text-uppercase">Remove</span>    
-                                            </a>
-                                            {% else %}
-                                            <a href="{% url 'add_to_favourites' product.id %}"
-                                                class=" btn fvt-button text-center rounded-0 mt-2">
-                                                <span class="text-uppercase">Add</span>    
-                                            </a>
-
-                                            {% endif %}
-                                            {% else %}
-                                            <a href="{% url 'account_login' %}">
-                                            </a>
-                                            {% endif %}
                                     </div>
                                 </div>
                             </div>
@@ -99,7 +81,29 @@
                                     </span>
                                     <span class="text-uppercase">Keep Shopping</span>
                                 </a>
+                                {% if user.is_authenticated %}
+                                {% if product.name in user_favourites %}
+                                <a href="{% url 'add_to_favourites' product.id %}" class="btn btn-outline-black rounded-0 mt-5">
+                                    <span class="icon">
+                                        <i class="fa-solid fa-heart-circle-minus fa-beat fa-l"></i>
+                                    </span>
+                                    
+                                </a>
+                                {% else %}
+                                <a href="{% url 'add_to_favourites' product.id %}" class="btn btn-outline-black rounded-0 mt-5">
+                                    <span class="icon">
+                                        <i class="fa-solid fa-heart-circle-plus fa-beat fa-l"></i>
+                                    </span>
+                                    
+                                </a>
+                                {% endif %}
+                                {% else %}
+                                <a href="account_login">   
+                                </a>
+                                {% endif %}
                                 <input type="submit" class="btn btn-black rounded-0 text-uppercase mt-5" value="Add to Basket">
+
+                                
                             </div>
                             <input type="hidden" name="redirect_url" value="{{ request.path }}">
                         
