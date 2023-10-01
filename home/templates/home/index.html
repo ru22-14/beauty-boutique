@@ -1,26 +1,24 @@
 {% extends "base.html" %}
 {% load static %}
 
-{% block page_header %}
+<!-- {% block page_header %}
     <div class="container header-container">
         <div class="row">
             <div class="col"></div>
         </div>
     </div>
-{% endblock %}
-
-
+{% endblock %} -->
 {% block content %}
-    <div class="container h-100">
-        <div id="hero-img" class="row h-100">
-            <div id="highlights" class="col-4 my-auto">
-                <a href="{% url 'products' %}?category=new_arrivals" class="highlights-button btn btn-md">New Arrivals</a>
+    <div class="container hero-container align-items-center">
+        <div id="hero-img" class="row">
+            <div id="highlights" class="col-4 align-items-center">
+                <!-- <a href="{% url 'products' %}?category=new_arrivals" class="btn highlights-button btn-lg align-items-center">New Arrivals</a> -->
             </div>
-            <div id="main-heading" class="col-4-center col-md-6 my-auto">
+            <div id="main-heading" class="col-6 align-items-center col-md-6 mx-auto">
                 <h1 class="display-6 text-white">
                     Get Your Favourites Before They Are Gone!
                 </h1>
-                <div class="my-5">
+                <div class="my-3">
                     <h6>
                         <a href="{% url 'products' %}" class="discover-button btn btn-md  text-uppercase py-3">Discover</a>
                     </h6>
@@ -29,11 +27,11 @@
         </div>
     </div>
     
-    <div class="container-fluid h-100 bg-white border">
-        <div id="sub-heading" class="row h-75 text-center">
+    <div class="container-fluid bg-white border align-items-center">
+        <div id="sub-heading" class="row align-items-center text-center">
             <div class="border border-black col-8 col-md-6 mx-auto">
                 <h4 class="display-6 font-weight-bold mb-4 mt-4">About Us</h4>
-                <p class="text-muted my-auto">
+                <p class="text-muted my-auto text-center">
                     After a long day, you deserve a well-deserved break. It is important to us 
                     to take care of your face, your body and your hair! A perfect beauty routine 
                     with experienced brands and their innovative skin care products 
