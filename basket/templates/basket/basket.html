@@ -5,30 +5,26 @@
 
 
 {% block page_header %}
-    <div class="container header-container">
-        <div class="row">
-            <div class="col"></div>
-        </div>
+<div class="container h-20 my-4 py-3 py-2">
+    <div class="col-6 text-center mb-2 mx-auto">
+        <h6 class="logo-font text-white font-weight-bold">
+            <i class="fa-sharp fa-solid fa-basket-shopping" style="color: #ffffff;"></i> My Basket</h6>
     </div>
+</div>
 {% endblock %}
 
 
 {% block content %}
-    <div class="overlay"></div>
-    <div class="container mb-2">
-        <div class="row">
-            <div class="col">
-                <hr>
-            </div>
-        </div>
-        <div class="row">
+<div class="container-fluid bg-white">
+    <div class="container">
+        <div class="row mt-4">
             <div class="col-12">
                 {% if basket_items %}
                     <div class="table-responsive rounded d-none d-md-block">
                         <table class="table table-sm table-borderless">
                             <thead class="text-black">
                                 <tr>
-                                    <th scope="col">Shopping Basket</th>
+                                    <th scope="col"></th>
                                     <th scope="col"></th>
                                     <th scope="col">Subtotal</th>
                                 </tr>
@@ -74,7 +70,7 @@
                                         <a class="remove-item text-danger mx-4 mt-2" id="remove_{{ item.item_id }}">Remove</a>    
                                     </td>
                                     <td class="py-3">
-                                        <p class="my-0">${{ item.product.price | calc_subtotal:item.quantity }}</p>
+                                        <p class="my-0" style="font-weight: bold;">${{ item.product.price | calc_subtotal:item.quantity }}</p>
                                         
                                     </td>
                                 </tr>

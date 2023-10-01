@@ -37,7 +37,7 @@
     <title>Beauty Boutique {% block extra_title %}{% endblock %}</title>
   </head>
   <body>
-    <header class="container-fluid fixed-top">
+    <header class="container-fluid">
         <div id="topnav" class="row bg-white pt-lg-2 d-none d-lg-flex">
           <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
               <a href="{% url 'home' %}" class="nav-link main-logo-link">
@@ -64,8 +64,12 @@
                       <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <div class="text-center">
                           {% if request.user.is_authenticated %}
-                          <div><i class="fas fa-user fa-lg"></i></div>
-                          {{ user.username }}
+                          <div><i class="fas fa-user fa-lg" style="color: rgb(207, 3, 169)"></i>
+                            <p class="my-0" style="color: rgb(207, 3, 169)">
+                                {{ user.username }}
+                            </p>
+                          </div>
+                          
                           {% else %}
                           <div>
                           <i class="fas fa-user fa-lg"></i></div>
@@ -90,10 +94,14 @@
                       <div class="text-center">
                         <div class="text-center">
                             {% if user_favourites %}
-                            <div><i class="fa-sharp fa-solid fa-heart" style="color: #f50fa1;"></i>
-                            </div>
+                            <div><i class="fa-sharp fa-solid fa-heart" style="color: rgb(207, 3, 169)"></i>
+                                <p class="my-0" style="color: rgb(207, 3, 169)">
+                                    {{quantity}}
+                                </p>
                             {% else %}
-                            <div><i class="fa-solid fa-heart icon "></i></div>
+                            <div><i class="fa-solid fa-heart icon "></i>
+                                <p class="my-0">0</p>
+                            </div>
                             {% endif %}
                             
                       </div>
@@ -102,8 +110,8 @@
                   <li class="list-inline-item my-4">
                       <a class="{% if grand_total %}text-danger font-weight-bold{% else %}text-black{% endif %} nav-link" href="{% url 'view_basket' %}">
                           <div class="text-center">
-                            <div><i class="fa-sharp fa-solid fa-basket-shopping"></i></div>
-                                <p class="my-0">
+                            <div><i class="fa-sharp fa-solid fa-basket-shopping" style="color: rgb(207, 3, 169)"></i></div>
+                                <p class="my-0" style="color: rgb(207, 3, 169)">
                                     {% if grand_total %}
                                         ${{ grand_total|floatformat:2 }}
                                     {% else %}
@@ -127,7 +135,7 @@
         </div>
         <div id="delivery-banner" class="row text-center">
             <div class="col bg-black text-white">
-                <h6 class="my-1">Free delivery on orders over ${{ free_delivery_threshold }}!</h6>                
+                <h6 class="my-1 mx-auto">Free delivery on orders over ${{ free_delivery_threshold }}!</h6>                
             </div>            
         </div>
     </header>

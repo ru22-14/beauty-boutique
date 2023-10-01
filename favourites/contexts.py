@@ -6,12 +6,20 @@ def favourites_contents(request):
 
     """
     products = 0
-
+    quantity = 0
+    
     if request.user:
         products = Product.objects.filter(user_favourites=request.user)
-
+        quantity = (products).count() 
         context = {
             "user_favourites": products,
-                }    
-    return(context)    
+            "quantity" : quantity
+           
+            
+            }    
+        return(context)   
+
+    
+  
+        
    
