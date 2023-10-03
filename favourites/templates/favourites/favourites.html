@@ -12,7 +12,7 @@
 
 {% block content %}
 
-<div class="container-fluid h-100 bg-white">
+<div class="container-fluid bg-white">
     <div class="col-12 text-center"> 
         {% if user_favourites %}
             <!-- favourite Products -->
@@ -64,8 +64,10 @@
                             <div class="btn ml-1 mb-1">
                                 <input class="btn btn-black btn-sm  text-center rounded-2 text-uppercase mt-2" type="submit" value="Add To Basket">
                             </div>
+
                             <input type="hidden" name="redirect_url" value="{{ request.path }}">
                             {% endif %}
+                            
 
                             <div class="btn">
                                 <a class="btn btn-black btn-sm text-center rounded-2 text-uppercase mt-2" href="{% url 'add_to_favourites' product.id  %}">

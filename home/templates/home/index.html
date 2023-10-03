@@ -1,20 +1,18 @@
 {% extends "base.html" %}
 {% load static %}
 
-<!-- {% block page_header %}
-    <div class="container header-container">
+{% block page_header %}
+    <!-- <div class="container header-container">
         <div class="row">
             <div class="col"></div>
         </div>
-    </div>
-{% endblock %} -->
-{% block content %}
-    <div class="container hero-container align-items-center">
+    </div> -->
+    <div class="container hero-container align-items-center mt-4">
         <div id="hero-img" class="row">
             <div id="highlights" class="col-4 align-items-center">
-                <!-- <a href="{% url 'products' %}?category=new_arrivals" class="btn highlights-button btn-lg align-items-center">New Arrivals</a> -->
+                <a href="{% url 'products' %}?category=new_arrivals" class="btn highlights-button btn-sm align-items-center">New Arrivals</a>
             </div>
-            <div id="main-heading" class="col-6 align-items-center col-md-6 mx-auto">
+            <div id="main-heading" class="col-6 align-items-center col-md-6 mx-auto mt-4">
                 <h1 class="display-6 text-white">
                     Get Your Favourites Before They Are Gone!
                 </h1>
@@ -26,6 +24,11 @@
             </div>
         </div>
     </div>
+    
+{% endblock %}
+
+{% block content %}
+
     
     <div class="container-fluid bg-white border align-items-center">
         <div id="sub-heading" class="row align-items-center text-center">
