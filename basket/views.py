@@ -49,8 +49,7 @@ def update_basket(request, item_id):
     else:
         basket.pop(item_id)
         messages.success(request,
-            (f'Removed {product.name}'
-             f'from your basket'))
+            (f'Removed {product.name} from your basket'))
 
 
     request.session['basket'] = basket
@@ -63,8 +62,7 @@ def remove_basket(request, item_id):
         basket = request.session.get('basket', {})
         basket.pop(item_id) 
         messages.success(request,
-            (f'Removed {product.name}'
-             f'from your basket'))       
+            (f'Removed {product.name} from your basket'))       
             
         request.session['basket'] = basket
         return HttpResponse(status=200)
