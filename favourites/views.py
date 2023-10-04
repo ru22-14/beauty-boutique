@@ -16,10 +16,10 @@ def add_to_favourites(request, product_id):
     product = get_object_or_404(Product, pk=product_id)
     if product.user_favourites.filter(id=request.user.id).exists():
         product.user_favourites.remove(request.user)
-        messages.success(request, f'{product.name} removed from Favourites!')
+        messages.success(request, 'removed from Favourites!')
     else:
          product.user_favourites.add(request.user)
-         messages.success(request, f'{product.name} Successfully added to Favourites!')   
+         messages.success(request, 'Successfully added to Favourites!')   
     return HttpResponseRedirect(request.META["HTTP_REFERER"],)
 
  
