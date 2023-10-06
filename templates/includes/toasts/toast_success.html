@@ -1,6 +1,6 @@
 <div class="toast custom-toast rounded-0 border-top-0"  data-autohide="false">
     <div class="arrow-up arrow-success"></div>
-    <div class="w-150 toast-capper bg-success"></div>
+    <div class="w-200 toast-capper bg-success"></div>
     <div class="toast-header bg-white text-dark">
       <strong class="mr-auto">Success!</strong>
       <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
@@ -18,35 +18,30 @@
     
         
     {% for message in messages %}
-        {% if 'favourites' in message %}
-            <div class="text-left pl-3 mb-2">
-                <p>Your Favourites:</p>
-            </div>
-            <div class="toast-scroll-contain mb-2">
-                {% for item in user_favourites %}
-
-                <div class="message-item px-2 rounded-0">
-                    <div class="row">
-                        <div class="col-3">
-                            <img class="w-100" src="{{ item.image.url }}">
-                        </div>
-                        <div class="col-9">
-                            <p class="my-0"><strong>{{ item.name }}</strong></p>
-                            <p class="my-0 small">Price per item: {{ item.price }}</p>
-                        </div>
+        {% if user_favourites %}
+        <p class="logo-font bg-white text-black py-1 p-4">Favourites({{ product_count }})</p>
+        <div class="basket-notification-wrapper p-4">
+            {% for item in user_favourites %}
+                <div class="row">
+                    <div class="col-3 my-1">
+                        <img class="w-100" src="{{ item.image.url }}">
+                    </div>
+                    <div class="col-9">
+                        <p class="my-0"><strong>{{ item.name }}</strong></p>
+                        <p class="my-0 small text-muted">Qty: {{ item.quantity }}</p>
                     </div>
                 </div>
-                {% endfor %}
-                <div class="rounded-0 text-light mt-4">
-                    <a href="{% url 'view_favourites' %}" class="btn btn-black rounded-0 w-100">
-                        <span class="text-uppercase">View Favourites</span>
-                    </a>
-                </div>
-            </div>
-        {% else %}
+            {% endfor %}
+        </div>
+        <div class="rounded-0 text-light mt-4">
+            <a href="{% url 'view_favourites' %}" class="btn btn-black rounded-0 w-100">
+                <span class="text-uppercase">View Favourites</span>
+            </a>
+        </div>
+        
         {% if grand_total %}
-                <p class="logo-font bg-white text-black py-1">Basket({{ product_count }})</p>
-                <div class="basket-notification-wrapper">
+                <p class="logo-font bg-white text-black py-1 p-4">Basket({{ product_count }})</p>
+                <div class="basket-notification-wrapper p-4">
                     {% for item in basket_items %}
                         <div class="row">
                             <div class="col-3 my-1">
@@ -80,6 +75,7 @@
                 </div>
         {% endif %}
         {% endif %}
+
     {% endfor %}    
     
     
