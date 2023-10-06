@@ -37,8 +37,8 @@
                 <span class="text-uppercase">View Favourites</span>
             </a>
         </div>
-    {% else %}
-    {% if grand_total %}
+        {% else %}
+        {% if grand_total %}
         <p class="logo-font bg-white text-black py-1 p-4">Basket({{ product_count }})</p>
         <div class="basket-notification-wrapper p-4">
             {% for item in basket_items %}
@@ -74,8 +74,8 @@
                 </a>
             </div>
         </div>
-    {% endif %}
-    {% endif %}
+        {% endif %}
+        {% endif %}
     {% endfor %}   
       
 
