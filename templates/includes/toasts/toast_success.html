@@ -17,7 +17,7 @@
     </div>
 
     {% for message in messages %}
-        {% if 'user_favourites' %}
+        {% if 'user_favourites' in message %}
         <p class="logo-font bg-white text-black py-1 p-4">Favourites({{ quantity }})</p>
         <div class="basket-notification-wrapper p-4">
             {% for item in user_favourites %}
