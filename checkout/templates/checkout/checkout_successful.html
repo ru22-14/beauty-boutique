@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'checkout/css/checkout.css' %}">
+{% endblock %}
+
+
+{% block page_header %}
+<div class="container h-20 my-4 py-3 py-2 bg-white">
+    <div class="col-6 text-center mb-2 mx-auto">
+        <h6 class="logo-font text-white font-weight-bold">
+            Thank You for Shopping!
+        </h6>
+        <hr>
+        <p class="text-black"> A confirmation regarding your order is sent on <strong>{{ order.email }}</strong></p>
+    </div>
+</div>
+{% endblock %}
+
+
+{% block content %}
+<div class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-7 text-right my-auto">
+                <a href="{% url 'products' %}?category=new_arrivals,sale" class="btn btn-black rounded-0 my-4">
+                    <span class="icon mr-2">
+                        <i class="fas fa-gifts"></i>
+                    </span>
+                    <span class="text-uppercase my-4">Check out our latest deals!</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>    
+{% endblock %}
