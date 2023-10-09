@@ -60,22 +60,18 @@
                                         </div>
                                     </div>
                                 </div>
-                            {% if product.available_products %}
-                            <div class="btn ml-1 mb-1">
-                                <input class="btn btn-black btn-sm  text-center rounded-2 text-uppercase mt-2" type="submit" value="Add To Basket">
-                            </div>
+                                {% if product.available_products %}
+                                <div class="btn ml-1 mb-1">
+                                    <input class="btn btn-black btn-sm  text-center rounded-2 text-uppercase mt-2" type="submit" value="Add To Basket">
+                                </div>
 
-                            <input type="hidden" name="redirect_url" value="{{ request.path }}">
-                            {% endif %}
-                            
-
-                            <div class="btn">
-                                <a class="btn btn-black btn-sm text-center rounded-2 text-uppercase mt-2" href="{% url 'add_to_favourites' product.id  %}">
-                                  Remove  
-                                </a>
-                            </div>
-                                
-                                
+                                <input type="hidden" name="redirect_url" value="{{ request.path }}">
+                                {% endif %}
+                                <div class="btn">
+                                    <a class="btn btn-black btn-sm text-center rounded-2 text-uppercase mt-2" href="{% url 'add_to_favourites' product.id  %}">
+                                    Remove  
+                                    </a>
+                                </div>
                             </div>
                         </form>      
                     </div>
@@ -89,6 +85,4 @@
         {% endif %}
     </div>
 </div>
-
-
 {% endblock %}
