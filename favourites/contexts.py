@@ -13,10 +13,9 @@ def favourites_contents(request):
         quantity = (products).count() 
         context = {
             "user_favourites": products,
-            "quantity" : quantity
-           
-            
-            }    
+            "quantity" : quantity,
+            "on_favourites" : True,
+           }    
         return(context)   
 
     
