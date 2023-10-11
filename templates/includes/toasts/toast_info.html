@@ -7,6 +7,8 @@
             <span aria-hidden="true">&times;</span>
         </button>
     </div>
+    
+    {% if 'user_favourites' %}
     <div class="toast-body bg-white">
         <div class="row">
             <div class="col">
@@ -15,8 +17,7 @@
             </div>
         </div>
     </div>
-
-    {% if 'favourites' %}
+    
     <p class="logo-font bg-white text-black py-1 p-4">Favourites({{ quantity }})</p>
     <div class="basket-notification-wrapper p-4">
         {% for item in user_favourites %}
@@ -36,5 +37,14 @@
             <span class="text-uppercase">View Favourites</span>
         </a>
     </div>
-  {% endif %}  
+    {% else %}
+    <div class="toast-body bg-white">
+        <div class="row">
+            <div class="col">
+                {{ message }}
+                <hr class="mt-1 mb-3">
+            </div>
+        </div>
+    </div>
+    {% endif %}  
 </div>  
