@@ -28,7 +28,8 @@ class OrderForm(forms.ModelForm):
             'district': 'District, State or Locality',
         }
 
-        # self.fields['full_name'].widget.attrs['autofocus'] = True
+        self.fields['first_name'].widget.attrs['autofocus'] = True
+        self.fields['last_name'].widget.attrs['autofocus'] = True
         for field in self.fields:
             if field != 'country':
                 if self.fields[field].required:

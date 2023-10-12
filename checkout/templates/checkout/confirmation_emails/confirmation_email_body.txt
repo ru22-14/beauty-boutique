@@ -1,4 +1,4 @@
-Hello {{ order.full_name }}!
+Hello {{ order.name }}!
 
 This is a confirmation of your order at Beauty Boutique. Your order information is below:
 
