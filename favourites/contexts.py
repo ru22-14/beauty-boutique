@@ -8,15 +8,16 @@ def favourites_contents(request):
     products = 0
     quantity = 0
     
-    if request.user:
+    if request.user.is_authenticated:
         products = Product.objects.filter(user_favourites=request.user)
         quantity = (products).count() 
-        context = {
-            "user_favourites": products,
-            "quantity" : quantity,
-            "on_favourites" : True,
-           }    
-        return(context)   
+        
+    context = {
+        "user_favourites": products,
+        "quantity" : quantity,
+            # "on_favourites" : True,
+        }    
+    return(context)   
 
     
   

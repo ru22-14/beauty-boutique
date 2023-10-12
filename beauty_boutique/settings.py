@@ -83,7 +83,7 @@ TEMPLATES = [
                 'django.contrib.messages.context_processors.messages',
                 'django.template.context_processors.media',
                 'basket.contexts.basket_contents',
-                # 'favourites.contexts.favourites_contents',
+                'favourites.contexts.favourites_contents',
             ],
             'builtins' : [
                 'crispy_forms.templatetags.crispy_forms_tags',

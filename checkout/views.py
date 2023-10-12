@@ -41,8 +41,7 @@ def checkout(request):
         basket = request.session.get('basket', {})
 
         form_data = {
-            'first_name': request.POST['first_name'],
-            'last_name': request.POST['last_name'],
+            'name': request.POST['name'],
             'email': request.POST['email'],
             'phone_number': request.POST['phone_number'],
             'country': request.POST['country'],
@@ -96,9 +95,27 @@ def checkout(request):
             amount=stripe_total,
             currency=settings.STRIPE_CURRENCY,
         )  
-        print(intent)
+        
+        # Attempt to prefill the form with any info the user maintains in their profile
+        if request.user.is_authenticated:
+            try:
+                profile = UserProfile.objects.get(user=request.user)
+                order_form = OrderForm(initial={
+                    'name': profile.user.get_username(),
+                    'email': profile.user.email,
+                    'phone_number': profile.default_phone_number,
+                    'country': profile.default_country,
+                    'postcode': profile.default_postcode,
+                    'town_or_city': profile.default_town_or_city,
+                    'street_address1': profile.default_street_address1,
+                    'street_address2': profile.default_street_address2,
+                    'district': profile.default_district,
+                })
+            except UserProfile.DoesNotExist:
+                order_form = OrderForm()
+        else:
+            order_form = OrderForm()
 
-        order_form = OrderForm()
 
     if not stripe_public_key:
         messages.warning(request, 'Stripe public key is missing. \
