@@ -95,25 +95,29 @@
                     <a class="text-black nav-link" href="{% url 'view_favourites' %}" id="user-options"  aria-haspopup="true" aria-expanded="false">
                       <div class="text-center">
                         <div class="text-center">
-                            
+                        {% if request.user.is_authenticated %}    
                             {% if user_favourites %}
                             <div><i class="fa-sharp fa-solid fa-heart" style="color: rgb(207, 3, 169)"></i>
                                 <p class="my-0" style="color: rgb(207, 3, 169)">
                                     {{quantity}}
                                 </p>
                             {% else %}
-                            <div><i class="fa-solid fa-heart icon "></i>
+                            <div><i class="fa-solid fa-heart icon" style="color: rgb(207, 3, 169)"></i>
                                 <p class="my-0">0</p>
                             </div>
                             {% endif %}
-                            
+                        {% else %}    
+                        <div><i class="fa-solid fa-heart icon"></i>   
+                        </div>
+                        {% endif %}    
                       </div>
                     </a>
                   </li> 
                   <li class="list-inline-item my-4">
-                      <a class="{% if grand_total %}text-danger font-weight-bold{% else %}text-black{% endif %} nav-link" href="{% url 'view_basket' %}">
+                      <a class="nav-link" href="{% url 'view_basket' %}">
                           <div class="text-center">
-                            <div><i class="fa-sharp fa-solid fa-basket-shopping" style="color: rgb(207, 3, 169)"></i></div>
+                            {% if request.user.is_authenticated %}
+                            <div><i class="fa-sharp fa-solid fa-basket-shopping" style="color: rgb(207, 3, 169)"></i>
                                 <p class="my-0" style="color: rgb(207, 3, 169)">
                                     {% if grand_total %}
                                         ${{ grand_total|floatformat:2 }}
@@ -122,6 +126,9 @@
                                     {% endif %}
                                 </p>
                           </div>
+                          {% else %}
+                          <div><i class="fa-sharp fa-solid fa-basket-shopping" style="color: black;"></i></div>
+                          {% endif %}
                       </a>
                   </li>
               </ul>
@@ -137,7 +144,7 @@
             </nav>
         </div>
         <div id="delivery-banner" class="row text-center">
-            <div class="col bg-black text-white">
+            <div class="col text-white">
                 <h6 class="my-1 mx-auto">Free delivery on orders over ${{ free_delivery_threshold }}!</h6>                
             </div>            
         </div>

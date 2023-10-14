@@ -7,9 +7,9 @@
 {% block page_header %}
 <div class="container h-20 my-4 py-3 py-2">
     <div class="col-6 text-center mb-2 mx-auto">
-        <h6 class="logo-font text-white font-weight-bold">
+        <h4 class="logo-font text-white font-weight-bold">
             <i class="fa-sharp fa-solid fa-basket-shopping" style="color: #ffffff;"></i> My Basket
-        </h6>
+        </h4>
     </div>
 </div>
 {% endblock %}
@@ -119,8 +119,8 @@
                 </div>
             </div>
             {% else %}
-            <p class="mb-5">You have no items in your basket.</p>
-            <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg">
+            <h5 class="mb-5 mt-2">Your Basket is Empty.</h5>
+            <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg mb-2">
                 <span class="icon">
                     <i class="fa-solid fa-caret-left"></i>
                 </span>
