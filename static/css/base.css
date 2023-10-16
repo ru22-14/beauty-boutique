@@ -45,8 +45,14 @@ body{
 #sub-heading {
     background-color: #fff;
     margin-top: 2%;
+    height: 400px;
+    align-items: center;
+    margin-bottom: 2%;
 }
 
+.about-text{
+    align-items: center;
+}
 /* from Bulma */
 .icon {
     align-items: center;
