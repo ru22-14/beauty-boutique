@@ -53,6 +53,12 @@ body{
 .about-text{
     align-items: center;
 }
+
+#newsletter-container{
+    background-color: rgba(255, 223, 250, 0.699);
+    height: 200px;
+    padding-top: 15px;
+}
 /* from Bulma */
 .icon {
     align-items: center;
