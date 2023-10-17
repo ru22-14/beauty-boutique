@@ -7,14 +7,17 @@
         <div class="col-12">
             <h1>BEAUTY BOUTIQUE Newsletter</h1>
         </div>
+        <div class="col-12">
+            <h1>Email Newsletter</h1>
+        </div>
         
        {% if form %}
         <div class="col-12 col-md-4">
-            <form method="post" novalidate>
+            <form method="POST">
                 {% csrf_token %}
                 {{ form }}
                 <br>
-                <button type="submit" class="btn btn-success">Register</button>
+                <input type="submit" class="btn btn-success">Register</input>
             </form>
         </div>
         {% endif %}

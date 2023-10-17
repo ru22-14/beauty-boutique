@@ -3,7 +3,7 @@ from .models import Subscriber
 
 class AddSubscriber(admin.ModelAdmin):
     """Class to display Subscribers on admin site"""
-    list_display = ('email', 'confirmation_number', 'confirmed')
+    list_display = ('email')
     
 
 admin.site.register(Subscriber)
