@@ -2,9 +2,12 @@ from django.shortcuts import render, redirect, reverse
 from django.http import HttpResponse
 from django.conf import settings
 from django.contrib import messages
-from .models import Subscriber
-from .forms import SubscriptionForm
-import random
+from django.contrib.auth.decorators import login_required
+from .models import Subscriber, Newsletter
+from .forms import SubscriptionForm, NewsletterForm
+
+
+from django.core.mail import EmailMessage
 
 
 def subscribe(request):
@@ -32,3 +35,31 @@ def subscribe(request):
     }  
     return render(request, 'home/index.html', context)  
 
+
+@login_required
+def newsletter(request):
+    if request.method == 'POST':
+        form = NewsletterForm(request.POST)
+        if form.is_valid():
+            subject = form.cleaned_data.get('subject')
+            receiver = form.cleaned_data.get('receiver')
+            email_message = form.cleaned_data.get('message')
+
+            mail = EmailMessage(subject, email_message, f"Beauty Boutique <{request.user.email}>", bcc=receiver)
+            mail.content_subtype = 'html'
+
+            if mail.send():
+                messages.success(request, "Email sent succesfully")
+            else:
+                messages.error(request, "There was an error sending email")
+
+        else:
+            messages.error(request, f'email sending failed')
+        return redirect('/')
+           
+    form = NewsletterForm()
+    receiver = Subscriber.objects.all()
+    context={
+        "form": form
+        }
+    return render(request, 'newsletter/newsletter.html', context)
