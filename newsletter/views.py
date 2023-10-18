@@ -6,7 +6,6 @@ from django.contrib.auth.decorators import login_required
 from .models import Subscriber, Newsletter
 from .forms import SubscriptionForm, NewsletterForm
 
-
 from django.core.mail import EmailMessage
 
 
@@ -42,7 +41,7 @@ def newsletter(request):
     if not request.user.is_superuser:
         messages.error(request, 'Admin Access Only to Newsletter')
         return redirect(reverse('home'))
-        
+
     email_host = settings.DEFAULT_FROM_EMAIL
     if request.method == 'POST':
         form = NewsletterForm(request.POST)
@@ -53,11 +52,11 @@ def newsletter(request):
             mail = EmailMessage(subject, email_message, f"Beauty Boutique <{email_host}>", bcc=receiver)
             mail.content_subtype = 'html'
             if mail.send():
-                messages.success(request, "Email sent succesfully")
+                messages.success(request, "Email sent succesfully!")
             else:
-                messages.error(request, "There was an error sending email")
+                messages.error(request, "There was an error sending email!")
         else:
-            messages.error(request, f'email sending failed')
+            messages.error(request, f'Email sending failed. Try again!')
         return redirect('/')
            
     form = NewsletterForm()
