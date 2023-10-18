@@ -9,10 +9,11 @@ class SubscriptionForm(forms.ModelForm):
         fields = ('email', 'confirmed',)
 
 
-class NewsletterForm(forms.Form):
+class NewsletterForm(forms.ModelForm):
     """Create Newsletters for subscribers"""
-    message=forms.CharField(widget=TinyMCE(), label="Email content")
+    message = forms.CharField(widget=TinyMCE(), label="Email content")
     class Meta:
         model = Newsletter
-        fields = ['subject', 'receiver', 'message']
+        fields = ['subject', 'receiver']
+       
      

@@ -38,27 +38,30 @@ def subscribe(request):
 
 @login_required
 def newsletter(request):
+
+    if not request.user.is_superuser:
+        messages.error(request, 'Admin Access Only to Newsletter')
+        return redirect(reverse('home'))
+        
+    email_host = settings.DEFAULT_FROM_EMAIL
     if request.method == 'POST':
         form = NewsletterForm(request.POST)
         if form.is_valid():
             subject = form.cleaned_data.get('subject')
-            receiver = form.cleaned_data.get('receiver')
+            receiver = form.cleaned_data.get('receiver').split(',')
             email_message = form.cleaned_data.get('message')
-
-            mail = EmailMessage(subject, email_message, f"Beauty Boutique <{request.user.email}>", bcc=receiver)
+            mail = EmailMessage(subject, email_message, f"Beauty Boutique <{email_host}>", bcc=receiver)
             mail.content_subtype = 'html'
-
             if mail.send():
                 messages.success(request, "Email sent succesfully")
             else:
                 messages.error(request, "There was an error sending email")
-
         else:
             messages.error(request, f'email sending failed')
         return redirect('/')
            
     form = NewsletterForm()
-    receiver = Subscriber.objects.all()
+    form.fields['receiver'].initial = ','.join([active.email for active in Subscriber.objects.all()])
     context={
         "form": form
         }

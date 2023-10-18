@@ -4,16 +4,18 @@
 {% load crispy_forms_tags %}
 {% block content %}
     
-    <div class="container">
-        <div class="col-12">
-            <h1>BEAUTY BOUTIQUE Newsletter</h1>
+    <div class="container bg-white">
+        <div class="col-8 mx-auto my-auto">
+            <h4 class="Newsletter-heading pt-4">BEAUTY BOUTIQUE Newsletter</h4>
+            <hr>
         </div>
-        <div class="content-section">
+        
+        <div class="content-section col-8 mx-auto my-auto text-mute">
             <form method="POST">
                 {% csrf_token %}
                 {{ form|crispy  }}
-                <div class="form-group">
-                    <button class="btn btn-outline-info" type="submit">Send</button>
+                <div class="form-group mx-2 my-0">
+                    <button class="btn btn-black" type="submit">Send</button>
                 </div>
             </form>
         </div>
