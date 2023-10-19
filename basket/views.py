@@ -24,8 +24,8 @@ def add_to_basket(request, item_id):
     if item_id in list(basket.keys()):
         basket[item_id] += quantity
         messages.success(request,
-                             (f'Updated {product.name} '
-                              f'quantity to {basket[item_id]}'))
+                            (f'Updated {product.name} '
+                            f'quantity to {basket[item_id]}'))                         
     else:
         basket[item_id] = quantity
         messages.success(request, f'Added {product.name} to your basket')
@@ -40,12 +40,14 @@ def update_basket(request, item_id):
     quantity = int(request.POST.get('quantity')) 
     basket = request.session.get('basket', {})          
 
-    if quantity > 0:
+    if quantity <= 15 and quantity > 0:
 
         basket[item_id] = quantity
         messages.success(request,
                            (f'Updated {product.name} '
                             f'quantity to {basket[item_id]}'))
+    elif quantity > 15:
+        messages.warning(request, 'sorry this qunatity isnt allowed')                                      
     else:
         basket.pop(item_id)
         messages.success(request,

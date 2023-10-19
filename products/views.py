@@ -78,7 +78,7 @@ def add_product(request):
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only the owner is allowed to do that.')
         return redirect(reverse('home'))
-
+    
     if request.method == 'POST':
         form = ProductForm(request.POST, request.FILES)
         if form.is_valid():
