@@ -181,9 +181,13 @@
     {% block postloadjs %}
     <script type="text/javascript">
         $('.toast').toast('show');
+        $(".toast").fadeIn( function() {
+            setTimeout( function()
+            {
+                $(".toast").fadeOut("slow");
+            }, 4000);
+        });
     </script>
     {% endblock %}
-
-    
-  </body>
+    </body>
 </html>
