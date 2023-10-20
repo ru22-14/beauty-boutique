@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-aj)7@(5y!ksl9#ks0zn2*xgcu@o+gfjvlzsaixd()**7xwkl+y
 DEBUG = True
 
 # ALLOWED_HOSTS = ['8000-ru2214-beautyboutique-i5bthfidac3.ws-eu105.gitpod.io']
-ALLOWED_HOSTS = ['beauty-boutique-0f4969a43fa4.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['beauty-boutique-0f4969a43fa4.herokuapp.com', '8000-ru2214-beautyboutique-i5bthfidac3.ws-eu105.gitpod.io']
 
 
 # Application definition

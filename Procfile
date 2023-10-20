@@ -1,1 +1,1 @@
-web: gunicorn beauty-boutique.wsgi:application
+web: gunicorn beauty_boutique.wsgi:application
