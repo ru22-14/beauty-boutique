@@ -177,6 +177,10 @@ a.category-badge > span.badge:hover {
     height: 5px;
 }
 
+.remove-item {
+    margin-left: 30px;
+}
+
 /* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
 .arrow-up {
     width: 0; 

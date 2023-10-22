@@ -40,6 +40,25 @@
         {% endif %}
     </div>
 </li>
+{% if request.user.is_authenticated %} 
+<li class="list-inline-item">
+    <a class="{% if user_favourites %}text-primary font-weight-bold{% else %}text-black{% endif %} nav-link d-block d-lg-none" href="{% url 'view_favourites' %}">
+        <div class="text-center">
+            {% if user_favourites %}
+            <div><i class="icon fa-solid fa-heart"></i>
+                <p class="my-0">
+                    {{quantity}}
+                </p>
+            {% else %}
+            <div><i class="icon fa-solid fa-heart"></i>
+                <p class="my-0">0</p>
+            </div>
+           {% endif %}
+        </div>
+    </a>
+</li>
+{% endif %}
+
 <li class="list-inline-item">
     <a class="{% if grand_total %}text-primary font-weight-bold{% else %}text-black{% endif %} nav-link d-block d-lg-none" href="{% url 'view_basket' %}">
         <div class="text-center">
@@ -48,7 +67,7 @@
                 {% if grand_total %}
                     ${{ grand_total|floatformat:2 }}
                 {% else %}
-                    $0
+                    0
                 {% endif %}
             </p>
         </div>

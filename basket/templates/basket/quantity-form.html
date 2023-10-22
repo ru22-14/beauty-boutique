@@ -1,11 +1,11 @@
-<p class="my-0 mt-4"><strong>{{ item.product.name }}</strong></p>
-<p class="my-0 small text-muted">SKU: {{ item.product.sku | upper }}</p>
-<p class="text-success font-weight-bold mt-2">{{ product.available_products }} In stock
+<p class="my-0 mt-4 pt-6"><strong>{{ item.product.name }}</strong></p>
+<p class="my-0 small text-muted mt-4">SKU: {{ item.product.sku | upper }}</p>
+<p class="text-success font-weight-bold mt-4">{{ product.available_products }} In stock
 </p>
 <form class="form update-form" method="POST"
     action="{% url 'update_basket' item.item_id %}">
     {% csrf_token %}
-    <div class="form-group mt-4" style="max-width: 150px;">
+    <div class="form-group mt-4 mx-auto my-auto" style="max-width: 150px;">
         <div class="input-group input-group-{{ item.item_id }}">
             <div class="input-group-prepend">
                 <button
@@ -33,5 +33,5 @@
         </div>
     </div>
 </form>
-<a class="update-link text-info mt-2 mx-1">Update</a>
-<a class="remove-item text-danger mx-4 mt-2" id="remove_{{ item.item_id }}">Remove</a>
+<a class="update-link text-info mx-auto">Update</a>
+<a class="remove-item text-danger" id="remove_{{ item.item_id }}">Remove</a>
