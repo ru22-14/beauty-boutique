@@ -4,7 +4,7 @@
 {% load crispy_forms_tags %}
 {% block content %}
     
-    <div class="container bg-white">
+    <div class="container bg-white mt-4">
         <div class="col-8 mx-auto my-auto">
             <h4 class="Newsletter-heading pt-4">BEAUTY BOUTIQUE Newsletter</h4>
             <hr>
@@ -14,7 +14,7 @@
             <form method="POST">
                 {% csrf_token %}
                 {{ form|crispy  }}
-                <div class="form-group mx-2 my-0">
+                <div class="form-group my-0 mb-4">
                     <button class="btn btn-black" type="submit">Send</button>
                 </div>
             </form>

@@ -2,90 +2,93 @@
 {% load static %}
 
 {% block page_header %}
-    <div class="container h-20 my-4 py-3 py-2">
-        <div class="col-6 text-center mb-2 mx-auto">
-            <h4 class="logo-font text-white font-weight-bold">
-                <i class="fa-sharp fa-solid fa-heart" style="color: #ffffff;"></i> My Favourites</h4>
-        </div>
+<div class="container h-20 my-4 py-3 py-2">
+    <div class="col-6 text-center mb-2 mx-auto">
+        <h4 class="logo-font text-white font-weight-bold">
+            <i class="fa-sharp fa-solid fa-heart" style="color: #ffffff;"></i> My Favourites
+        </h4>
     </div>
+</div>
 {% endblock %}
 
 {% block content %}
 
 <div class="container-fluid bg-white">
-    <div class="col-12 text-center"> 
+    <div class="col-12 text-center">
         {% if user_favourites %}
-            <!-- favourite Products -->
+        <!-- favourite Products -->
 
-            {% for product in user_favourites %}
-            <div class="fvt-product-container container-fluid mt-4">
-                <div class="row">
-                    <div class="col-sm-12 col-lg-3 d-flex align-items-center">
-                        <div class="fvt-image-container">
-                            {% if product.image %}
-                            <a href="{{ product.image.url }}" target="_blank">
-                                <img class="fvt-img py-3 w-50" src="{{ product.image.url }}" alt="{{ product.name }}">
-                            </a>
-                            {% else %}
-                            <a href="">
-                                <img class="fvt-img py-3 w-50" src="{{ MEDIA_URL }}noimage.jpg" alt="{{ product.name }}">
-                            </a>
-                           {% endif %}
-                        </div>
+        {% for product in user_favourites %}
+        <div class="fvt-product-container container-fluid mt-4">
+            <div class="row">
+                <div class="col-sm-12 col-lg-3 d-flex align-items-center">
+                    <div class="fvt-image-container">
+                        {% if product.image %}
+                        <a href="{{ product.image.url }}" target="_blank">
+                            <img class="fvt-img py-3 w-50" src="{{ product.image.url }}" alt="{{ product.name }}">
+                        </a>
+                        {% else %}
+                        <a href="">
+                            <img class="fvt-img py-3 w-50" src="{{ MEDIA_URL }}noimage.jpg" alt="{{ product.name }}">
+                        </a>
+                        {% endif %}
                     </div>
-                    <div class="col-sm-12 col-lg-3 fvt-align d-flex align-items-center">
-                        <div class="col-12">
-                            <div class="col-8 mb-1 mt-4">
-                                <h6 class="fvt-heading font-weight-600">{{ product.name }}</h6>
-                            </div>
-                            <div class="col-6 mb-1">
-                                <h6 class="fvt-heading">${{ product.price }}</h6>
-                            </div><div class="col-6 mb-1">
+                </div>
+                <div class="col-sm-12 col-lg-3 fvt-align d-flex align-items-center">
+                    <div class="col-12">
+                        <div class="col-8 mb-1 mt-4">
+                            <h6 class="fvt-heading font-weight-600">{{ product.name }}</h6>
+                        </div>
+                        <div class="col-6 mb-1">
+                            <h6 class="fvt-heading">${{ product.price }}</h6>
+                        </div>
+                        <div class="col-6 mb-1">
                             {% if product.available_products %}
-                            <h6 class="text-center availability font-weight-bold text-success">In Stock 
+                            <h6 class="text-center availability font-weight-bold text-success">In Stock
                             </h6>
                             {% else %}
-                            <small class="text-center availability">Out Of Stock 
+                            <small class="text-center availability">Out Of Stock
                                 <i class="fa-solid fa-circle-xmark text-danger"></i>
                             </small>
                             {% endif %}
-                            </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-lg-6 fvt-align pl-4 d-flex align-items-center">
-                        
-                        
-                        <form class="form" action="{% url 'add_to_basket' product.id %}" method="POST">
-                            {% csrf_token %}
-                            <div class="form-row">
-                                <div class="col-12 d-none">
-                                    <div class="form-group w-50">
-                                        <div class="input-group-selector">
-                                            <select class="form-control custom-select"
-                                            name="quantity">
-                                                <option>1</option>
-                                            </select> 
-                                        </div>
+                </div>
+                <div class="col-sm-12 col-lg-6 fvt-align pl-4 d-flex align-items-center">
+
+
+                    <form class="form" action="{% url 'add_to_basket' product.id %}" method="POST">
+                        {% csrf_token %}
+                        <div class="form-row">
+                            <div class="col-12 d-none">
+                                <div class="form-group w-50">
+                                    <div class="input-group-selector">
+                                        <select class="form-control custom-select" name="quantity">
+                                            <option>1</option>
+                                        </select>
                                     </div>
                                 </div>
-                                {% if product.available_products %}
-                                <div class="btn ml-1 mb-1">
-                                    <input class="btn btn-black btn-sm  text-center rounded-2 text-uppercase mt-2" type="submit" value="Add To Basket">
-                                </div>
-
-                                <input type="hidden" name="redirect_url" value="{{ request.path }}">
-                                {% endif %}
-                                <div class="btn">
-                                    <a class="btn btn-black btn-sm text-center rounded-2 text-uppercase mt-2" href="{% url 'add_to_favourites' product.id  %}">
-                                    Remove  
-                                    </a>
-                                </div>
                             </div>
-                        </form>      
-                    </div>
-                </div>    
+                            {% if product.available_products %}
+                            <div class="btn ml-1 mb-1">
+                                <input class="btn btn-black btn-sm  text-center rounded-2 text-uppercase mt-2"
+                                    type="submit" value="Add To Basket">
+                            </div>
+
+                            <input type="hidden" name="redirect_url" value="{{ request.path }}">
+                            {% endif %}
+                            <div class="btn">
+                                <a class="btn btn-black btn-sm text-center rounded-2 text-uppercase mt-2"
+                                    href="{% url 'add_to_favourites' product.id  %}">
+                                    Remove
+                                </a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </div>
-            {% endfor %}
+        </div>
+        {% endfor %}
         {% else %}
         <h5>
             Your Favourites is Empty.
