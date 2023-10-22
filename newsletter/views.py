@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect, reverse
 from django.http import HttpResponse
 from django.conf import settings
 from django.contrib import messages
+from django.core.mail import EmailMessage
 from django.contrib.auth.decorators import login_required
 from .models import Subscriber, Newsletter
 from .forms import SubscriptionForm, NewsletterForm
@@ -19,18 +20,16 @@ def subscribe(request):
             if not subscribed_user:
                 form.save()
                 confirmed = True
-                messages.success(request, f'{email} is registered Successfully!')
+                messages.info(request, f'{email} is registered Successfully!')
                 return redirect(request.META.get("HTTP_REFERER", "/"))
-                
-
         else:
             messages.error(request, f'{email} has already been registered!')
             return redirect(request.META.get("HTTP_REFERER", "/"))
     else:
         form = SubscriptionForm()
     context = {
-        'form' : form,
-        'confirmed' : confirmed,
+        'form': form,
+        'confirmed': confirmed,
     }  
     return render(request, 'home/index.html', context)  
 
@@ -52,13 +51,12 @@ def newsletter(request):
             mail = EmailMessage(subject, email_message, f"Beauty Boutique <{email_host}>", bcc=receiver)
             mail.content_subtype = 'html'
             if mail.send():
-                messages.success(request, "Email sent succesfully!")
+                messages.success(request, f"Email sent succesfully!")
             else:
-                messages.error(request, "There was an error sending email!")
+                messages.error(request, f"There was an error sending email!")
         else:
             messages.error(request, f'Email sending failed. Try again!')
         return redirect('/')
-           
     form = NewsletterForm()
     form.fields['receiver'].initial = ','.join([active.email for active in Subscriber.objects.all()])
     context={

@@ -1,5 +1,6 @@
 from products.models import Product
 
+
 def favourites_contents(request):
     """
     Allows access to favourites data throughout site
@@ -14,8 +15,7 @@ def favourites_contents(request):
         
     context = {
         "user_favourites": products,
-        "quantity" : quantity,
-            # "on_favourites" : True,
+        "quantity": quantity,
         }    
     return(context)   
 

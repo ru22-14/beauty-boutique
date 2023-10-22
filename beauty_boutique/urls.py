@@ -31,4 +31,5 @@ urlpatterns = [
     path('newsletter/', include('newsletter.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
-handler404 = 'beauty_boutique.views.handler404'
+
+handler404 = handler404

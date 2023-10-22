@@ -48,13 +48,14 @@ def all_products(request):
 
     current_sorting = f'{sort}_{direction}'
     context = {
-        'products' : products,
-        'search_term' : query,
-        'current_categories' : categories,
-        'current_sorting' : current_sorting,
+        'products': products,
+        'search_term': query,
+        'current_categories': categories,
+        'current_sorting': current_sorting,
     }
 
     return render(request, 'products/products.html', context)
+
 
 def product_detail(request, product_id):
     """A view to show all products, including sorting and search queries"""
@@ -66,11 +67,12 @@ def product_detail(request, product_id):
         is_favourite = True
 
     context = {
-        'product' : product,
-        'is_favourite' : is_favourite,
+        'product': product,
+        'is_favourite': is_favourite,
     }
 
     return render(request, 'products/product_detail.html', context)
+
 
 @login_required
 def add_product(request):

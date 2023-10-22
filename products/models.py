@@ -1,7 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import User
 
-# Create your models here.
+
 class Category(models.Model):
     
     class Meta:
@@ -14,6 +14,7 @@ class Category(models.Model):
 
     def get_friendly_name(self):
         return self.friendly_name
+
 
 class Product(models.Model):
     category = models.ForeignKey('Category', null=True, blank=True,
@@ -28,7 +29,7 @@ class Product(models.Model):
                                  blank=True)
     image_url = models.URLField(max_length=1024, null=True, blank=True)
     image = models.ImageField(null=True, blank=True)
-    available_products =  models.IntegerField(default=15)
+    available_products = models.IntegerField(default=15)
     user_favourites = models.ManyToManyField(User, related_name='favourites', blank=True)
 
     def __str__(self):

@@ -8,6 +8,12 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="Beauty Products Webstore">
+        <meta name="keywords"
+            content="beauty, boutique, makeup, skin care, hair care, complexion, body, lotion, highlighter, 
+                    lipstick, foundation, eyeshadow, perfume, scents, attar, face, facial spray, cleanser,
+                    shampoo, conditioner, mask, moisturiser, scrub, foundation, powder, palette, eyeliner,
+                    mascara, perfume">
     {% endblock %}
 
     {% block extra_meta %}
@@ -93,11 +99,11 @@
                           {% endif %}
                       </div>
                   </li>
+                  {% if request.user.is_authenticated %}  
                   <li class="list-inline-item my-auto">
                     <a class="text-black nav-link" href="{% url 'view_favourites' %}" id="user-options"  aria-haspopup="true" aria-expanded="false">
                       <div class="text-center">
-                        {% if request.user.is_authenticated %}    
-                            {% if user_favourites %}
+                           {% if user_favourites %}
                             <div><i class="icon fa-solid fa-heart" style="color: rgb(207, 3, 169)"></i>
                                 <p class="my-0" style="color: rgb(207, 3, 169)">
                                     {{quantity}}
@@ -106,13 +112,10 @@
                             <div><i class="icon fa-solid fa-heart" style="color: rgb(207, 3, 169)"></i>
                                 <p class="my-0" style="color: rgb(207, 3, 169)">0</p>
                             </div>
-                            {% endif %}
-                        {% else %}    
-                        <div><i class="fa-solid fa-heart icon"></i>   
-                        </div>
-                        {% endif %}    
-                      </div>
+                           {% endif %}
+                        </div>      
                     </a>
+                  {% endif %}  
                   </li> 
                   <li class="list-inline-item my-auto">
                       <a class="nav-link" href="{% url 'view_basket' %}">

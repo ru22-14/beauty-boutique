@@ -2,7 +2,6 @@ from django.shortcuts import render, get_object_or_404, HttpResponseRedirect
 from django.contrib import messages
 from products.models import Product
 
-# Create your views here.
 
 def view_favourites(request):
     """ View that renders favourites page content """
@@ -18,8 +17,8 @@ def add_to_favourites(request, product_id):
         product.user_favourites.remove(request.user)
         messages.info(request, 'Removed from Favourites!')
     else:
-         product.user_favourites.add(request.user)
-         messages.info(request, 'Successfully added to Favourites!')   
+        product.user_favourites.add(request.user)
+        messages.info(request, 'Successfully added to Favourites!')   
     return HttpResponseRedirect(request.META["HTTP_REFERER"],)
 
  
