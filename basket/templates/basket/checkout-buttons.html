@@ -1,4 +1,4 @@
-{% if user.is_authenticated %}
+
 <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-md">
     <span class="icon">
         <i class="fa-solid fa-caret-left"></i>
@@ -11,11 +11,4 @@
         <i class="fas fa-lock"></i>
     </span>
 </a>
-{% else %}
-<a href="{% url 'account_login' %}" class="btn btn-black rounded-0 btn-md">
-    <span class="text-uppercase">Login</span>
-</a>
-<a href="{% url 'account_signup' %}" class="btn btn-black rounded-0 btn-md">
-    <span class="text-uppercase">Register</span>
-</a>
-{% endif %}
+

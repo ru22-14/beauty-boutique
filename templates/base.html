@@ -80,7 +80,9 @@
                           
                           {% else %}
                           <div>
-                          <i class="fas fa-user fa-lg"></i></div>
+                          <i class="fas fa-user fa-lg"></i>
+                          <p class="my-0 text-black">Guest</p>
+                          </div>
                           {% endif %}
                       </div>
                       </a>
@@ -130,14 +132,22 @@
                                     {% endif %}
                                 </p>
                             </div>
-                          {% else %}
-                          <div><i class="fa-sharp fa-solid fa-basket-shopping" style="color: black;"></i></div>
-                          {% endif %}
-                        </div>  
-                      </a>
-                  </li>
-              </ul>
-          </div>
+                            {% else %}
+                            <div><i class="fa-sharp fa-solid fa-basket-shopping" style="color: black;"></i>
+                                <p class="my-0 text-black">
+                                    {% if grand_total %}
+                                        ${{ grand_total|floatformat:2 }}
+                                    {% else %}
+                                        0
+                                    {% endif %}
+                                </p>    
+                            </div>
+                            {% endif %}
+                           </div>  
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
         <div id="nav-bar" class="row">
             <nav class="navbar navbar-expand-lg navbar-light w-100">
