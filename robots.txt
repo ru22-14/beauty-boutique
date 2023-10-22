@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /accounts/
+Disallow: /profiles/
+Disallow: /basket/
+Disallow: /checkout/
+Disallow: /favourites/
+Disallow: /admin/
+Sitemap: https://beauty-boutique-0f4969a43fa4.herokuapp.com/Sitemap.xml
