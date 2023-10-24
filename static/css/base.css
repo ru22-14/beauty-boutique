@@ -466,6 +466,12 @@ a.category-badge > span.badge:hover {
 }
 
 @media (max-width: 350px){
+    .list-inline-item:not(:last-child) {
+         margin-right: 0; 
+    }
+    .nav-link {
+        padding: 0;
+    }
     h1 {
         font-size: small;
         margin-top: 0;
@@ -482,6 +488,11 @@ a.category-badge > span.badge:hover {
         display: none;
         
       }
+
+}
+
+@media (max-width: 250px){
+
 
 }
 
