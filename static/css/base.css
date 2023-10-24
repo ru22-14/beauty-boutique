@@ -384,9 +384,33 @@ a.category-badge > span.badge:hover {
     .increment-qty, .decrement-qty {
         padding: .25rem .5rem !important;
     }
+
+    h1 {
+        font-size: xx-large;
+
+    }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 700px){
+    .highlights-button {
+        margin-top: 250px;
+        float: left;
+        margin-left: 30px;
+    } 
+    h1{
+        font-size: medium;
+        margin-top: 20px;
+    }
+    .discover-button {
+        margin-top: 50px;
+        font-size: small;
+        height: 50px;
+        min-width: 65px;
+        
+      }
+}
+
+@media (max-width: 450px) {
     #hero-img{
         height: 200px;
         width: 100%;
@@ -403,7 +427,7 @@ a.category-badge > span.badge:hover {
     .highlights-button {
         
         margin-right: 0;
-        margin-left: 160px;
+        margin-left: 210px;
         margin-top: 100px;
     }
     #about-container {
@@ -441,21 +465,23 @@ a.category-badge > span.badge:hover {
 
 }
 
-@media (max-width: 700px){
-    .highlights-button {
-        margin-top: 260px;
-        float: left;
-        margin-left: 25px;
-    } 
-    h1{
-        font-size: x-large;
-        margin-top: 50px;
-    }
-    .discover-button {
-        margin-top: 50px;
+@media (max-width: 350px){
+    h1 {
         font-size: small;
-        height: 50px;
-        min-width: 65px;
+        margin-top: 0;
+    }
+    #highlights{
+        margin-left: 8%;
+        height: 160px;
+    }
+    .highlights-button {
+        margin-top: 100px;
+        margin-left: 140px;
+    } 
+    .discover-button {
+        display: none;
         
       }
+
 }
+
