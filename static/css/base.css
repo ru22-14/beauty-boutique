@@ -465,7 +465,7 @@ a.category-badge > span.badge:hover {
 
 }
 
-@media (max-width: 350px){
+@media (max-width: 360px){
     .list-inline-item:not(:last-child) {
          margin-right: 0; 
     }
@@ -482,17 +482,19 @@ a.category-badge > span.badge:hover {
     }
     .highlights-button {
         margin-top: 100px;
-        margin-left: 140px;
+        margin-left: 160px;
     } 
     .discover-button {
         display: none;
         
-      }
+    }
+    .confirmation-text {
+        font-size: small;
+    }
+    .summary-text {
+        font-size: x-small;
+    }
 
 }
 
-@media (max-width: 250px){
-
-
-}
 
