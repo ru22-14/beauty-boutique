@@ -93,7 +93,13 @@
         <h5>
             Your Favourites is Empty.
         </h5>
-        <p>Please add your favourite products.</p>
+        <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg mb-2">
+            <span class="icon">
+                <i class="fa-solid fa-caret-left"></i>
+            </span>
+            <span class="text-uppercase">add products to favourites
+            </span>
+        </a>
         {% endif %}
     </div>
 </div>
