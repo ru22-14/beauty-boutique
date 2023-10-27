@@ -78,23 +78,23 @@
 <img src="static/media/desktop-myprofile.jpg" width="100%" align = "center"> <br>
 #### Mobile Wireframes
 
-<img src="static/media/mobile-home.jpg" width="100%" align = "center"> <br>
+<img src="static/media/mobile-home.jpg" width="50%" align = "center"> <br>
 
-<img src="static/media/mobile-products.jpg" width="100%" align = "center"> <br>
+<img src="static/media/mobile-products.jpg" width="50%" align = "center"> <br>
 
-<img src="static/media/mobile-product-detail.jpg" width="100%" align = "center"> <br>
+<img src="static/media/mobile-product-detail.jpg" width="50%" align = "center"> <br>
 
-<img src="static/media/mobile-product-management.jpg" width="100%" align = "center"> <br>
+<img src="static/media/mobile-product-management.jpg" width="50%" align = "center"> <br>
 
-<img src="static/media/mobile-favourites.jpg" width="100%" align = "center"> <br>
+<img src="static/media/mobile-favourites.jpg" width="50%" align = "center"> <br>
 
-<img src="static/media/mobile-basket.jpg" width="100%" align = "center"> <br>
+<img src="static/media/mobile-basket.jpg" width="50%" align = "center"> <br>
 
-<img src="static/media/mobile-checkout-form.jpg" width="100%" align = "center"> <br>
+<img src="static/media/mobile-checkout-form.jpg" width="50%" align = "center"> <br>
 
-<img src="static/media/mobile-checkout-success.jpg" width="100%" align = "center"> <br>
+<img src="static/media/mobile-checkout-success.jpg" width="50%" align = "center"> <br>
 
-<img src="static/media/mobile-myprofile.jpg" width="100%" align = "center"> <br>
+<img src="static/media/mobile-myprofile.jpg" width="50%" align = "center"> <br>
 
 
 
