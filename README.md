@@ -8,7 +8,7 @@
 
 
 # Table of Contents
-### [Planning and Design](#planning-and-design)
+## [Planning and Design](#planning-and-design)
 
 - [Wireframes](#wireframes)
    - [Desktop Wireframes](#desktop-wireframes)
@@ -16,15 +16,16 @@
 - [User Stories](#user-stories) 
 - [Database Schema](#database-schema)
 
-### [Agile](#agile)
-### [Features](#features)
+## [Agile](#agile)
+## [Features](#features)
 
 - [Existing Features](#existing-features)
    - [Features Across All Pages](#features-across-all-pages) 
       - [The Navbar](#the-navbar) 
       - [The Delivery Banner](#the-delivery-banner)
       - [Footer](#footer) 
-   - [Individual Pages](#individual-pages)   
+   - [Individual Pages](#individual-pages) 
+      - [Landing Page](#landing-page)  
       - [Home Page](#home-page)
       - [Products Page](#products-page)
       - [Product Detail Page](#products-detail-page)
@@ -34,23 +35,23 @@
       - [Newsletter Page](#newsletter-page)
       - [Subscribe](#subscribe)
       - [User Account Page](#user-account-page)
-      - [Admin](#admin)
+      - [Admin Site](#admin-site)
       - [Error Page](#error-page)
 
-### [Testing](#testing)
+## [Testing](#testing)
 
-### [Webmarketing](#webmarketing)
+## [Webmarketing](#webmarketing)
 
    - [SEO](#seo)
    - [Content Marketing](#content-marketing)
 
-### [Technologies Used](#technologies-used)
+## [Technologies Used](#technologies-used)
 
-### [Deployment](#Deployment)
+## [Deployment](#Deployment)
 
-### [Credits](#credits)
+## [Credits](#credits)
 
-### [Acknowledgement](#acknowledgement)
+## [Acknowledgement](#acknowledgement)
 
 # Planning and Design
 
@@ -78,24 +79,94 @@
 <img src="static/media/desktop-myprofile.jpg" width="100%" align = "center"> <br>
 #### Mobile Wireframes
 
-<img src="static/media/mobile-home.jpg" width="50%" height="300px" align = "center"> <br>
+<img src="static/media/mobile-home.jpg" width="50%" height="500px" align = "center"> <br>
 
-<img src="static/media/mobile-products.jpg" width="50%" height="300px" align = "center"> <br>
+<img src="static/media/mobile-products.jpg" width="50%" height="500px" align = "center"> <br>
 
-<img src="static/media/mobile-product-detail.jpg" width="50%" height="300px" align = "center"> <br>
+<img src="static/media/mobile-product-detail.jpg" width="50%" height="500px" align = "center"> <br>
 
-<img src="static/media/mobile-product-management.jpg" width="50%" height="300px" align = "center"> <br>
+<img src="static/media/mobile-product-management.jpg" width="50%" height="500px" align = "center"> <br>
 
-<img src="static/media/mobile-favourites.jpg" width="50%" height="300px" align = "center"> <br>
+<img src="static/media/mobile-favourites.jpg" width="50%" height="500px" align = "center"> <br>
 
 <img src="static/media/mobile-basket.jpg" width="50%" 
-height="300px" align = "center"> <br>
+height="500px" align = "center"> <br>
 
-<img src="static/media/mobile-checkout-form.jpg" width="50%" height="300px" align = "center"> <br>
+<img src="static/media/mobile-checkout-form.jpg" width="50%" height="500px" align = "center"> <br>
 
-<img src="static/media/mobile-checkout-success.jpg" width="50%" height="300px" align = "center"> <br>
+<img src="static/media/mobile-checkout-success.jpg" width="50%" height="500px" align = "center"> <br>
 
-<img src="static/media/mobile-myprofile.jpg" width="50%" height="300px" align = "center"> <br>
+<img src="static/media/mobile-myprofile.jpg" width="50%" height="500px" align = "center"> <br>
+
+## User Stories
+
+## Database Schema
+
+<img src="static/media/er-diagram.jpg" width="100%"  align = "center"> <br>
+
+# Agile
+
+### [Beauty Boutique Kanban Board](https://github.com/users/ru22-14/projects/6/views/1) <br><br>
+
+# Features
+
+## Existing Features
+### Features accross all Pages
+### The Navbar
+
+### The Delivery Banner
+
+### Footer
+
+### Individual Pages
+
+### Landing Page
+
+### Home Page
+   
+### Products Page
+
+### Product Detail Page
+
+### My Favourites Page
+
+### Basket Page
+
+### Checkout Page
+
+### Home Page
+
+### Newsletter Page
+
+### Subscribe
+
+### User Account Page
+
+### Admin Site
+
+### Error Page
+
+# Testing
+
+# Web Marketing
+
+## SEO
+
+## Content Marketing
+
+# Technologies Used
+
+# Deployment
+
+# Credits
+
+# Acknowledgement
+
+
+
+
+
+
 
 
 
