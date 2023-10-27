@@ -166,19 +166,19 @@ height="600px" align = "center"> <br>
 
 <img src="static/media/fvrts-icon-colour.jpg" width="80%" align = "center"><br>
 
-<img src="static/media/favourites-added-msg.jpg" width="80%" align = "center"> <br>
+<img src="static/media/favourites-added-msg.jpg" width="50%" align = "center"> <br>
 
-<img src="static/media/fvrt-nav-added.jpg" width="80%" align = "center"> <br>
+<img src="static/media/fvrt-nav-added.jpg" width="30%" align = "center"> <br>
 
-<img src="static/media/remove-fvrt-icon.jpg" width="80%" align = "center"> <br>
+<img src="static/media/remove-fvrt-icon.jpg" width="30%" align = "center"> <br>
 
 <img src="static/media/favourites-remove-msg.jpg" width="80%" align = "center"> <br>
 
-<img src="static/media/basket-mg-delivery.jpg" width="80%" align = "center"> <br>
+<img src="static/media/basket-mg-delivery.jpg" width="50%" align = "center"> <br>
 
-<img src="static/media/basket-msg.jpg" width="80%" align = "center"> <br>
+<img src="static/media/basket-msg.jpg" width="50%" align = "center"> <br>
 
-<img src="static/media/basket-icon.jpg" width="80%" align = "center"> <br>
+<img src="static/media/basket-icon.jpg" width="30%" align = "center"> <br>
 
 ### My Favourites Page
 
@@ -193,10 +193,10 @@ height="600px" align = "center"> <br>
 <img src="static/media/basket-top.jpg" width="80%" align = "center"> 
 <img src="static/media/basket-bottom.jpg" width="80%" align = "center"> <br><br>
 
-<img src="static/media/basket-qty.jpg" width="80%" align = "center"> 
+<img src="static/media/basket-qty.jpg" width="50%" align = "center"> 
 <br>
 
-<img src="static/media/basket-icon.jpg" width="50%" align = "center"> <br>
+<img src="static/media/basket-icon.jpg" width="30%" align = "center"> <br>
 
 <img src="static/media/empty-basket.jpg" width="80%" align = "center"> <br>
 
@@ -215,7 +215,7 @@ height="600px" align = "center"> <br>
 
 <img src="static/media/newsletter.jpg" width="80%" align = "center"> <br>
 
-<img src="static/media/newsletter-sent-msg.jpg" width="80%" align = "center"> <br>
+<img src="static/media/newsletter-sent-msg.jpg" width="50%" align = "center"> <br>
 
 <img src="static/media/newsletter-email.jpg" width="80%" align = "center"> <br>
 
@@ -235,7 +235,7 @@ height="600px" align = "center"> <br>
 
 <img src="static/media/signout.jpg" width="80%" align = "center"> <br>
 
-<img src="static/media/signout-msg.jpg" width="80%" align = "center"> <br>
+<img src="static/media/signout-msg.jpg" width="50%" align = "center"> <br>
 
 ### Admin Site
 
