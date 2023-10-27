@@ -61,42 +61,42 @@
 
 <img src="static/media/desktop-home.jpg" width="100%" align = "center"> <br>
 
-<img src="static/media/desktop-products.jpg" width="100%" align = "center"><br>
+<img src="static/media/desktop-products.jpg" width="80%" align = "center"><br>
 
-<img src="static/media/desktop-product-detail.jpg" width="100%" align = "center"> <br>
+<img src="static/media/desktop-product-detail.jpg" width="80%" align = "center"> <br>
 
-<img src="static/media/desktop-product-management.jpg" width="100%" align = "center"> <br>
+<img src="static/media/desktop-product-management.jpg" width="80%" align = "center"> <br>
 
-<img src="static/media/desktop-favourites.jpg" width="100%" align = "center"> <br>
+<img src="static/media/desktop-favourites.jpg" width="80%" align = "center"> <br>
 
-<img src="static/media/desktop-basket.jpg" width="100%" align = "center"> <br>
+<img src="static/media/desktop-basket.jpg" width="80%" align = "center"> <br>
 
-<img src="static/media/desktop-checkout-form.jpg" width="100%" align = "center"> <br>
+<img src="static/media/desktop-checkout-form.jpg" width="80%" align = "center"> <br>
 
 <img src="static/media/desktop-checkout-success.jpg"
- width="100%" align = "center"> <br>
+ width="80%" align = "center"> <br>
 
-<img src="static/media/desktop-myprofile.jpg" width="100%" align = "center"> <br>
+<img src="static/media/desktop-myprofile.jpg" width="80%" align = "center"> <br>
 #### Mobile Wireframes
 
-<img src="static/media/mobile-home.jpg" width="50%" height="500px" align = "center"> <br>
+<img src="static/media/mobile-home.jpg" width="50%" height="600px" align = "center"> <br>
 
-<img src="static/media/mobile-products.jpg" width="50%" height="500px" align = "center"> <br>
+<img src="static/media/mobile-products.jpg" width="50%" height="600px" align = "center"> <br>
 
-<img src="static/media/mobile-product-detail.jpg" width="50%" height="500px" align = "center"> <br>
+<img src="static/media/mobile-product-detail.jpg" width="50%" height="600px" align = "center"> <br>
 
-<img src="static/media/mobile-product-management.jpg" width="50%" height="500px" align = "center"> <br>
+<img src="static/media/mobile-product-management.jpg" width="50%" height="600px" align = "center"> <br>
 
-<img src="static/media/mobile-favourites.jpg" width="50%" height="500px" align = "center"> <br>
+<img src="static/media/mobile-favourites.jpg" width="50%" height="600px" align = "center"> <br>
 
 <img src="static/media/mobile-basket.jpg" width="50%" 
-height="500px" align = "center"> <br>
+height="600px" align = "center"> <br>
 
-<img src="static/media/mobile-checkout-form.jpg" width="50%" height="500px" align = "center"> <br>
+<img src="static/media/mobile-checkout-form.jpg" width="50%" height="600px" align = "center"> <br>
 
-<img src="static/media/mobile-checkout-success.jpg" width="50%" height="500px" align = "center"> <br>
+<img src="static/media/mobile-checkout-success.jpg" width="50%" height="600px" align = "center"> <br>
 
-<img src="static/media/mobile-myprofile.jpg" width="50%" height="500px" align = "center"> <br>
+<img src="static/media/mobile-myprofile.jpg" width="50%" height="600px" align = "center"> <br>
 
 ## User Stories
 
