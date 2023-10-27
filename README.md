@@ -114,37 +114,144 @@ height="600px" align = "center"> <br>
 ### Features accross all Pages
 ### The Navbar
 
+<img src="static/media/whole-nav.jpg" width="80%" align = "center"> <br>
+
 ### The Delivery Banner
 
+<img src="static/media/delivery-banner.jpg" width="80%" align = "center"> <br>
+
 ### Footer
+
+<img src="static/media/footer.jpg" width="80%" align = "center"> <br>
 
 ### Individual Pages
 
 ### Landing Page
 
+<img src="static/media/landing-page.jpg" width="80%" align = "center"> <br>
+
 ### Home Page
+
+<img src="static/media/home-page.jpg" width="80%" align = "center"> 
+<img src="static/media/about-us.jpg" width="80%" align = "center">
+<img src="static/media/footer.jpg" width="80%" align = "center"> <br>
    
 ### Products Page
 
+<img src="static/media/products-page.jpg" width="80%" align = "center"> <br>
+
+<img src="static/media/skincare-products.jpg" width="80%" align = "center"> <br>
+
+<img src="static/media/bodycare-products.jpg" width="80%" align = "center"> <br>
+
+<img src="static/media/haircare-products.jpg" width="80%" align = "center"> <br>
+
+<img src="static/media/complexion-top.jpg" width="80%" align = "center"> <br>
+
+<img src="static/media/eyeshadow-top.jpg" width="80%" align = "center"> <br>
+
+<img src="static/media/lipstick-top.jpg" width="80%" align = "center"> <br>
+
+<img src="static/media/scents-top.jpg" width="80%" align = "center"> <br>
+
+<img src="static/media/attar-top.jpg" width="80%" align = "center"> <br>
+
+<img src="static/media/new-arrivals-top.jpg" width="80%" align = "center"> <br>
+
+<img src="static/media/sale-top.jpg" width="80%" align = "center"> <br>
+
 ### Product Detail Page
+
+<img src="static/media/product-detail-page.jpg" width="80%" align = "center"> <br>
+
+<img src="static/media/fvrts-icon-colour.jpg" width="80%" align = "center"><br>
+
+<img src="static/media/favourites-added-msg.jpg" width="80%" align = "center"> <br>
+
+<img src="static/media/fvrt-nav-added.jpg" width="80%" align = "center"> <br>
+
+<img src="static/media/remove-fvrt-icon.jpg" width="80%" align = "center"> <br>
+
+<img src="static/media/favourites-remove-msg.jpg" width="80%" align = "center"> <br>
+
+<img src="static/media/basket-mg-delivery.jpg" width="80%" align = "center"> <br>
+
+<img src="static/media/basket-msg.jpg" width="80%" align = "center"> <br>
+
+<img src="static/media/basket-icon.jpg" width="80%" align = "center"> <br>
 
 ### My Favourites Page
 
+<img src="static/media/favourites-page.jpg" width="80%" align = "center"> <br>
+
+<img src="static/media/empty-favourites.jpg" width="80%" align = "center"> <br>
+
+<img src="static/media/empty-fvrt-nav.jpg" width="80%" align = "center"> <br>
+
 ### Basket Page
+
+<img src="static/media/basket-top.jpg" width="80%" align = "center"> 
+<img src="static/media/basket-bottom.jpg" width="80%" align = "center"> <br><br>
+
+<img src="static/media/basket-qty.jpg" width="80%" align = "center"> 
+<br>
+
+<img src="static/media/basket-icon.jpg" width="50%" align = "center"> <br>
+
+<img src="static/media/empty-basket.jpg" width="80%" align = "center"> <br>
 
 ### Checkout Page
 
-### Home Page
+<img src="static/media/checkout-top.jpg" width="80%" align = "center"> <img src="static/media/checkout-bottom.jpg" width="80%" align = "center"> <br><br>
+
+<img src="static/media/checkout-successfull.jpg" width="80%" align = "center"> <br>
+
+### My Profile Page
+
+<img src="static/media/order-history.jpg" width="80%" align = "center"> <br>
+
 
 ### Newsletter Page
 
+<img src="static/media/newsletter.jpg" width="80%" align = "center"> <br>
+
+<img src="static/media/newsletter-sent-msg.jpg" width="80%" align = "center"> <br>
+
+<img src="static/media/newsletter-email.jpg" width="80%" align = "center"> <br>
+
 ### Subscribe
+
+<img src="static/media/subscribe-email.jpg" width="80%" align = "center"> <br>
+
+<img src="static/media/subscription-success.jpg" width="80%" align = "center"> <br>
+
+<img src="static/media/subscription-error.jpg" width="80%" align = "center"> <br>
 
 ### User Account Page
 
+<img src="static/media/signup-page.jpg" width="80%" align = "center"> <br>
+
+<img src="static/media/signin-page.jpg" width="80%" align = "center"> <br>
+
+<img src="static/media/signout.jpg" width="80%" align = "center"> <br>
+
+<img src="static/media/signout-msg.jpg" width="80%" align = "center"> <br>
+
 ### Admin Site
 
+<img src="static/media/admin-site.jpg" width="80%" align = "center"> <br>
+
+<img src="static/media/admin-products.jpg" width="80%" align = "center"> <br>
+
+<img src="static/media/admin-categories.jpg" width="80%" align = "center"> <br>
+
+<img src="static/media/admin-order.jpg" width="80%" align = "center"> <br>
+
+<img src="static/media/admin-subscribers.jpg" width="80%" align = "center"> <br>
+
 ### Error Page
+
+<img src="static/media/error-page.jpg" width="80%" align = "center"> <br>
 
 # Testing
 
