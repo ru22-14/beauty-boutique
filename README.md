@@ -7,21 +7,20 @@
 ### [View The Live Project](https://beauty-boutique-0f4969a43fa4.herokuapp.com/) <br><br>
 
 
-# Table of contents
+# Table of Contents
 ### [Planning and Design](#planning-and-design)
 
-- [Wireframes](#wireframes) 
+- [Wireframes](#wireframes)
+   - [Desktop Wireframes](#desktop-wireframes)
+   - [Mobile Wireframes](#mobile-wireframes)
 - [User Stories](#user-stories) 
 - [Database Schema](#database-schema)
 
 ### [Agile](#agile)
-
-- [Beauty Boutique Kanban Board](https://github.com/users/ru22-14/projects/6/views/1)
-
 ### [Features](#features)
 
 - [Existing Features](#existing-features)
-   - [Features All Across Pages](#features-all-across-pages) 
+   - [Features Across All Pages](#features-across-all-pages) 
       - [The Navbar](#the-navbar) 
       - [The Delivery Banner](#the-delivery-banner)
       - [Footer](#footer) 
@@ -38,16 +37,64 @@
       - [Admin](#admin)
       - [Error Page](#error-page)
 
-
-
 ### [Testing](#testing)
 
+### [Webmarketing](#webmarketing)
+
+   - [SEO](#seo)
+   - [Content Marketing](#content-marketing)
+
 ### [Technologies Used](#technologies-used)
+
 ### [Deployment](#Deployment)
 
 ### [Credits](#credits)
 
 ### [Acknowledgement](#acknowledgement)
+
+# Planning and Design
+
+## Wireframes
+
+#### Desktop Wireframes
+
+<img src="static/media/desktop-home.jpg" width="100%" align = "center"> <br>
+
+<img src="static/media/desktop-products.jpg" width="100%" align = "center"><br>
+
+<img src="static/media/desktop-product-detail.jpg" width="100%" align = "center"> <br>
+
+<img src="static/media/desktop-product-management.jpg" width="100%" align = "center"> <br>
+
+<img src="static/media/desktop-favourites.jpg" width="100%" align = "center"> <br>
+
+<img src="static/media/desktop-basket.jpg" width="100%" align = "center"> <br>
+
+<img src="static/media/desktop-checkout-form.jpg" width="100%" align = "center"> <br>
+
+<img src="static/media/desktop-checkout-success.jpg"
+ width="100%" align = "center"> <br>
+
+<img src="static/media/desktop-myprofile.jpg" width="100%" align = "center"> <br>
+#### Mobile Wireframes
+
+<img src="static/media/mobile-home.jpg" width="100%" align = "center"> <br>
+
+<img src="static/media/mobile-products.jpg" width="100%" align = "center"> <br>
+
+<img src="static/media/mobile-product-detail.jpg" width="100%" align = "center"> <br>
+
+<img src="static/media/mobile-product-management.jpg" width="100%" align = "center"> <br>
+
+<img src="static/media/mobile-favourites.jpg" width="100%" align = "center"> <br>
+
+<img src="static/media/mobile-basket.jpg" width="100%" align = "center"> <br>
+
+<img src="static/media/mobile-checkout-form.jpg" width="100%" align = "center"> <br>
+
+<img src="static/media/mobile-checkout-success.jpg" width="100%" align = "center"> <br>
+
+<img src="static/media/mobile-myprofile.jpg" width="100%" align = "center"> <br>
 
 
 
