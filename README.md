@@ -4,8 +4,16 @@
 
 <img src="static/media/responsive-img.jpg" width="100%" align = "center"><br>
 
-### <h2 align = "center" target = "_blank"> [View The Live Project](https://beauty-boutique-0f4969a43fa4.herokuapp.com/)</h2> <br><br>
+Beauty Boutique believe in the quality and commitment to develop good relationship with our customers. From drugstore and natural cosmetics to premium and luxury, the online shop covers all product segments. The categories perfume, skin care, make-up, hair care, beauty tools and accessories offer a diverse selection of products for individual and daily beauty routines.
 
+To keep the customers upto date we also offer to subscribe to our Beauty News and receive Newsletters of all the updates.
+
+Utilising the Django Full Stack Web Framework, Bootstrap, Stripe API for secure payments, and underwritten by the principles of User Experience design and Search Engine Optimisation, the Sensical.ie Webstore offers its customers an effortless, logical, and rewarding user experience.
+
+Users can make online purchases either as a guest or logged in. Once payment is successful, the user is sent an email confirmation of their purchase and their order number.
+
+
+### <h2 align = "center" target = "_blank"> [View The Live Project](https://beauty-boutique-0f4969a43fa4.herokuapp.com/)</h2> <br><br>
 
 # Table of Contents
 - [Planning and Design](#planning-and-design)
@@ -57,7 +65,7 @@
 
 - A Complete e-commerce web application will be created
 that generates revenue and provides a great user experience. 
-- Essential steps include incorporating powerful features and customer feedback into a well-designed interface, choosing the right platforms, developing a minimum viable product, testing the app, optimizing search engine ranking, and implementing effective marketing strategies to attract and retain customers.
+- Essential steps include incorporating powerful features and choosing the right platforms, developing a minimum viable product, testing the app, optimizing search engine ranking, and implementing effective marketing strategies to attract and retain customers.
 
 ## Wireframes
 
@@ -119,6 +127,8 @@ The Profile model allows users who sign up to have a profile automatically creat
 Each User can have many Orders, it is representing One-to-Many relationship however each Order can only have one User.
 
 The Categories are linked to the Products Model as a product can only have 1 category but 1 category can be assigned to many Products. hence its a one to many relationship.
+
+Each Product can have many Orders, it is also representing One-to-Many relationship.
 
 <img src="static/media/er-diagram.jpg" width="100%"  align = "center"> <br>
 
