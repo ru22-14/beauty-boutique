@@ -55,7 +55,13 @@
 
 # Planning and Design
 
+- A Complete e-commerce web application will be created
+that generates revenue and provides a great user experience. 
+- Essential steps include incorporating powerful features and customer feedback into a well-designed interface, choosing the right platforms, developing a minimum viable product, testing the app, optimizing search engine ranking, and implementing effective marketing strategies to attract and retain customers.
+
 ## Wireframes
+
+Balsamic Wireframes were created to visualise what the user will see and to achieve a good UX design. A mobile first approach was used to design the site specifically for mobile use and then the design was changed slightly for desktop view. Below are the Wireframes both for the desktop and the mobile view. 
 
 #### Desktop Wireframes
 
@@ -98,13 +104,27 @@
 
 <img src="static/media/mobile-myprofile.jpg" width="40%"  align = "center"> <br>
 
+### Fonts
+
+Fonts were imported from Google Fonts. The font used for this Project is Lato.
+
 ## User Stories
 
 ## Database Schema
 
+[dbdiagram.io](https://dbdiagram.io/) was used to visualise the custom models for this project. The ER diagram shows the logical relationship between the different entities and makes it clear how the different entities are related to one another.
+
+The Profile model allows users who sign up to have a profile automatically created for them and the user can then update and change their profile information if they wish. One User can have One Profile, hence this is a One-to-One relationship.
+
+Each User can have many Orders, it is representing One-to-Many relationship however each Order can only have one User.
+
+The Categories are linked to the Products Model as a product can only have 1 category but 1 category can be assigned to many Products. hence its a one to many relationship.
+
 <img src="static/media/er-diagram.jpg" width="100%"  align = "center"> <br>
 
 # Agile
+
+In order to use the agile methodology, the github project with linked issues was used. User stories were created and based on these user stories the project was created and brought to life.The link to the kanban board is here:
 
 ### [Beauty Boutique Kanban Board](https://github.com/users/ru22-14/projects/6/views/1) <br><br>
 
@@ -276,7 +296,7 @@ Keywords determined which were most important to the sites potential customers. 
 
 Content marketing refers to the strategic planning, creation and distribution of content to reach a pre-defined audience. In contrast to classic marketing approaches, content marketing  does not focus on the products, but rather on the potential customers and their concerns.
 
-Beauty Boutique gives the users the option to subscribe to the Newsletter.  Newsletter are sent to attract new customers and also keep the existing customers up to date with special offers. One disadvantage to this could be that the emailed Newsletter will be seen as spam and not reach the user.
+Beauty Boutique gives the users the option to subscribe to the Newsletter.  Newsletter are sent to attract new customers and also keep the existing customers up to date with special offers. One disadvantage to this could be that the Newsletter will be seen as spam and not reach the user.
 
 Social media marketing is also chosen for this project because it's free. The link of our Facebook Page is here: <br>
 [Beauty Boutique Facebook Page](https://www.facebook.com/profile.php?id=61552478260348)
