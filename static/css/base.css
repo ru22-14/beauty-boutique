@@ -3,7 +3,7 @@ html {
 }
 
 body{
-    background: url('/media/sincerely-media-EmdXBCY_Cds-unsplash.jpg') no-repeat center center fixed;
+    background: url('../media/body-img.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
@@ -467,7 +467,8 @@ a.category-badge > span.badge:hover {
 
 @media (max-width: 360px){
     .list-inline-item:not(:last-child) {
-         margin-right: 0; 
+         margin-right: 0;
+         font-size: smaller; 
     }
     .nav-link {
         padding: 0;

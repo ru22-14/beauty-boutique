@@ -257,14 +257,39 @@
 
 # Web Marketing
 
+The purpose of this site is a B2C and it's main business goal is to provide the oppurtunity to the Women especially those who have busy schedules and cant't go store to store to buy Beauty Products. Web marketing is the process of marketing a business online, and it's a cost-effective way to reach people who are interested.
+
+
 ## SEO
 
+The detailed Search Engine Optimisation strategies used for this project for Web Marketing are here:
+
+- An xml sitemap was created and added to the project's root directory. This is a file that lists the website’s important page URLs, making sure that search engines can crawl, or navigate, through them. It also helps search engines understand the website structure, so can help speed up content discovery.
+
+- Then the robots.txt file was created and added to the projects root directory as well. This is a simple text file that tells search engines where they are not allowed to go on the website. It lists out any folders or files that will not be crawled or indexed by search engine spiders. Having this robots.txt file shows that the site acknowledges that search engines are allowed and that they may have free access to it. For this reason, search engines take the existence of this file as a sign of quality, and so should improve the SEO ranking.
+
+- The final step for working with a sitemap and robots files can only be implemented for web applications that have a DNS certificate. As this website is for learning purpose only so no further action is taken.
+
+Keywords determined which were most important to the sites potential customers. Keyword research is the process of finding and analyzing search terms that people mostly enter into search engines, with the goal of using that data for SEO or general web marketing. Content Stuffing is also avoided and keywords were only utilised if they fit within the flow of the content for better SEO.
+
 ## Content Marketing
+
+Content marketing refers to the strategic planning, creation and distribution of content to reach a pre-defined audience. In contrast to classic marketing approaches, content marketing  does not focus on the products, but rather on the potential customers and their concerns.
+
+Beauty Boutique gives the users the option to subscribe to the Newsletter.  Newsletter are sent to attract new customers and also keep the existing customers up to date with special offers. One disadvantage to this could be that the emailed Newsletter will be seen as spam and not reach the user.
+
+Social media marketing is also chosen for this project because it's free. The link of our Facebook Page is here: <br>
+[Beauty Boutique Facebook Page](https://www.facebook.com/profile.php?id=61552478260348)
+
+<img src="static/media/fb-img1.jpg" width="80%" align = "center">
+<img src="static/media/fb-img2.jpg" width="80%" align = "center">
+<img src="static/media/fb-img7.jpg" width="80%" align = "center"> <br>
+
+
 
 # Technologies Used
 
 ### Languages
-
 
 -  [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -  [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
@@ -405,11 +430,6 @@ tell it that for static file storage we want to use our storage class and that t
 
 - Add the webhook key to your environment variables and test using the Stripe events log.
 
-
-
-
-
-
 ### Final Deployment steps
 Once code changes have been completed and tested on localhost, the application can be prepared for Heroku deployment as follows :
 - Set DEBUG flag to False in settings.py
@@ -448,7 +468,7 @@ This will create a copy of the repository for you.
 
 # Credits
 ### Boutique Ado
-This project is inspired by the Code Institute's "Boutique Ado" Walk-through Project.
+This project is build with the help of the Code Institute's "Boutique Ado" Walk-through Project.
 
 ### Favourites App  
 To create Favourites app i took help from here:
@@ -465,8 +485,8 @@ To create Newsletter app i took help from here :
 
 To set timeout functionality on toast messages i took help from here: [Stackoverflow](https://stackoverflow.com/questions/316278/timeout-jquery-effects)
 
-
 # Acknowledgement
+
 
 
 

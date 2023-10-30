@@ -1,3 +1,4 @@
+<ul class="list-inline list-unstyled text-center text-sm-right my-0 mx-auto">
 <li class="list-inline-item">
     <a class="text-black nav-link d-block d-lg-none" href="#" id="mobile-search" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <div class="text-center">
@@ -45,12 +46,12 @@
     <a class="{% if user_favourites %}text-primary font-weight-bold{% else %}text-black{% endif %} nav-link d-block d-lg-none" href="{% url 'view_favourites' %}">
         <div class="text-center">
             {% if user_favourites %}
-            <div><i class="icon fa-solid fa-heart"></i>
+            <div><i class="fa-sharp fa-solid fa-heart"></i></div> 
                 <p class="my-0">
                     {{quantity}}
-                </p>
+                </p>   
             {% else %}
-            <div><i class="icon fa-solid fa-heart"></i>
+            <div><i class="fa-sharp fa-solid fa-heart"></i>
                 <p class="my-0">0</p>
             </div>
            {% endif %}
@@ -58,7 +59,6 @@
     </a>
 </li>
 {% endif %}
-
 <li class="list-inline-item">
     <a class="{% if grand_total %}text-primary font-weight-bold{% else %}text-black{% endif %} nav-link d-block d-lg-none" href="{% url 'view_basket' %}">
         <div class="text-center">
@@ -73,3 +73,4 @@
         </div>
     </a>
 </li>
+</ul>
