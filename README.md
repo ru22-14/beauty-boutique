@@ -4,7 +4,7 @@
 
 <img src="static/media/responsive-img.jpg" width="100%" align = "center"><br>
 
-### [View The Live Project](https://beauty-boutique-0f4969a43fa4.herokuapp.com/) <br><br>
+### <h2 align = "center"> [View The Live Project](https://beauty-boutique-0f4969a43fa4.herokuapp.com/)</h2> <br><br>
 
 
 # Table of Contents
