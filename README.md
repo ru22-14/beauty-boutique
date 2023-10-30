@@ -4,11 +4,11 @@
 
 <img src="static/media/responsive-img.jpg" width="100%" align = "center"><br>
 
-### <h2 align = "center"> [View The Live Project](https://beauty-boutique-0f4969a43fa4.herokuapp.com/)</h2> <br><br>
+### <h2 align = "center" target = "_blank"> [View The Live Project](https://beauty-boutique-0f4969a43fa4.herokuapp.com/)</h2> <br><br>
 
 
 # Table of Contents
-## [Planning and Design](#planning-and-design)
+- [Planning and Design](#planning-and-design)
 
 - [Wireframes](#wireframes)
    - [Desktop Wireframes](#desktop-wireframes)
@@ -16,8 +16,8 @@
 - [User Stories](#user-stories) 
 - [Database Schema](#database-schema)
 
-## [Agile](#agile)
-## [Features](#features)
+- [Agile](#agile)
+- [Features](#features)
 
 - [Existing Features](#existing-features)
    - [Features Across All Pages](#features-across-all-pages) 
@@ -38,20 +38,20 @@
       - [Admin Site](#admin-site)
       - [Error Page](#error-page)
 
-## [Testing](#testing)
+- [Testing](#testing)
 
-## [Webmarketing](#webmarketing)
+- [Webmarketing](#webmarketing)
 
    - [SEO](#seo)
    - [Content Marketing](#content-marketing)
 
-## [Technologies Used](#technologies-used)
+- [Technologies Used](#technologies-used)
 
-## [Deployment](#Deployment)
+- [Deployment](#deployment)
 
-## [Credits](#credits)
+- [Credits](#credits)
 
-## [Acknowledgement](#acknowledgement)
+- [Acknowledgement](#acknowledgement)
 
 # Planning and Design
 
@@ -262,6 +262,42 @@
 ## Content Marketing
 
 # Technologies Used
+
+### Languages
+
+
+-  [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-  [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+-  [Python](https://www.python.org/)
+-  [Java Script:](https://de.wikipedia.org/wiki/JavaScript)
+### Frameworks & Liabraries
+
+- [Django](https://de.wikipedia.org/wiki/Django_(Framework)): Python framework used to develop Beauty Boutique
+- [django allauth](https://pypi.org/project/django-allauth/): Authentication library used to create the user accounts
+- [Bootstrap](https://getbootstrap.com/): CSS Framework for developing responsiveness and mobile-first 
+- [Font Awesome:](https://fontawesome.com/) was used to add icons and for UX purposes.
+- [Heroku:](https://heroku.com/login) is used to deploy the project. 
+- [Stripe API](https://stripe.com/). Used Stripe to manage secure payments
+
+### Database 
+
+- SQLite: was used as the database during development
+- ElephantSQL: was implemented as the Postgres, database management system.
+
+### Software
+
+- [Git](https://git-scm.com/) : is a version control system 
+- [Github](https://github.com/) : to build a Project and keep track of the progress.
+- [Gitpod](https://www.gitpod.io/) :  a cloud development environment is used to efficiently and securely develop this application.
+- [Heroku](https://www.heroku.com/) : to deploy, manage, and scale apps.
+- [Stripe](https://stripe.com/) : to accept payments online
+- [Google mail](https://mail.google.com/) : os secure, smart and easy-to-use email solution 
+- [AWS](https://aws.amazon.com/) : hosting server for static files and images
+- [Balsamiq](https://balsamiq.cloud/): used to create the wireframes for design
+- [ER Diagram](https://dbdiagram.io/): used to create the entity relationship diagram between models.
+- [Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/install.html) : let you control the behavior of form in a very elegent way.
+- [psycopg2](https://pypi.org/project/psycopg2/) :  Python-PostgreSQL Database Adapter
+- [Skitch](https://www.chip.de/downloads/Skitch-fuer-Windows_58173678.html) : is used to take screenshots for Readme
 
 # Deployment
 
