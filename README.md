@@ -297,6 +297,7 @@
 - [ER Diagram](https://dbdiagram.io/): used to create the entity relationship diagram between models.
 - [Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/install.html) : let you control the behavior of form in a very elegent way.
 - [psycopg2](https://pypi.org/project/psycopg2/) :  Python-PostgreSQL Database Adapter
+- [Unsplash](https://unsplash.com/) : is used to get the  beautiful, free images and photos for this project.
 - [Skitch](https://www.chip.de/downloads/Skitch-fuer-Windows_58173678.html) : is used to take screenshots for Readme
 
 # Deployment
@@ -446,6 +447,24 @@ To fork this project,
 This will create a copy of the repository for you.
 
 # Credits
+### Boutique Ado
+This project is inspired by the Code Institute's "Boutique Ado" Walk-through Project.
+
+### Favourites App  
+To create Favourites app i took help from here:
+[Stackoverflow](https://stackoverflow.com/questions/67493992/django-add-products-to-favorite-list?rq=3)
+
+### Newsletter App
+
+To create Newsletter app i took help from here : 
+[Twilio.com](https://www.twilio.com/blog/build-email-newsletter-django-twilio-sendgrid) <br>
+[Django](https://docs.djangoproject.com/en/4.2/topics/email/)<br>
+[Pylessons](https://pylessons.com/django-subscribe/)
+
+### Timeout
+
+To set timeout functionality on toast messages i took help from here: [Stackoverflow](https://stackoverflow.com/questions/316278/timeout-jquery-effects)
+
 
 # Acknowledgement
 
