@@ -5,20 +5,35 @@
 {% block head_title %}{% trans "Signup" %}{% endblock %}
 
 {% block inner_content %}
+<div class="row mx-auto my-auto">
+  <div class="col-6">
+    <h2 class="logo-font mb-4" style="color: hotpink;">{% trans "Sign Up" %}</h2>
+    <hr>
 
-<h2 class="logo-font mb-4" style="color: hotpink;">{% trans "Sign Up" %}</h2>
-<hr>
+    <p>{% blocktrans %}Already have an account? Then please <a href="{{ login_url }}">sign in</a>.{% endblocktrans %}
+    </p>
 
-<p>{% blocktrans %}Already have an account? Then please <a href="{{ login_url }}">sign in</a>.{% endblocktrans %}</p>
+    <form class="signup" id="signup_form" method="post" action="{% url 'account_signup' %}">
+      {% csrf_token %}
+      {{ form|crispy }}
+      {% if redirect_field_value %}
+      <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
+      {% endif %}
+      <a class="btn btn-outline-black rounded-0" href="{% url 'account_login' %}">Back to Login</a>
+      <button type="submit">{% trans "Sign Up" %}</button>
+    </form>
+  </div>
 
-<form class="signup" id="signup_form" method="post" action="{% url 'account_signup' %}">
-  {% csrf_token %}
-  {{ form|crispy }}
-  {% if redirect_field_value %}
-  <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
-  {% endif %}
-  <a class="btn btn-outline-black rounded-0" href="{% url 'account_login' %}">Back to Login</a>
-  <button type="submit">{% trans "Sign Up" %}</button>
-</form>
+  <div class="col-6 pt-4" style="background-color: rgba(249, 185, 219, 0.461);">
+    <h4>New Customer?</h4>
+    <hr>
+    <p><strong> With a customer account at Beauty Boutique you have the following advantages:</strong></p>
+    <p><i class="fa-solid fa-star fa-xs" style="color: #070709;"></i>  Faster through the ordering process</p>
+    <p><i class="fa-solid fa-star fa-xs" style="color: #070709;"></i>  Access all your orders</p>
+    <p><i class="fa-solid fa-star fa-xs" style="color: #070709;"></i>  Track current orders</p>
+    <p><i class="fa-solid fa-star fa-xs" style="color: #070709;"></i>  Save products to your Favourites</p>
+    <p><i class="fa-solid fa-star fa-xs" style="color: #070709;"></i>  Update Your Information</p>
+  </div>
+</div>
 
 {% endblock %}
