@@ -335,6 +335,7 @@ If the Favourites are empty the user will see a message and a link to the Produc
 <img src="static/media/empty-favourites.jpg" width="80%" align = "center"> <br>
 
 When the favourites are empty the Favourites icon on the Upper navbar will also display 0 as there are no products added to favourites.
+
 <img src="static/media/empty-fvrt-nav.jpg" width="80%" align = "center"> <br>
 
 ### Basket Page
@@ -359,18 +360,33 @@ In Case User's Basket is empty it will clearly display a message and a link towa
 
 ### Checkout Page
 
+The Checkout Page has an order summary that provides the total cost information from the basket page.
+
+If the user is a new user then he/she has to fill the form with correct data otherwise the delivery information is prepopulated in the form if a user has it saved to their profile. The option for registered users to save their information to their profile is provided if they have not already done so.
+
 <img src="static/media/checkout-top.jpg" width="80%" align = "center"> <img src="static/media/checkout-bottom.jpg" width="80%" align = "center"> <br><br>
+
+At the bottom of the Checkout form there are two options for the customer if they want to checkout or adjust their basket.
+
+After a successfull Checkout the user is notified and leads to another page which displays information that a confirmation is sent to the user's Email along with a brief Order Summary. A link to the new arrivals page is also provided under the order summary.
 
 <img src="static/media/checkout-successfull.jpg" width="80%" align = "center"> <br>
 
 ### My Profile Page
+
+Inside My Profile the users can find the Order History and can find all the orders placed.
+There the User is also provided a form in order to update the address if need to do so.
 
 <img src="static/media/order-history.jpg" width="80%" align = "center"> <br>
 
 
 ### Newsletter Page
 
+This Page is accessable only to the Owner of this website. The Owner can send Newsletters regarding updates, special offers and any Upcoming events to all the Subscribers.
+
 <img src="static/media/newsletter.jpg" width="80%" align = "center"> <br>
+
+A Success message appears after sending newsletter email to the subscribers.
 
 <img src="static/media/newsletter-sent-msg.jpg" width="50%" align = "center"> <br>
 
@@ -378,13 +394,24 @@ In Case User's Basket is empty it will clearly display a message and a link towa
 
 ### Subscribe
 
+Users can Subscribe for Newsletters in order to keep themselves updated with the events.
+
 <img src="static/media/subscribe-email.jpg" width="80%" align = "center"> <br>
+
+After Subscribing Successfully the user is informed through a message.
 
 <img src="static/media/subscription-success.jpg" width="80%" align = "center"> <br>
 
+One Email Address Can be subscribed only once otherwise an error message displays if a user tries to subscribe the same email address again. 
 <img src="static/media/subscription-error.jpg" width="80%" align = "center"> <br>
 
 ### User Account Page
+
+Users are allowed to sign up for an account if they can provide a valid, verifiable, email address.
+
+Once registered, users can log in and out of the site to enjoy extra features and benefits, such as access to favourites and the ability to store delivery information to their user profile and to update it.
+
+Everytime a user login or logout a notification message appears.
 
 <img src="static/media/signup-page.jpg" width="80%" align = "center"> <br>
 
@@ -407,6 +434,8 @@ In Case User's Basket is empty it will clearly display a message and a link towa
 <img src="static/media/admin-subscribers.jpg" width="80%" align = "center"> <br>
 
 ### Error Page
+
+Custom Error Page was created to make it convinient to the user and ensure an appropriate link back to the main site to guide users who come across these messages.
 
 <img src="static/media/error-page.jpg" width="80%" align = "center"> <br>
 
