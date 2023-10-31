@@ -407,7 +407,13 @@ a.category-badge > span.badge:hover {
         height: 50px;
         min-width: 65px;
         
-      }
+    }
+    #about-container {
+        max-height: 300px;
+        scroll-behavior: auto;
+        scroll-behavior: smooth;
+        overflow: scroll;
+    }
 }
 
 @media (max-width: 450px) {
@@ -435,7 +441,6 @@ a.category-badge > span.badge:hover {
         scroll-behavior: auto;
         scroll-behavior: smooth;
         overflow: scroll;
-        
     }
     #sub-heading h4 {
         font-size: small;
@@ -467,11 +472,8 @@ a.category-badge > span.badge:hover {
 
 @media (max-width: 360px){
     .list-inline-item:not(:last-child) {
-         margin-right: 0;
-         font-size: smaller; 
-    }
-    .nav-link {
-        padding: 0;
+        margin-right: 0rem; 
+        
     }
     h1 {
         font-size: small;

@@ -118,6 +118,46 @@ Fonts were imported from Google Fonts. The font used for this Project is Lato.
 
 ## User Stories
 
+- As a <strong>Site User</strong>, I understand the purpose of the website So that I can find what I am looking for and eventually make a purchase. <hr>
+
+- As a <strong>Site User</strong> I can easily navigate around the website so that I can explore it and can go on different pages where I want to go. <hr>
+
+- As a <strong>Site User</strong> I can easily navigate to the products page so that I can choose from them and make a purchase. <hr>
+
+- As a <strong>Site User</strong> I can view Products by selecting category so that I can view the products I am searching for without scrolling through all the products. <hr>
+
+- As a <strong>Site User</strong> I can sort Products by Price, Rating or by Category so that I can Easily find what I am looking for. <hr>
+
+- As a <strong>Site User</strong> I can search for a particular product so that I can quickly find the desired product. <hr>
+
+- As a <strong>Site User</strong> I can add or remove items into the favourites so that I can buy them in the Future if they are on sale or simply remove them.<hr>
+
+- As a <strong>Site User</strong> I am able to check the Basket so that I can find the products I added to it. <hr>
+
+- As a <strong>Site User</strong> I can checkout securely so that I can see the order summary and purchase the items I have added to the basket. <hr>
+
+- As a <strong>Site User</strong> I can make payment so that I can finally buy the products. <hr>
+
+- As a <strong>Customer</strong> I can receive a confirmation message after placing an order so that I am satisfied that the order has been placed and can view my order in my order history. <hr>
+
+- As a <strong>New User</strong> I need to understand the purpose of registration so that I can decide whether I should register an account or not.<hr>
+
+- As a <strong>Site User</strong> I can receive an email so that I can verify that my account has been registered successfully. <hr>
+
+- As a <strong>Registered User</strong> I can Login and Logout of my account so that I can add products to the Basket, purchase them, add my favourite items to my favourites, see the list of orders I have made or view my details and update them if I need to. <hr>
+
+- As a <strong>Registered User</strong> I can access my Profile so that I can view my order history, favourites list and update my details.<hr>
+
+- As a <strong>Customer</strong> I can increase or decrease the quantity of the products so that I can decide how many products I want to buy. <hr>
+
+- As a <strong>Site User</strong> I can Subscribe for Newsletter so that I can get all the updates about new promotions and upcoming sales. <hr>
+
+- As a <strong>Site User</strong>  I can understand when an error occurs so that I can be given clear feedback on what I should do. <hr>
+
+- As an <strong>Admin</strong>  I can login and access the admin page from the main website so that I can perform the actions required as an Admin.<hr>
+
+- As an <strong>Admin</strong> I can Add, Update or Delete products from the website so that I can keep the list of products Up to date and can track all the activity running on my website and can send Newsletters to the Subscribers. <hr>
+
 ## Database Schema
 
 [dbdiagram.io](https://dbdiagram.io/) was used to visualise the custom models for this project. The ER diagram shows the logical relationship between the different entities and makes it clear how the different entities are related to one another.
