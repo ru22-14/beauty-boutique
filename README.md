@@ -15,7 +15,7 @@ Utilising the Django Full Stack Web Framework, Bootstrap, Stripe API for secure 
 
 Users can make online purchases either as a guest or logged in. Once payment is successful, the user is sent an email confirmation of their purchase and their order number.
 
-# Table of Contents
+# [Table of Contents](#table-of-contents)
 - [Planning and Design](#planning-and-design)
 
 - [Wireframes](#wireframes)
@@ -178,6 +178,8 @@ In order to use the agile methodology, the github project with linked issues was
 
 ### [Beauty Boutique Kanban Board](https://github.com/users/ru22-14/projects/6/views/1) <br><br>
 
+[Back to Top](#table-of-contents)
+
 # Features
 
 ## Existing Features
@@ -286,43 +288,72 @@ if the User is the Owner of the Webstore then two more links will be provided at
 
 ### Product Detail Page
 
+The Product Detail Page contains brief information about the product as well as its price, description, application, ingredients and stock status.
 
+The Customer can select the quantity of the product , increase or decrease it by clicking on the plus and minus buttons and then can add it into the Basket.
 
 <img src="static/media/product-detail-page.jpg" width="80%" align = "center"> <br>
+
+The Customer can also add a product to favourites by clicking on the heart Icon and can buy it later. The favourites icon on Detail page  changes its colour from black to pink and the customer is informed through a message that the product is added to favourites.
+
 
 <img src="static/media/fvrts-icon-colour.jpg" width="80%" align = "center"><br>
 
 <img src="static/media/favourites-added-msg.jpg" width="50%" align = "center"> <br>
 
+The Favourites Icon on the Top Navbar displays the number of products added to favourites.
 <img src="static/media/fvrt-nav-added.jpg" width="30%" align = "center"> <br>
+
+the Customer can remove the Product from favourites simply by clicking again on the icon given on the Product detail page.
 
 <img src="static/media/remove-fvrt-icon.jpg" width="50%" align = "center"> <br>
 
+The Customer will be notified that the Product is removed from favourites list.
+
 <img src="static/media/favourites-remove-msg.jpg" width="50%" align = "center"> <br>
+
+Next to the favourites Icon there is an add to Basket button. after selecting the quantity the Customer can click on the button and the product will be added to the basket. A small notification window regarding the information about order detail will appear. Customers can also directly access the Basket from the message container. If the Grand Total is less then the amount of 30$ the user will be notified through this message. 
 
 <img src="static/media/basket-mg-delivery.jpg" width="50%" align = "center"> <br>
 
 <img src="static/media/basket-msg.jpg" width="50%" align = "center"> <br>
 
+The Basket Icon on Upper Navbar will display the Grand total to the customer.
+
 <img src="static/media/basket-icon.jpg" width="30%" align = "center"> <br>
 
 ### My Favourites Page
 
+Whenever a registered user adds a product to their favourites, they are informed by an info message.A users Favourites, and the products added to it are saved for the users convenience even if they logout or refresh their browser.
+
+The favourites Page Includes the products images and 'Add to Basket' and 'Remove Form Wishlist buttons. The Move to Basket feature is designed to maximise convenience for user. Adding a product to the basket from the favourites does not remove it from the favourites. In this way the user has no need to search for the product everytime. 
+
 <img src="static/media/favourites-page.jpg" width="80%" align = "center"> <br>
+
+If the Favourites are empty the user will see a message and a link to the Products Page. 
 
 <img src="static/media/empty-favourites.jpg" width="80%" align = "center"> <br>
 
+When the favourites are empty the Favourites icon on the Upper navbar will also display 0 as there are no products added to favourites.
 <img src="static/media/empty-fvrt-nav.jpg" width="80%" align = "center"> <br>
 
 ### Basket Page
 
+The basket items section contains product cards each displaying an image, name, price and quantity of each basket item. Every product card has its own selector and update button which allow the users to modify their basket without having to return to the products page. There is also a feature that allows the user to remove the entire quantity of an item from the basket if they desire.
+
+In Order to make a purchase there is a button provided which leads the user to the checkout form else the user can continue shopping by clicking the keep shopping button. 
+
 <img src="static/media/basket-top.jpg" width="80%" align = "center"> 
 <img src="static/media/basket-bottom.jpg" width="80%" align = "center"> <br><br>
+
+After adjusting the quantity The user is informed through a success message. and the basket icon in upper navbar updates the amount accordingly.
 
 <img src="static/media/basket-qty.jpg" width="50%" align = "center"> 
 <br>
 
 <img src="static/media/basket-icon.jpg" width="30%" align = "center"> <br>
+
+In Case User's Basket is empty it will clearly display a message and a link towards products page.
 
 <img src="static/media/empty-basket.jpg" width="80%" align = "center"> <br>
 
