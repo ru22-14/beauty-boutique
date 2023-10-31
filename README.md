@@ -4,7 +4,7 @@
 
 <img src="static/media/responsive-img.jpg" width="100%" align = "center"><br>
 
-Beauty Boutique believe in the quality and commitment to develop good relationship with our customers. From drugstore and natural cosmetics to premium and luxury, the online shop covers all product segments. The categories perfume, skin care, make-up, hair care, beauty tools and accessories offer a diverse selection of products for individual and daily beauty routines.
+Beauty Boutique believe in the quality and commitment to develop good relationship with our customers. From drugstore and natural cosmetics to premium and luxury, the online shop covers all product segments. The categories perfume, skin care, make-up, hair care, beauty tools and accessories offer a diverse selection of products for daily beauty routines.
 
 To keep the customers upto date we also offer to subscribe to our Beauty News and receive Newsletters of all the updates.
 
@@ -181,16 +181,38 @@ In order to use the agile methodology, the github project with linked issues was
 # Features
 
 ## Existing Features
-### Features accross all Pages
-### The Navbar
+### Features exist accross all Pages
+### Upper Navbar
 
-<img src="static/media/whole-nav.jpg" width="80%" align = "center"> <br>
+The navigation bar is visible on the top of the web application across all pages. The Name of the beauty Store is present on the top left side which takes the user back to Home Page. On the Right Top corner there are links to Login/Signup and basket.
+<img src="static/media/guest-nav.jpg" width="80%" align = "center"><br>
+
+ Once a user is loggedin there are additional navigation links added to the navigation bar that lead the User to the User Profile and favourites list. Favourites Icon shows the number of Products added in it and if empty then it displays 0. Like favourites the Basket Icon displays the Grand total of the products added in it and if empty then it displays 0 as well. 
+
+<img src="static/media/whole-nav.jpg" width="80%" align = "center"><br><hr>
+
+### Lower Navbar
+
+The User can easily find the navigation links and is able to navigate through the website.
+<img src="static/media/nav-bar.jpg" width="80%" align = "center"> <br>
+
+### Burger Menu
+
+To enhance the user experience on mobile and tablet devices the nav bar collapses into a burger-style dropdown menu .
+
+<img src="static/media/burger-menu.jpg" width="80%" align = "center"> <br>
 
 ### The Delivery Banner
+
+The Delivery Banner exists across all the Pages to keep the customer clear about the delivery charges.
 
 <img src="static/media/delivery-banner.jpg" width="80%" align = "center"> <br>
 
 ### Footer
+
+Footer also exists across all the Pages. On the Left side of the footer the Facebook Page Link is provided and can be accessed by clicking on the link. Then the link to our Privacy Policy is also provided, the user can read and understand the policy by clicking on it.
+
+While on the Right Side of the Footer the User is given an option to Subscribe to the Newsletters. In this way the Subscriber will receive emails regarding all the upcoming events and updates.
 
 <img src="static/media/footer.jpg" width="80%" align = "center"> <br>
 
@@ -198,9 +220,17 @@ In order to use the agile methodology, the github project with linked issues was
 
 ### Landing Page
 
+The Landing Page contains Logo Name, NavBar, delivery banner, Hero image with a Button which leads the user to the New Products and an enthusiastic Text with a button under it which leads the user to the Products Page.
+
+It has beautiful contrasts of Pink Colour.
+
+The Icons on the right side of the Top Navbar will change the colour after login.
+
 <img src="static/media/landing-page.jpg" width="80%" align = "center"> <br>
 
 ### Home Page
+
+The Home Page is same as Landing Page except that after logging in the Icons on the right side of the Top Navbar Increases as the favourites icon also appears and all the icons change their colour and text as per user's activity. The User can read our Business objective and the information about Online Store. In the footer section the user can find the facebook page, access our Privacy Policy as well as subscribe for the newsletters.
 
 <img src="static/media/home-page.jpg" width="80%" align = "center"> 
 <img src="static/media/about-us.jpg" width="80%" align = "center">
@@ -208,29 +238,55 @@ In order to use the agile methodology, the github project with linked issues was
    
 ### Products Page
 
+The Products Page features a sort selector at the top left of the page with a toggle switch that can sort products by alphabetical order, by Category, by Name or by Price. The User can view all the Products or  Products under different Categories by clicking the links provided in the navbar. 
+
+### All Products
+
+The Products Page Contains Product Cards that have an image if the product and beneath the image there displays the name of the product, price, category name to the customer. 
+
+if the User is the Owner of the Webstore then two more links will be provided at the bottom of each card so the Owner can edit a Product or simply delete it.  
+
 <img src="static/media/products-page.jpg" width="80%" align = "center"> <br>
 
+### Care 
+#### Skin Care Products Page
 <img src="static/media/skincare-products.jpg" width="80%" align = "center"> <br>
 
+#### Body Care Products Page
 <img src="static/media/bodycare-products.jpg" width="80%" align = "center"> <br>
 
+#### Hair Care Products Page
 <img src="static/media/haircare-products.jpg" width="80%" align = "center"> <br>
 
+### Makeup 
+
+#### Complexion Products Page
 <img src="static/media/complexion-top.jpg" width="80%" align = "center"> <br>
 
+#### Eyeshadow Products Page
 <img src="static/media/eyeshadow-top.jpg" width="80%" align = "center"> <br>
 
+#### Lipstick Products Page
 <img src="static/media/lipstick-top.jpg" width="80%" align = "center"> <br>
 
+### Perfumes
+
+#### Scents Page
 <img src="static/media/scents-top.jpg" width="80%" align = "center"> <br>
 
+#### Attar Page
 <img src="static/media/attar-top.jpg" width="80%" align = "center"> <br>
 
+### Special Offers
+#### New Arrivals Page
 <img src="static/media/new-arrivals-top.jpg" width="80%" align = "center"> <br>
 
+#### Products on Sale Page
 <img src="static/media/sale-top.jpg" width="80%" align = "center"> <br>
 
 ### Product Detail Page
+
+
 
 <img src="static/media/product-detail-page.jpg" width="80%" align = "center"> <br>
 
