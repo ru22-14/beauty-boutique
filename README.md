@@ -326,7 +326,7 @@ The Basket Icon on Upper Navbar will display the Grand total to the customer.
 
 Whenever a registered user adds a product to their favourites, they are informed by an info message.A users Favourites, and the products added to it are saved for the users convenience even if they logout or refresh their browser.
 
-The favourites Page Includes the products images and 'Add to Basket' and 'Remove Form Wishlist buttons. The Move to Basket feature is designed to maximise convenience for user. Adding a product to the basket from the favourites does not remove it from the favourites. In this way the user has no need to search for the product everytime. 
+The favourites Page Includes the products images and 'Add to Basket' and 'Remove From Favourites' buttons. The Move to Basket feature is designed to maximise convenience for user. Adding a product to the basket from the favourites does not remove it from the favourites. In this way the user has no need to search for the product everytime. 
 
 <img src="static/media/favourites-page.jpg" width="80%" align = "center"> <br>
 

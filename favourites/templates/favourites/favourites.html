@@ -25,7 +25,7 @@
                     <div class="fvt-image-container">
                         {% if product.image %}
                         <a href="{{ product.image.url }}" target="_blank">
-                            <img class="fvt-img py-3 w-50" src="{{ product.image.url }}" alt="{{ product.name }}">
+                            <img class="fvt-img py-3" src="{{ product.image.url }}" alt="{{ product.name }}">
                         </a>
                         {% else %}
                         <a href="">
@@ -36,8 +36,8 @@
                 </div>
                 <div class="col-sm-12 col-lg-3 fvt-align d-flex align-items-center">
                     <div class="col-12">
-                        <div class="col-8 mb-1 mt-4">
-                            <h6 class="fvt-heading font-weight-600">{{ product.name }}</h6>
+                        <div class="col-6 mb-1 mt-4">
+                            <h6 class="fvt-heading text-center"><strong>{{ product.name }}</strong></h6>
                         </div>
                         <div class="col-6 mb-1">
                             <h6 class="fvt-heading">${{ product.price }}</h6>

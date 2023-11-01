@@ -137,6 +137,27 @@ body{
     height: 250px;
 }
 
+.card-image-top {
+    height: 400px;
+    width: 300px;
+}
+
+.ingredients {
+    max-height: 80px;
+    scroll-behavior: auto;
+    scroll-behavior: smooth;
+    overflow: scroll;
+}
+.fvt-img {
+    height: 250px;
+    width: 200px;
+}
+
+#basket-img {
+    height: 250px;
+    width: 200px;
+}
+
 .overlay {
     height: 100%;
     width: 100%;
@@ -183,6 +204,32 @@ a.category-badge > span.badge:hover {
 
 .remove-item {
     margin-left: 30px;
+}
+
+#textarea {
+    display: none; /* hidden by default */
+}
+
+#textarea:target {
+    display: block; /* shown when a link targeting this id is clicked */
+}
+
+#textarea + ul.controls {
+    list-style-type: none; /* aesthetics only, adjust to taste, irrelevant to demo */
+}
+
+/* hiding the hide link when the #textarea is not targeted,
+   hiding the show link when it is selected: */
+#textarea + ul.controls .hide,
+#textarea:target + ul.controls .show {
+    display: none;
+}
+
+/* Showing the hide link when the #textarea is targeted,
+   showing the show link when it's not: */
+#textarea:target + ul.controls .hide,
+#textarea + ul.controls .show {
+    display: inline-block;
 }
 
 /* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
