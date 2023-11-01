@@ -133,6 +133,10 @@ body{
     
 }
 
+.card-img-top {
+    height: 250px;
+}
+
 .overlay {
     height: 100%;
     width: 100%;

@@ -423,6 +423,19 @@ Everytime a user login or logout a notification message appears.
 
 ### Admin Site
 
+A super user was created to allow access to the admin panel of the website. Once logged in as an admin, the Admin Site link is accessable on the top Navigation Bar by clicking on the account icon.
+
+### Product Management
+
+<img src="static/media/product-management.jpg" width="80%" align = "center">
+<img src="static/media/product-management-mid.jpg" width="80%" align = "center"> 
+<img src="static/media/product-management-bottom.jpg" width="80%" align = "center"> 
+
+Once signed in as an Admin, a link in the Upper Navigation Bar under the Accounts section. This link takes the Admin to a form where they can add new Products. There is the option to choose an image as well.
+
+On the Product Detail Page Edit or Delete buttons are also visible only for an Admin User. Admin can Update any information related to a Product by clicking the Edit button or can simply Delete it.
+
+Admin can Verify an Email Address, can view or delete orders, Confirm or delete the Subscribers request and can perform other tasks as per requirement.
 <img src="static/media/admin-site.jpg" width="80%" align = "center"> <br>
 
 <img src="static/media/admin-products.jpg" width="80%" align = "center"> <br>
