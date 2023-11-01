@@ -452,11 +452,16 @@ Custom Error Page was created to make it convinient to the user and ensure an ap
 
 <img src="static/media/error-page.jpg" width="80%" align = "center"> <br>
 
+## Features to be Implemented
+
+In the Future i want to implement an Out of stock functionality which will inform the customer if a product is out of stock. I tried to implement it in this Project. At the moment it works only for a product which is in stock but the Out of Stock functionality isn't complete yet.
+
 # Testing
 
+The testing documentation is provided in [TESTING.md](TESTING.md)
 # Web Marketing
 
-The purpose of this site is a B2C and it's main business goal is to provide the oppurtunity to the Women especially those who have busy schedules and cant't go store to store to buy Beauty Products. Web marketing is the process of marketing a business online, and it's a cost-effective way to reach people who are interested.
+The purpose of this site is a B2C relationship and it's main goal is to provide the oppurtunity to the Women especially those who have busy schedules and does'nt have enough time to go store to store to buy Beauty Products. Web marketing is the process of marketing, and it's a cost-effective way to reach people who are interested.
 
 
 ## SEO
