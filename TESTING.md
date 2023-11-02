@@ -289,6 +289,7 @@ These tests are based on User Stories, Links and Features testing.
 
 <hr>
 
+[Back to Top](#table-of-contents)
 
 
 
@@ -318,3 +319,4 @@ These tests are based on User Stories, Links and Features testing.
 
 There are no Bugs found.
 
+[Back to Top](#table-of-contents)

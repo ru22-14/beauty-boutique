@@ -112,6 +112,7 @@ Balsamic Wireframes were created to visualise what the user will see and to achi
 
 <img src="static/media/mobile-myprofile.jpg" width="40%"  align = "center"> <br>
 
+[Back to Top](#table-of-contents)
 ### Fonts
 
 Fonts were imported from Google Fonts. The font used for this Project is Lato.
@@ -162,6 +163,7 @@ Fonts were imported from Google Fonts. The font used for this Project is Lato.
 
 - As an <strong>Admin</strong> I can Add, Update or Delete products from the website so that I can keep the list of products Up to date and can track all the activity running on my website and can send Newsletters to the Subscribers. <hr>
 
+[Back to Top](#table-of-contents)
 ## Database Schema
 
 [dbdiagram.io](https://dbdiagram.io/) was used to visualise the custom models for this project. The ER diagram shows the logical relationship between the different entities and makes it clear how the different entities are related to one another.
@@ -448,6 +450,7 @@ Once signed in as an Admin, a link in the Upper Navigation Bar under the Account
 On the Product Detail Page Edit or Delete buttons are also visible only for an Admin User. Admin can Update any information related to a Product by clicking the Edit button or can simply Delete it.
 
 Admin can Verify an Email Address, can view or delete orders, Confirm or delete the Subscribers request and can perform other tasks as per requirement.
+
 <img src="static/media/admin-site.jpg" width="80%" align = "center"> <br>
 
 <img src="static/media/admin-products.jpg" width="80%" align = "center"> <br>
@@ -464,6 +467,7 @@ Custom Error Page was created to make it convinient to the user and ensure an ap
 
 <img src="static/media/error-page.jpg" width="80%" align = "center"> <br>
 
+[Back to Top](#table-of-contents)
 ## Features to be Implemented
 
 In the Future i want to implement an Out of stock functionality which will inform the customer if a product is out of stock. I tried to implement it in this Project. At the moment it works only for a product which is in stock but the Out of Stock functionality isn't complete yet.
@@ -499,10 +503,9 @@ Social media marketing is also chosen for this project because it's free. The li
 
 <img src="static/media/fb-img1.jpg" width="80%" align = "center">
 <img src="static/media/fb-img2.jpg" width="80%" align = "center">
-<img src="static/media/fb-img7.jpg" width="80%" align = "center"> <br>
+<img src="static/media/fb-img7.jpg" width="80%" align = "center"> <br><br>
 
-
-
+[Back to Top](#table-of-contents)
 # Technologies Used
 
 ### Languages
@@ -539,8 +542,9 @@ Social media marketing is also chosen for this project because it's free. The li
 - [Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/install.html) : let you control the behavior of form in a very elegent way.
 - [psycopg2](https://pypi.org/project/psycopg2/) :  Python-PostgreSQL Database Adapter
 - [Unsplash](https://unsplash.com/) : is used to get the  beautiful, free images and photos for this project.
-- [Skitch](https://www.chip.de/downloads/Skitch-fuer-Windows_58173678.html) : is used to take screenshots for Readme
+- [Skitch](https://www.chip.de/downloads/Skitch-fuer-Windows_58173678.html) : is used to take screenshots for Readme <br><br>
 
+[Back to Top](#table-of-contents)
 # Deployment
 
 The detailed instructions on how to clone this project repository and the steps to configure and deploy the application are given below.  Code Institute provides a summary of deployment process steps here : [CI Cheat Sheet](https://codeinstitute.s3.amazonaws.com/fst/Django%20Blog%20Cheat%20Sheet%20v1.pdf) and in the walkthrough project as well.
@@ -682,6 +686,7 @@ To fork this project,
 
 This will create a copy of the repository for you.
 
+[Back to Top](#table-of-contents)
 # Credits
 ### Boutique Ado
 This project is build with the help of the Code Institute's "Boutique Ado" Walk-through Project.
@@ -699,9 +704,20 @@ To create Newsletter app i took help from here :
 
 ### Timeout
 
-To set timeout functionality on toast messages i took help from here: [Stackoverflow](https://stackoverflow.com/questions/316278/timeout-jquery-effects)
+To set the timeout functionality on toast messages, I took help from here: [Stackoverflow](https://stackoverflow.com/questions/316278/timeout-jquery-effects)
+
+### Hide/ Show
+
+On the Product Detail page the help to implement the functionality of show and hide the product detail is taken from here:
+[Stackoverflow](https://stackoverflow.com/questions/20735726/show-more-less-text-with-just-html-and-javascript)
+
+### Back to Top
+
+To Create Back to top functionality on README file, I took help from here: [Github](https://github.com/orgs/community/discussions/42712#section-1)
 
 # Acknowledgement
+
+[Back to Top](#table-of-contents)
 
 
 
