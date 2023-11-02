@@ -120,6 +120,8 @@ Fonts were imported from Google Fonts. The font used for this Project is Lato.
 
 - As a <strong>Site User</strong>, I understand the purpose of the website So that I can find what I am looking for and eventually make a purchase. <hr>
 
+- As a <strong>Site User</strong>, after signup or login I can see The Home Page so that I can explore the additional features which are allowed to a registered User.
+
 - As a <strong>Site User</strong> I can easily navigate around the website so that I can explore it and can go on different pages where I want to go. <hr>
 
 - As a <strong>Site User</strong> I can easily navigate to the products page so that I can choose from them and make a purchase. <hr>
@@ -129,6 +131,8 @@ Fonts were imported from Google Fonts. The font used for this Project is Lato.
 - As a <strong>Site User</strong> I can sort Products by Price, Rating or by Category so that I can Easily find what I am looking for. <hr>
 
 - As a <strong>Site User</strong> I can search for a particular product so that I can quickly find the desired product. <hr>
+
+- As a <strong>Site User</strong> I am able to go to a Product's detail page so that I can read about the description of the product, add it to favourites or basket by selecting the quantity of the product.
 
 - As a <strong>Site User</strong> I can add or remove items into the favourites so that I can buy them in the Future if they are on sale or simply remove them.<hr>
 
@@ -363,6 +367,14 @@ In Case User's Basket is empty it will clearly display a message and a link towa
 The Checkout Page has an order summary that provides the total cost information from the basket page.
 
 If the user is a new user then he/she has to fill the form with correct data otherwise the delivery information is prepopulated in the form if a user has it saved to their profile. The option for registered users to save their information to their profile is provided if they have not already done so.
+
+The payment details section is taken directly from Stripe to capture the payment card information. As the Stripe payment system is not fully activated only the test card information can currently be utilised.
+
+one can use this card detail to make a fake purchase.
+
+<img src="static/media/stripe-card.jpg" width="80%" align = "center"> <br>
+
+A stripe developer account was created at [Stripe](https://stripe.com/en-gb-de) to give access to the api keys required to run the payment processes. Stripe documentation was followed to impliment Stripe as the payment platform.
 
 <img src="static/media/checkout-top.jpg" width="80%" align = "center"> <img src="static/media/checkout-bottom.jpg" width="80%" align = "center"> <br><br>
 
