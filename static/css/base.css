@@ -38,7 +38,7 @@ body{
     min-width: 100px;
     border-color: white;
     border-width: 2px;
-    margin-top: 80%;
+    margin-top: 100%;
     margin-left: 30%;
 }
 
@@ -440,6 +440,11 @@ a.category-badge > span.badge:hover {
         font-size: xx-large;
 
     }
+
+.highlights-button {
+        margin-left: 25px;
+        margin-top: 165%;
+    }
 }
 
 @media (max-width: 700px){
@@ -472,20 +477,18 @@ a.category-badge > span.badge:hover {
         height: 200px;
         width: 100%;
     }
-    .discover-button {
+    .highlights-button {
       display: none;
+    }
+    .hero-img {
+        padding-left: 5px;
+    }
+    .discover-button {
+        margin-top: 0px;
+        margin-left: 0;
     }
     h1{
         font-size: small;
-    }
-    #highlights{
-        margin-left: 8%;
-    }
-    .highlights-button {
-        
-        margin-right: 0;
-        margin-left: 210px;
-        margin-top: 100px;
     }
     #about-container {
         max-height: 300px;
@@ -521,9 +524,20 @@ a.category-badge > span.badge:hover {
 
 }
 
+@media (max-width: 400px){
+    #highlights {
+        margin-left: 25px;
+    }
+    .discover-button {
+        margin-top: 0px;
+        margin-left: 0;
+    }
+
+}
+
 @media (max-width: 360px){
     .list-inline-item:not(:last-child) {
-        margin-right: 0rem; 
+        padding-left: 4px;
         
     }
     h1 {
@@ -534,14 +548,7 @@ a.category-badge > span.badge:hover {
         margin-left: 8%;
         height: 160px;
     }
-    .highlights-button {
-        margin-top: 100px;
-        margin-left: 160px;
-    } 
-    .discover-button {
-        display: none;
-        
-    }
+
     .confirmation-text {
         font-size: small;
     }
