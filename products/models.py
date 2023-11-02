@@ -3,7 +3,7 @@ from django.contrib.auth.models import User
 
 
 class Category(models.Model):
-    
+
     class Meta:
         verbose_name_plural = 'Categories'
     name = models.CharField(max_length=254)
@@ -33,5 +33,4 @@ class Product(models.Model):
     user_favourites = models.ManyToManyField(User, related_name='favourites', blank=True)
 
     def __str__(self):
-        return self.name  
-
+        return self.name

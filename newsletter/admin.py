@@ -14,5 +14,3 @@ class AdminNewsletters(admin.ModelAdmin):
 
 admin.site.register(Subscriber)
 admin.site.register(Newsletter)
-
-

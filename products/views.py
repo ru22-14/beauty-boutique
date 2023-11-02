@@ -44,7 +44,7 @@ def all_products(request):
                 messages.error(request, "You didn't enter any search input")
                 return redirect(reverse('products'))
             queries = Q(name__icontains=query) | Q(description__icontains=query)
-            products = products.filter(queries) 
+            products = products.filter(queries)
 
     current_sorting = f'{sort}_{direction}'
     context = {
@@ -80,7 +80,7 @@ def add_product(request):
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only the owner is allowed to do that.')
         return redirect(reverse('home'))
-    
+
     if request.method == 'POST':
         form = ProductForm(request.POST, request.FILES)
         if form.is_valid():
@@ -126,14 +126,14 @@ def edit_product(request, product_id):
 
     return render(request, template, context)
 
+
 @login_required
 def delete_product(request, product_id):
     """ Delete a product from the store """
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only the owner is allowed to do that.')
         return redirect(reverse('home'))
-        
     product = get_object_or_404(Product, pk=product_id)
     product.delete()
     messages.success(request, 'Product deleted!')
-    return redirect(reverse('products'))            
+    return redirect(reverse('products'))

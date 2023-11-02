@@ -47,7 +47,7 @@ class Order(models.Model):
         else:
             self.delivery_cost = 0
         self.grand_total = self.order_total + self.delivery_cost
-        self.save()  
+        self.save()
 
     def save(self, *args, **kwargs):
         """
@@ -77,8 +77,4 @@ class OrderLineItem(models.Model):
         super().save(*args, **kwargs)
 
     def __str__(self):
-        return f'SKU {self.product.sku} on order {self.order.order_number}'              
-
-
-
-
+        return f'SKU {self.product.sku} on order {self.order.order_number}'

@@ -478,10 +478,10 @@ a.category-badge > span.badge:hover {
         width: 100%;
     }
     .highlights-button {
-      display: none;
+        display: none;
     }
-    .hero-img {
-        padding-left: 5px;
+    #highlights {
+        margin-left: 25px;
     }
     .discover-button {
         margin-top: 0px;

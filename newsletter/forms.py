@@ -13,9 +13,7 @@ class SubscriptionForm(forms.ModelForm):
 class NewsletterForm(forms.ModelForm):
     """Create Newsletters for subscribers"""
     message = forms.CharField(widget=TinyMCE(), label="Email content")
-    
+
     class Meta:
         model = Newsletter
         fields = ['subject', 'receiver']
-       
-     

@@ -11,7 +11,7 @@ class Subscriber(models.Model):
     def __str__(self):
         return self.email + " (" + ("not " if not self.confirmed else "") + "confirmed)"
 
- 
+
 class Newsletter(models.Model):
     """Model for sending newletters"""
     subject = models.CharField(max_length=50, null=True)

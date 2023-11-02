@@ -11,7 +11,7 @@ from profiles.models import UserProfile
 from profiles.forms import UserProfileForm
 from basket.contexts import basket_contents
 
-import stripe 
+import stripe
 import json
 
 
@@ -35,7 +35,7 @@ def cache_checkout_data(request):
 def checkout(request):
     stripe_public_key = settings.STRIPE_PUBLIC_KEY
     stripe_secret_key = settings.STRIPE_SECRET_KEY
-    
+
     if request.method == 'POST':
         basket = request.session.get('basket', {})
 
@@ -88,13 +88,13 @@ def checkout(request):
 
         current_basket = basket_contents(request)
         total = current_basket['grand_total']
-        stripe_total = round(total * 100) 
+        stripe_total = round(total * 100)
         stripe.api_key = stripe_secret_key
         intent = stripe.PaymentIntent.create(
             amount=stripe_total,
             currency=settings.STRIPE_CURRENCY,
-        )  
-        
+        )
+
         # Attempt to prefill the form with any info the user maintains in their profile
         if request.user.is_authenticated:
             try:
@@ -118,12 +118,12 @@ def checkout(request):
     if not stripe_public_key:
         messages.warning(request, 'Stripe public key is missing. \
             Did you forget to set it in your environment?')
-            
+
     template = 'checkout/checkout.html'
     context = {
-        'order_form' : order_form,
-        'stripe_public_key' : stripe_public_key,
-        'client_secret' : intent.client_secret,
+        'order_form': order_form,
+        'stripe_public_key': stripe_public_key,
+        'client_secret': intent.client_secret,
     }
     return render(request, template, context)
 
@@ -168,5 +168,3 @@ def checkout_successful(request, order_number):
     }
 
     return render(request, template, context)
-
-

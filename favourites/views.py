@@ -18,10 +18,5 @@ def add_to_favourites(request, product_id):
         messages.info(request, 'Removed from Favourites!')
     else:
         product.user_favourites.add(request.user)
-        messages.info(request, 'Successfully added to Favourites!')   
+        messages.info(request, 'Successfully added to Favourites!')
     return HttpResponseRedirect(request.META["HTTP_REFERER"],)
-
- 
-
-
-

@@ -30,8 +30,8 @@ def subscribe(request):
     context = {
         'form': form,
         'confirmed': confirmed,
-    }  
-    return render(request, 'home/index.html', context)  
+    }
+    return render(request, 'home/index.html', context)
 
 
 @login_required
