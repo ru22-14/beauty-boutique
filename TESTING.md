@@ -119,7 +119,7 @@ These tests are based on User Stories, Links and Features testing.
 #### Steps taken to Test Manually
 
 - Click Care and select an option in order to view products related to this category.
-- Click Makeup and select and option in order to view products related to this category.
+- Click Makeup and select an option in order to view products related to this category.
 - Click Perfume and select an option in order to view products related to this category.
 - Click Special Offers and select an option in order to view the products related to this category
 
@@ -136,8 +136,14 @@ These tests are based on User Stories, Links and Features testing.
 
 #### Acceptance Criteria
 
+- The user is able to view a search bar in the top navigation bar.
+- The user is able to search for a product and see the results.
+- The user is notified in case the desried product is not found.
 
 #### Steps taken to Test Manually
+- Type skin repair in the search bar and click the search icon or press enter to see the desired product appear as the result.
+- Type test in the search bar and click the search icon or press enter to see no results appear.
+
 
 
 #### Result:
@@ -148,13 +154,24 @@ These tests are based on User Stories, Links and Features testing.
 
 ### US.21:
 
-- As a <strong>Site User</strong> I can sort Products by Price, Rating or by Category so that I can Easily find what I am looking for.
+- As a <strong>Site User</strong> I can sort Products by Price, Rating, Name or by Category so that I can Easily find what I am looking for.
 
 
 #### Acceptance Criteria
 
+- The user sees a drop down on the products page.
+- The user is able to sort the products by selecting an option from the drop down.
 
 #### Steps taken to Test Manually
+
+- On the products page select price(low to high) to see that the products are sorted based on the selection.
+- On the products page select price(high to low) to see that the products are sorted based on the selection.
+- On the products page select rating(low to high) to see that the products are sorted based on the selection.
+- On the products page select rating(hight to low) to see that the products are sorted based on the selection.
+- On the products page select name(A-Z) to see that the products are sorted based on the selection.
+- On the products page select name(Z-A) to see that the products are sorted based on the selection.
+- On the products page select category(A-Z) to see that the products are sorted based on the selection.
+- On the products page select category(Z-A) to see that the products are sorted based on the selection.
 
 
 #### Result:
@@ -169,8 +186,24 @@ These tests are based on User Stories, Links and Features testing.
 
 #### Acceptance Criteria
 
+- The user is able to see the product details on the product detail page.
+- The user is able to add the product to the basket from the page.
+- The user is able to add the product to favorites from the page.
+- The user is able to increase/decrease the quantity of the product from the page.
 
 #### Steps taken to Test Manually
+
+- Click on a product from the products list to go to the product details page.
+- On the product details page, a picture and a detailed description about the product is available.
+- Click the basket icon to add the product to the basket.
+- Click the favourites icon to add the product to your favourites list.
+- Click the favourites icon to remove it from your favourites list.
+- Click the plus icon to increase the product quantity.
+- Click the minus icon to decrease the product quantity.
+- Click the quantity field and enter the number of your choice. 
+- Hover over the quantity filed to see an upward and downward arrowhead.
+- Increase the quantity by clicking the upward arrowhead.
+- Dicrease the quantity by clicking the downward arrowhead.
 
 
 #### Result:
@@ -184,9 +217,16 @@ These tests are based on User Stories, Links and Features testing.
 - As a <strong>Site User</strong> I can add or remove items into the favourites so that I can buy them in the Future if they are on sale or simply remove them.
 
 #### Acceptance Criteria
-
+- The user is able to add all the desired products in the favourites list and access them later from the list.
+- The user is able to add one or more products from the favourites to the basket.
+- The user is able to remove products from the favourites list.
+- 
 
 #### Steps taken to Test Manually
+
+- Click the favourites icon on a product details page and then go to the favourites page using the favourites icon on the top right to see the product listed on the page. Check that the favourites counter increases everytime a product is added to the favourites list.
+- On the favourites page click the add to basket in order to add the product to the basket to make a purchase.
+- On the favourites page click the remove button next to a product in order to remove the product from the favourites list. Check that the counter decreases once a product is removed from the favourites list.
 
 
 #### Result:

@@ -132,7 +132,7 @@ Fonts were imported from Google Fonts. The font used for this Project is Lato.
 
 - As a <strong>Site User</strong> I can <strong>Search</strong>for a particular product so that I can quickly find the desired product. <hr>
 
-- As a <strong>Site User</strong> I am able to go to a <strong>Product's detail page</strong> so that I can read about the description of the product, add it to favourites or basket by selecting the quantity of the product.
+- As a <strong>Site User</strong> I am able to go to a <strong>Product's detail page</strong> so that I can read about the description of the product, add it to favourites or basket by selecting the quantity of the product. <hr>
 
 - As a <strong>Site User</strong> I can <strong>Add or Remove items into the Favourites</strong> so that I can buy them in the Future if they are on sale or simply remove them.<hr>
 
@@ -140,7 +140,7 @@ Fonts were imported from Google Fonts. The font used for this Project is Lato.
 
 - As a <strong>Customer</strong> I can increase or decrease the <strong>Quantity </strong>of the products so that I can decide how many products I want to buy. <hr>
 
-- As a <strong>Site User</strong> I can <strong>Edit or Update my Basket</strong> so that I can adjust the Quantity of the products or simply remove them before purchasing.
+- As a <strong>Site User</strong> I can <strong>Edit or Update my Basket</strong> so that I can adjust the Quantity of the products or simply remove them before purchasing. <hr>
 
 - As a <strong>Site User</strong> I can <strong>Checkout</strong>securely so that I can see the order summary and purchase the items I have added to the basket. <hr>
 
@@ -155,8 +155,6 @@ Fonts were imported from Google Fonts. The font used for this Project is Lato.
 - As a <strong>Registered User</strong> I can <strong>Login and Logout</strong> of my account so that I can add products to the Basket, purchase them, add my favourite items to my favourites, see the list of orders I have made or view my details and update them if I need to. <hr>
 
 - As a <strong>Registered User</strong> I can access my <strong>Profile</strong> so that I can view my order history, favourites list and update my delivery details.<hr>
-
-
 
 - As a <strong>Site User</strong> I can Subscribe for <strong>Newsletter</strong> so that I can get all the updates about new promotions and upcoming sales. <hr>
 
