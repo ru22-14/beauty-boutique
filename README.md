@@ -1,4 +1,4 @@
-<h1 align = "center">THE CROWN EVENTS</h1><h3 align = "center">YOUR BEAUTY OUR PASSION</h3> <hr>
+<h1 align = "center">BEAUTY BOUTIQUE</h1><h3 align = "center">YOUR BEAUTY OUR PASSION</h3> <hr>
 
 <img src="static/media/responsive-img.jpg" width="100%" align = "center"><br>
 
@@ -118,39 +118,39 @@ Fonts were imported from Google Fonts. The font used for this Project is Lato.
 
 ## User Stories
 
-- As a <strong>Site User</strong>, I understand the <strong>purpose of the website</strong>  So that I can find what I am looking for and eventually make a purchase. <hr>
+- As a <strong>Site User</strong>, I understand the <strong>Purpose of the Website</strong>  So that I can find what I am looking for and eventually make a purchase. <hr>
 
-- As a <strong>Site User</strong>, after signup or login I can see The <strong>Home Page</strong> so that I can explore the additional features which are allowed to a registered User.
+- As a <strong>Site User</strong>, after signup or login I can see The <strong>Home Page</strong> so that I can explore the additional features which are allowed to a registered User. <hr>
 
 - As a <strong>Site User</strong> I can easily <strong>Navigate</strong> around the website so that I can explore it and can go on different pages where I want to go. <hr>
 
 - As a <strong>Site User</strong> I can easily navigate to the <strong>Products page</strong> so that I can choose from them and make a purchase. <hr>
 
-- As a <strong>Site User</strong> I can <strong>view Products by selecting category</strong> so that I can view the products I am searching for without scrolling through all the products. <hr>
+- As a <strong>Site User</strong> I can <strong>view Products by selecting Category</strong> so that I can view the products I am searching for without scrolling through all the products. <hr>
 
-- As a <strong>Site User</strong> I can <strong>sort Products</strong> by Price, Rating or by Category so that I can Easily find what I am looking for. <hr>
+- As a <strong>Site User</strong> I can <strong>Sort Products</strong> by Price, Rating or by Category so that I can Easily find what I am looking for. <hr>
 
-- As a <strong>Site User</strong> I can <strong>search</strong>for a particular product so that I can quickly find the desired product. <hr>
+- As a <strong>Site User</strong> I can <strong>Search</strong>for a particular product so that I can quickly find the desired product. <hr>
 
 - As a <strong>Site User</strong> I am able to go to a <strong>Product's detail page</strong> so that I can read about the description of the product, add it to favourites or basket by selecting the quantity of the product.
 
-- As a <strong>Site User</strong> I can <strong>add or remove items into the favourites</strong> so that I can buy them in the Future if they are on sale or simply remove them.<hr>
+- As a <strong>Site User</strong> I can <strong>Add or Remove items into the Favourites</strong> so that I can buy them in the Future if they are on sale or simply remove them.<hr>
 
 - As a <strong>Site User</strong> I am able to check the <strong>Basket</strong> so that I can find the products I added to it. <hr>
 
 - As a <strong>Customer</strong> I can increase or decrease the <strong>Quantity </strong>of the products so that I can decide how many products I want to buy. <hr>
 
-- As a <strong>Site User</strong> I can <strong>Edit or Update my basket</strong> so that I can adjust the Quantity of the products or simply remove them before purchasing.
+- As a <strong>Site User</strong> I can <strong>Edit or Update my Basket</strong> so that I can adjust the Quantity of the products or simply remove them before purchasing.
 
-- As a <strong>Site User</strong> I can <strong>checkout</strong>securely so that I can see the order summary and purchase the items I have added to the basket. <hr>
+- As a <strong>Site User</strong> I can <strong>Checkout</strong>securely so that I can see the order summary and purchase the items I have added to the basket. <hr>
 
 - As a <strong>Site User</strong> I can make <strong>Payment</strong> so that I can finally buy the products. <hr>
 
-- As a <strong>Customer</strong> I can receive a <strong>confirmation message</strong> after placing an order so that I am satisfied that the order has been placed and can view my order in my order history. <hr>
+- As a <strong>Customer</strong> I can receive a <strong>Confirmation Message</strong> after placing an order so that I am satisfied that the order has been placed and can view my order in my order history. <hr>
 
-- As a <strong>New User</strong> I need to understand the <strong>purpose of registration</strong>so that I can decide whether I should register an account or not.<hr>
+- As a <strong>New User</strong> I need to understand the <strong>Purpose of Registration</strong>so that I can decide whether I should register an account or not.<hr>
 
-- As a <strong>Site User</strong> I can receive an email so that I can <strong>verify </strong>that my account has been registered successfully. <hr>
+- As a <strong>Site User</strong> I can receive an email so that I can <strong>Verify</strong>that my account has been registered successfully. <hr>
 
 - As a <strong>Registered User</strong> I can <strong>Login and Logout</strong> of my account so that I can add products to the Basket, purchase them, add my favourite items to my favourites, see the list of orders I have made or view my details and update them if I need to. <hr>
 
@@ -160,11 +160,11 @@ Fonts were imported from Google Fonts. The font used for this Project is Lato.
 
 - As a <strong>Site User</strong> I can Subscribe for <strong>Newsletter</strong> so that I can get all the updates about new promotions and upcoming sales. <hr>
 
-- As a <strong>Site User</strong>  I can understand when an <strong>error</strong> occurs so that I can be given clear feedback on what I should do. <hr>
+- As a <strong>Site User</strong>  I can understand when an <strong>Error</strong> occurs so that I can be given clear feedback on what I should do. <hr>
 
-- As an <strong>Admin</strong>  I can login and access the <strong>admin page</strong> from the main website so that I can perform the actions required as an Admin.<hr>
+- As an <strong>Admin</strong>  I can login and access the <strong>Admin Site</strong> from the main website so that I can perform the actions required as an Admin.<hr>
 
-- As an <strong>Admin</strong> I can <strong>Add, Update or Delete products</strong> from the website so that I can keep the list of products Up to date and can track all the activity running on my website and can send Newsletters to the Subscribers. <hr>
+- As an <strong>Admin</strong> I can <strong>Add, Update or Delete Products</strong> from the website so that I can keep the list of products Up to date and can track all the activity running on my website and can send Newsletters to the Subscribers. <hr>
 
 [Back to Top](#table-of-contents)
 ## Database Schema
