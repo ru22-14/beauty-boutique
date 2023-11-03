@@ -46,7 +46,7 @@ def update_basket(request, item_id):
         messages.success(request,
                         (f'Updated {product.name}' f'quantity to {basket[item_id]}'))
     elif quantity > 15:
-        messages.warning(request, 'sorry this qunatity isnt allowed')
+        messages.warning(request, 'Only 5 Products are allowed to each customer')
     else:
         basket.pop(item_id)
         messages.success(request,(f'Removed {product.name} from your basket'))

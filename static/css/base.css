@@ -217,6 +217,7 @@ a.category-badge > span.badge:hover {
 
 #textarea + ul.controls {
     list-style-type: none; /* aesthetics only, adjust to taste, irrelevant to demo */
+    
 }
 
 /* hiding the hide link when the #textarea is not targeted,
