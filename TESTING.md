@@ -201,7 +201,7 @@ These tests are based on User Stories, Links and Features testing.
 - Click the plus icon to increase the product quantity.
 - Click the minus icon to decrease the product quantity.
 - Click the quantity field and enter the number of your choice. 
-- Hover over the quantity filed to see an upward and downward arrowhead.
+- Hover over the quantity field to see an upward and downward arrowhead.
 - Increase the quantity by clicking the upward arrowhead.
 - Dicrease the quantity by clicking the downward arrowhead.
 
@@ -241,10 +241,17 @@ These tests are based on User Stories, Links and Features testing.
 
 #### Acceptance Criteria
 
+- The user is able to view the basket icon on the top right corner.
+- The user is able to click the basket icon and view the products added to the basket.
+- The user is able to click the Add to basket button on a product detail page in order to add the product to the basket.
+- The user is able to view the total price under the basket icon.
 
 #### Steps taken to Test Manually
 
-
+- Check that the basket icon is visible on the top right corner.
+- Click the basket icon to see the products added into the basket. in case there are no products then add a product to the basket and check that the product is added correctly.
+- Check that the add to basket button is present for all the products.
+- Check that the amount displayed under the basket icon is correct and is updated by adding or removing a product.
 #### Result:
 
 # Pass
@@ -257,9 +264,20 @@ These tests are based on User Stories, Links and Features testing.
 
 #### Acceptance Criteria
 
+- The user is able to view a quantity field next to every product in the basket.
+- The user is able to increase/dicrease the quantity of the product in the basket.
+
 
 #### Steps taken to Test Manually
 
+- Check that the quantity field is displayed next to every product in the basket.
+- Click the plus icon to increase the product quantity.
+- Click the minus icon to decrease the product quantity.
+- Click the quantity field and enter the number of your choice. 
+- Hover over the quantity field to see an upward and downward arrowhead.
+- Increase the quantity by clicking the upward arrowhead.
+- Dicrease the quantity by clicking the downward arrowhead.
+- Click update in order to update the product quantity and check that the total amount is updated accordingly.
 
 #### Result:
 
@@ -273,10 +291,14 @@ These tests are based on User Stories, Links and Features testing.
 - As a <strong>Site User</strong> I can Edit or Update my basket so that I can adjust the Quantity of the products or simply remove them before purchasing.
 #### Acceptance Criteria
 
+- The user is able to increase/dicrease a product´s quantity and update it.
+- The user is able to remove a product from the basket.
+- The user is notified using a message after updation or deletion.
 
 #### Steps taken to Test Manually
 
-
+- Increase or dicrease the quantity of a product in the basket and click update and check that the total amount is adjusted accordingly.
+- Remove a product from the basket and check that it is no longer visible in the basket and the amount is adjusted accordingly.
 #### Result:
 
 # Pass
@@ -290,9 +312,15 @@ As a <strong>Site User</strong> I can checkout securely so that I can see the or
 
 #### Acceptance Criteria
 
+- The user is able to view a checkout button while in the basket.
+- The user is able to enter all the required data and checkout making a successful purchase.
+- The user is able to view the order summary under order history after a purchase.
 
 #### Steps taken to Test Manually
 
+- Click the checkout button in the basket.
+- Enter all the required data and click complete order, you see a message saying that the order was successful. A summary of the order is displayed.
+- Goto the User profile and see that the order summary is available there.
 
 #### Result:
 
@@ -306,9 +334,15 @@ As a <strong>Site User</strong> I can checkout securely so that I can see the or
 
 #### Acceptance Criteria
 
+- The user sees a payment method i.e. via credit card in order to make a pruchase.
+- The user is able to user the cc data and make a purchase.
+- The user gets a confirmation E-Mail that the payment was successful.
 
 #### Steps taken to Test Manually
 
+- Enter the payment data in order to make a purchase and click complete order.
+- Check that you see a success message.
+- Check that you receive a confirmation E-Mail stating that the payment was successful.
 
 #### Result:
 
@@ -322,10 +356,15 @@ As a <strong>Site User</strong> I can checkout securely so that I can see the or
 
 #### Acceptance Criteria
 
+- The user gets a confirmation E-Mail the the order was successfully placed.
+- The user is able to view the order summary under the user profile.
+
 
 #### Steps taken to Test Manually
 
-
+- Place an order and check that you receive a confirmation E-Mail stating that the order was successfully placed.
+- Check that the order summary is available to you under your user profile.
+- Check that the summary contains all the necessary data related to the order.
 #### Result:
 
 # Pass
@@ -339,9 +378,18 @@ As a <strong>Site User</strong> I can checkout securely so that I can see the or
 
 #### Acceptance Criteria
 
+- The user is able to view information related to the advatages of being a registered user on the signup page.
+- The user is able to enter all the required data and register.
+- The user receives a confirmation Email after the registration.
+- The user is able to login with his/her credentials after registration.
 
 #### Steps taken to Test Manually
 
+- Click register on the top right corner under the user icon and you should be directed to the registration page.
+- Check that you see the advantages of bein a registered user.
+- Enter all the required data and click the sign up button. 
+- You receive a confirmation E-Mail informing you that you have registered successfully.
+- Login using your credentials, you are successfully logged in and land on the home page.
 
 #### Result:
 
@@ -355,9 +403,11 @@ As a <strong>Site User</strong> I can checkout securely so that I can see the or
 
 #### Acceptance Criteria
 
+- The user receives a confirmation E-Mail that he/she was successfully registered.
 
 #### Steps taken to Test Manually
 
+- Register as a new user and check that you receive a confirmation E-Mail stating that the registration was successful.
 
 #### Result:
 
@@ -370,9 +420,13 @@ As a <strong>Site User</strong> I can checkout securely so that I can see the or
 - As a <strong>Registered User</strong> I can Login and Logout of my account so that I can add products to the Basket, purchase them, add my favourite items to my favourites, see the list of orders I have made or view my details and update them if I need to.
 #### Acceptance Criteria
 
-
+- The user is able to login to the shop using the login link under the user icon on the top right.
+- The user is able to logout of the webpage using the signout link uder the user icon on the top right.
+- The user sees a success message after login/logout.
 #### Steps taken to Test Manually
 
+- Click the login button under the user icon on the top right corner and enter your login credentials and click the sign in button. You see a success message and are able to use all the functionalities of the shop.
+- Click the logout button under the user icon on the top right corner and click sign out, you see a success message that you were successfully signed out of the shop.
 
 #### Result:
 
@@ -386,10 +440,17 @@ As a <strong>Site User</strong> I can checkout securely so that I can see the or
 
 #### Acceptance Criteria
 
+- The user is able to view it´s profile after logging in.
+- The user is able to update it´s profile.
+- The user is able to view it´s order history under the profile.
+
 
 #### Steps taken to Test Manually
 
-
+- Login with your user credentials and click my profile link under the user icon.
+- You see delivery data under my profile and order history.
+- Edit/Update data and click the update button. check that the data is updated and saved.
+- Click the order number to view the order summary. click go back to profile to go back to the profile page.
 #### Result:
 
 # Pass
@@ -402,9 +463,12 @@ As a <strong>Site User</strong> I can checkout securely so that I can see the or
 
 #### Acceptance Criteria
 
-
+- The user is able to subscribe to a newsletter in order to receive updates.
+- The user receives a success message and a confirmation E-Mail.
 #### Steps taken to Test Manually
 
+- Login to the shop using your credentials and enter your email in the subscription section in the footer and click the subscribe button. you see a message that you have been subscribed to the newsletter.
+- You should also receive an E-Mail mentioning that you have successfully subscribe to the newsletter.
 
 #### Result:
 
@@ -418,9 +482,11 @@ As a <strong>Site User</strong> I can checkout securely so that I can see the or
 
 #### Acceptance Criteria
 
+- The user is shown an error page in case of entering a wrong URL or making a typing mistake.
 
 #### Steps taken to Test Manually
 
+- Open the products page and goto the URL and instead of products change it to product and press enter. you see a 404 page not found error.
 
 #### Result:
 
@@ -434,9 +500,17 @@ As a <strong>Site User</strong> I can checkout securely so that I can see the or
 
 #### Acceptance Criteria
 
+- Admin user is able to login and access the admin page.
+- Admin user is able to perform all the admin operations from the admin page.
 
 #### Steps taken to Test Manually
 
+- Login as an admin user and check that the admin page link is available under the user icon.
+- Check that i am able to access the admin page by using the link.
+- Check that i am able to add new products, update existing products and delete products from the admin page.
+- Check that i am able to check and update orders from the admin page.
+- Check that i am able to send newsletters from the admin page.
+- Check that i am able to verify newly registered users.
 
 #### Result:
 
@@ -450,9 +524,16 @@ As a <strong>Site User</strong> I can checkout securely so that I can see the or
 
 #### Acceptance Criteria
 
+- Admin user is able to login and access the admin page.
+- Admin user is able to perform all the admin operations from the admin page.
 
 #### Steps taken to Test Manually
 
+- Login using the admin credentials and check that i am able to access the admin page by using the link.
+- Check that i am able to add new products, update existing products and delete products from the admin page.
+- Check that i am able to check and update orders from the admin page.
+- Check that i am able to send newsletters from the admin page.
+- Check that i am able to verify newly registered users.
 
 #### Result:
 
