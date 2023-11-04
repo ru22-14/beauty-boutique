@@ -2,19 +2,18 @@
 {% load static %}
 
 {% block page_header %}
-    <div class="container header-container pt-4 mb-4">
-        <div class="col-12 text-center mx-auto">
-            <h2 class="logo-font" style="color: rgb(255, 255, 255);">Products</h2>
-            {% for c in current_categories %}
-                <a class="category-badge text-decoration-none" href="{% url 'products' %}?category={{ c.name }}">
-                    <span class="p-2 mt-2 badge badge-white text-black rounded-0 border border-dark">{{ c.friendly_name }}</span>
-                </a>
-            {% endfor %}
-            <hr class="w-50 mb-1">
-        </div>
+<div class="container header-container pt-4 mb-4">
+    <div class="col-12 text-center mx-auto">
+        <h2 class="logo-font" style="color: rgb(255, 255, 255);">Products</h2>
+        {% for c in current_categories %}
+            <a class="category-badge text-decoration-none" href="{% url 'products' %}?category={{ c.name }}">
+                <span class="p-2 mt-2 badge badge-white text-black rounded-0 border border-dark">{{ c.friendly_name }}</span>
+            </a>
+        {% endfor %}
+        <hr class="w-50 mb-1">
     </div>
+</div>
 {% endblock %}
-
 
 {% block content %}
     <div class="container-fluid">

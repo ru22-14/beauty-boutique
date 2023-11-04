@@ -15,7 +15,7 @@ We've got your phone number on file as {{ order.phone_number }}.
 
 If you have any questions, feel free to contact us at {{ contact_email }}.
 
-Thank you for Shopping!
+Thank you for your purchase!
 
 Sincerely,
 

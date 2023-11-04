@@ -23,9 +23,9 @@
 {% block content %}
 <div class="container-fluid">
     <div class="container bg-white pt-4 pb-4">
-        <div class="row summary-text bg-white mx-auto">
-            <div class="col-12 col-lg-7">
-                <div class="order-confirmation-wrapper p-4 border mt-2 mb-2">
+        <div class="row summary-text mx-auto">
+            <div class="col-12 col-lg-7  mx-auto my-auto">
+                <div class="order-confirmation-wrapper p-4 border mt-2 mb-2"  style="background-color: rgba(245, 195, 222, 0.461);">
                     <div class="row">
                         <div class="col">
                             <small class="text-muted">Order Summary:</small>
@@ -189,7 +189,7 @@
             </div>
         </div>
         <div class="row">
-			<div class="col-12 col-lg-7 text-right">
+			<div class="col-12 col-lg-7 text-right mx-auto my-auto">
                 {% if from_profile %}
                     <a href="{% url 'profile' %}" class="btn btn-black rounded-0 my-2">
                         <span class="icon mr-2">
@@ -202,7 +202,7 @@
                         <span class="icon mr-2">
                             <i class="fas fa-gifts"></i>
                         </span>
-                        <span class="text-uppercase">Now check out the latest deals!</span>
+                        <span class="text-uppercase">Now check out the New Arrivals!</span>
                     </a>
                 {% endif %}
 			</div>

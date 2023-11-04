@@ -16,7 +16,6 @@
 <div class="container-fluid bg-white">
     <div class="col-12 text-center">
         {% if user_favourites %}
-        <!-- favourite Products -->
 
         {% for product in user_favourites %}
         <div class="fvt-product-container container-fluid mt-4">
@@ -55,8 +54,6 @@
                     </div>
                 </div>
                 <div class="col-sm-12 col-lg-6 fvt-align pl-4 d-flex align-items-center">
-
-
                     <form class="form" action="{% url 'add_to_basket' product.id %}" method="POST">
                         {% csrf_token %}
                         <div class="form-row">
@@ -74,7 +71,6 @@
                                 <input class="btn btn-black btn-sm  text-center rounded-2 text-uppercase mt-2"
                                     type="submit" value="Add To Basket">
                             </div>
-
                             <input type="hidden" name="redirect_url" value="{{ request.path }}">
                             {% endif %}
                             <div class="btn">
@@ -97,7 +93,7 @@
             <span class="icon">
                 <i class="fa-solid fa-caret-left"></i>
             </span>
-            <span class="text-uppercase">add products to favourites
+            <span class="text-uppercase">Add products to favourites
             </span>
         </a>
         {% endif %}
