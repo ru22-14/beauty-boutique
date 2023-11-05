@@ -7,13 +7,16 @@
 
 ## OVERVIEW
 
-Beauty Boutique believe in the quality and commitment to develop good relationship with our customers. From drugstore and natural cosmetics to premium and luxury, the online shop covers all product segments. The categories perfume, skin care, make-up, hair care, beauty tools and accessories offer a diverse selection of products for daily beauty routines.
+We at Beauty Boutique believe in quality and are committed to develop a good relationship with our customers. From drugstore and natural cosmetics to premium and luxury, the online shop covers all product segments. The categories perfume, skin care, make-up, hair care, beauty tools and accessories offer a diverse selection of products for daily beauty routines.
 
-To keep the customers upto date we also offer to subscribe to our Beauty News and receive Newsletters of all the updates.
+To keep the customers uptodate we also offer subscription to our Beauty News in order to receive Newsletters and product updates.
 
-Utilising the Django Full Stack Web Framework, Bootstrap, Stripe API for secure payments, and underwritten by the principles of User Experience design and Search Engine Optimisation, the Sensical.ie Webstore offers its customers an effortless, logical, and rewarding user experience.
+Utilising the Django Full Stack Web Framework, Bootstrap, Stripe API for secure payments, User Experience design and Search Engine Optimisation, the Beauty Boutique Webstore offers its customers an effortless, logical and rewarding user experience.
 
-Users can make online purchases either as a guest or logged in. Once payment is successful, the user is sent an email confirmation of their purchase and their order number.
+Users can make online purchases either as a guest or being logged in. Once the payment is successful, the user is sent an email confirmation of their purchase and their order number.
+
+<strong>Note:</strong>
+The final website slightly differs from the wireframes that were created in the beginning. The reason being that while i was creating my Readme i found out that the changes would be beneficial for the user experience.
 
 # [Table of Contents](#table-of-contents)
 - [Planning and Design](#planning-and-design)
@@ -62,7 +65,7 @@ Users can make online purchases either as a guest or logged in. Once payment is 
 
 # Planning and Design
 
-- A Complete e-commerce web application will be created
+- A Complete E-commerce web application will be created
 that generates revenue and provides a great user experience. 
 - Essential steps include incorporating powerful features and choosing the right platforms, developing a minimum viable product, testing the app, optimizing search engine ranking, and implementing effective marketing strategies to attract and retain customers.
 
@@ -169,11 +172,11 @@ Fonts were imported from Google Fonts. The font used for this Project is Lato.
 
 [dbdiagram.io](https://dbdiagram.io/) was used to visualise the custom models for this project. The ER diagram shows the logical relationship between the different entities and makes it clear how the different entities are related to one another.
 
-The Profile model allows users who sign up to have a profile automatically created for them and the user can then update and change their profile information if they wish. One User can have One Profile, hence this is a One-to-One relationship.
+The Profile model allows users who sign up to have a profile automatically created for them and the user can then update and change their profile information if they wish. One User can have one Profile, hence this is a One-to-One relationship.
 
 Each User can have many Orders, it is representing One-to-Many relationship however each Order can only have one User.
 
-The Categories are linked to the Products Model as a product can only have 1 category but 1 category can be assigned to many Products. hence its a one to many relationship.
+The Categories are linked to the Products Model as a product can only have one category but one category can be assigned to many Products. hence its a one to many relationship.
 
 Each Product can have many Orders, it is also representing One-to-Many relationship.
 
@@ -181,7 +184,7 @@ Each Product can have many Orders, it is also representing One-to-Many relations
 
 # Agile
 
-In order to use the agile methodology, the github project with linked issues was used. User stories were created and based on these user stories the project was created and brought to life.The link to the kanban board is here:
+In order to use the agile methodology, the github project with linked issues was used. User stories were created and based on these user stories the project was created and brought to life. The link to the kanban board is here:
 
 ### [Beauty Boutique Kanban Board](https://github.com/users/ru22-14/projects/6/views/1) <br><br>
 
@@ -193,10 +196,10 @@ In order to use the agile methodology, the github project with linked issues was
 ### Features exist accross all Pages
 ### Upper Navbar
 
-The navigation bar is visible on the top of the web application across all pages. The Name of the beauty Store is present on the top left side which takes the user back to Home Page. On the Right Top corner there are links to Login/Signup and basket.
+The navigation bar is visible on the top of the web application across all pages. The name of the beauty store is present on the top left side which takes the user back to Home Page. On the top right corner there are links to Login/Signup and Basket.
 <img src="static/media/guest-nav.jpg" width="80%" align = "center"><br>
 
- Once a user is loggedin there are additional navigation links added to the navigation bar that lead the User to the User Profile and favourites list. Favourites Icon shows the number of Products added in it and if empty then it displays 0. Like favourites the Basket Icon displays the Grand total of the products added in it and if empty then it displays 0 as well. 
+ Once a user is loggedin there are additional navigation links added to the navigation bar that lead the User to the User Profile and Favourites list. Favourites Icon shows the number of Products added in it and if empty then it displays 0. Like Favourites the Basket icon displays the grand total of the products added in it and if empty then it displays 0 as well. 
 
 <img src="static/media/whole-nav.jpg" width="80%" align = "center"><br><hr>
 
@@ -219,9 +222,9 @@ The Delivery Banner exists across all the Pages to keep the customer clear about
 
 ### Footer
 
-Footer also exists across all the Pages. On the Left side of the footer the Facebook Page Link is provided and can be accessed by clicking on the link. Then the link to our Privacy Policy is also provided, the user can read and understand the policy by clicking on it.
+Footer also exists across all the pages. On the left side of the footer the Facebook Page Link is provided and can be accessed by clicking on the link. The link to our Privacy Policy is also provided, the user can read and understand the policy by clicking on it.
 
-While on the Right Side of the Footer the User is given an option to Subscribe to the Newsletters. In this way the Subscriber will receive emails regarding all the upcoming events and updates.
+While on the right side of the footer the user is given an option to Subscribe to the Newsletters. In this way the Subscriber will receive emails regarding all the upcoming events and updates.
 
 <img src="static/media/footer.jpg" width="80%" align = "center"> <br>
 
@@ -229,7 +232,7 @@ While on the Right Side of the Footer the User is given an option to Subscribe t
 
 ### Landing Page
 
-The Landing Page contains Logo Name, NavBar, delivery banner, Hero image with a Button which leads the user to the New Products and an enthusiastic Text with a button under it which leads the user to the Products Page.
+The Landing Page contains Logo Name, NavBar, Delivery Banner, Hero image with a button which leads the user to the New Products and an enthusiastic Text with a button under it which leads the user to the Products Page.
 
 It has beautiful contrasts of Pink Colour.
 
@@ -239,7 +242,7 @@ The Icons on the right side of the Top Navbar will change the colour after login
 
 ### Home Page
 
-The Home Page is same as Landing Page except that after logging in the Icons on the right side of the Top Navbar Increases as the favourites icon also appears and all the icons change their colour and text as per user's activity. The User can read our Business objective and the information about Online Store. In the footer section the user can find the facebook page, access our Privacy Policy as well as subscribe for the newsletters.
+The Home Page is the  same as Landing Page except that after logging in the icons on the right side of the top Navbar Increases as the favourites icon also appears and all the icons change their colour and text as per user's activity. The user can read our Business objective and the information about the online store. In the footer section the user can find the facebook page, access our privacy policy as well as subscribe for the newsletters.
 
 <img src="static/media/home-page.jpg" width="80%" align = "center"> 
 <img src="static/media/about-us.jpg" width="80%" align = "center">
@@ -247,13 +250,13 @@ The Home Page is same as Landing Page except that after logging in the Icons on 
    
 ### Products Page
 
-The Products Page features a sort selector at the top left of the page with a toggle switch that can sort products by alphabetical order, by Category, by Name or by Price. The User can view all the Products or  Products under different Categories by clicking the links provided in the navbar. 
+The Products Page features a sort selector at the top left of the page with a toggle switch that can sort products based on Alphabetical order, Category, Name or Price. The User can view all the Products or  Products under different Categories by clicking the links provided in the navbar. 
 
 ### All Products
 
-The Products Page Contains Product Cards that have an image if the product and beneath the image there displays the name of the product, price, category name to the customer. 
+The Products Page Contains Product Cards that have an image of the product and beneath the image is the name of the product, price, category name. 
 
-if the User is the Owner of the Webstore then two more links will be provided at the bottom of each card so the Owner can edit a Product or simply delete it.  
+In case the User is the Owner(admin) of the Webstore then two more links will be provided at the bottom of each card so the Owner(admin) can edit a Product or simply delete it.  
 
 <img src="static/media/products-page.jpg" width="80%" align = "center"> <br>
 
@@ -301,47 +304,47 @@ The Customer can select the quantity of the product , increase or decrease it by
 
 <img src="static/media/product-detail-page.jpg" width="80%" align = "center"> <br>
 
-The Customer can also add a product to favourites by clicking on the heart Icon and can buy it later. The favourites icon on Detail page  changes its colour from black to pink and the customer is informed through a message that the product is added to favourites.
+The Customer can also add a product to favourites by clicking on the heart icon and can buy it later. The favourites icon on the detail page  changes its colour from black to pink and the customer is informed through a message that the product is added to favourites.
 
 
 <img src="static/media/fvrts-icon-colour.jpg" width="80%" align = "center"><br>
 
 <img src="static/media/favourites-added-msg.jpg" width="50%" align = "center"> <br>
 
-The Favourites Icon on the Top Navbar displays the number of products added to favourites.
+The Favourites icon on the top navbar displays the number of products added to favourites.
 <img src="static/media/fvrt-nav-added.jpg" width="30%" align = "center"> <br>
 
-the Customer can remove the Product from favourites simply by clicking again on the icon given on the Product detail page.
+The Customer can remove the Product from favourites simply by clicking again on the icon given on the Product detail page.
 
 <img src="static/media/remove-fvrt-icon.jpg" width="50%" align = "center"> <br>
 
-The Customer will be notified that the Product is removed from favourites list.
+The Customer will be notified that the Product is removed from the favourites list.
 
 <img src="static/media/favourites-remove-msg.jpg" width="50%" align = "center"> <br>
 
-Next to the favourites Icon there is an add to Basket button. after selecting the quantity the Customer can click on the button and the product will be added to the basket. A small notification window regarding the information about order detail will appear. Customers can also directly access the Basket from the message container. If the Grand Total is less then the amount of 30$ the user will be notified through this message. 
+Next to the favourites icon there is an add to Basket button. After selecting the quantity the Customer can click on the button and the product will be added to the basket. A small notification window regarding the information about order detail will appear. Customers can also directly access the basket from the message container. If the grand total is less then the amount of 30$ the user will be notified through this message. 
 
 <img src="static/media/basket-mg-delivery.jpg" width="50%" align = "center"> <br>
 
 <img src="static/media/basket-msg.jpg" width="50%" align = "center"> <br>
 
-The Basket Icon on Upper Navbar will display the Grand total to the customer.
+The Basket icon on upper navbar will display the grand total to the customer.
 
 <img src="static/media/basket-icon.jpg" width="30%" align = "center"> <br>
 
 ### My Favourites Page
 
-Whenever a registered user adds a product to their favourites, they are informed by an info message.A users Favourites, and the products added to it are saved for the users convenience even if they logout or refresh their browser.
+Whenever a registered user adds a product to their favourites, they are informed by an info message. A user´s favourites, and the products added to it are saved for the user´s convenience even if they logout or refresh their browser.
 
-The favourites Page Includes the products images and 'Add to Basket' and 'Remove From Favourites' buttons. The Move to Basket feature is designed to maximise convenience for user. Adding a product to the basket from the favourites does not remove it from the favourites. In this way the user has no need to search for the product everytime. 
+The favourites page includes the product´s image and 'Add to Basket' and 'Remove From Favourites' buttons. The Add to Basket feature is designed to maximise convenience for user. Adding a product to the basket from the favourites does not remove it from the favourites. In this way the user has no need to search for the product everytime. 
 
 <img src="static/media/favourites-page.jpg" width="80%" align = "center"> <br>
 
-If the Favourites are empty the user will see a message and a link to the Products Page. 
+If the favourites list is empty the user will see a message and a link to the Products Page. 
 
 <img src="static/media/empty-favourites.jpg" width="80%" align = "center"> <br>
 
-When the favourites are empty the Favourites icon on the Upper navbar will also display 0 as there are no products added to favourites.
+When the favourites list is empty the Favourites icon on the Upper navbar will also display 0 as there are no products added to favourites.
 
 <img src="static/media/empty-fvrt-nav.jpg" width="80%" align = "center"> <br>
 
@@ -349,31 +352,31 @@ When the favourites are empty the Favourites icon on the Upper navbar will also 
 
 The basket items section contains product cards each displaying an image, name, price and quantity of each basket item. Every product card has its own selector and update button which allow the users to modify their basket without having to return to the products page. There is also a feature that allows the user to remove the entire quantity of an item from the basket if they desire.
 
-In Order to make a purchase there is a button provided which leads the user to the checkout form else the user can continue shopping by clicking the keep shopping button. 
+In order to make a purchase there is a button provided which leads the user to the checkout form else the user can continue shopping by clicking the keep shopping button. 
 
 <img src="static/media/basket-top.jpg" width="80%" align = "center"> 
 <img src="static/media/basket-bottom.jpg" width="80%" align = "center"> <br><br>
 
-After adjusting the quantity The user is informed through a success message. and the basket icon in upper navbar updates the amount accordingly.
+After adjusting the quantity the user is informed through a success message. and the basket icon in upper navbar updates the amount accordingly.
 
 <img src="static/media/basket-qty.jpg" width="50%" align = "center"> 
 <br>
 
 <img src="static/media/basket-icon.jpg" width="30%" align = "center"> <br>
 
-In Case User's Basket is empty it will clearly display a message and a link towards products page.
+In case the user's basket is empty it will clearly display a message and a link towards the products page.
 
 <img src="static/media/empty-basket.jpg" width="80%" align = "center"> <br>
 
 ### Checkout Page
 
-The Checkout Page has an order summary that provides the total cost information from the basket page.
+The Checkout page has an order summary that provides the total cost information from the basket page.
 
 If the user is a new user then he/she has to fill the form with correct data otherwise the delivery information is prepopulated in the form if a user has it saved to their profile. The option for registered users to save their information to their profile is provided if they have not already done so.
 
 The payment details section is taken directly from Stripe to capture the payment card information. As the Stripe payment system is not fully activated only the test card information can currently be utilised.
 
-one can use this card detail to make a fake purchase.
+One can use this card detail to make a fake purchase.
 
 <img src="static/media/stripe-card.jpg" width="80%" align = "center"> <br>
 
@@ -381,27 +384,27 @@ A stripe developer account was created at [Stripe](https://stripe.com/en-gb-de) 
 
 <img src="static/media/checkout-top.jpg" width="80%" align = "center"> <img src="static/media/checkout-bottom.jpg" width="80%" align = "center"> <br><br>
 
-At the bottom of the Checkout form there are two options for the customer if they want to checkout or adjust their basket.
+At the bottom of the checkout form there are two options for the customer if they want to checkout or adjust their basket.
 
-After a successfull Checkout the user is notified and leads to another page which displays information that a confirmation is sent to the user's Email along with a brief Order Summary. A link to the new arrivals page is also provided under the order summary.
+After a successfull checkout the user is notified and leads to another page which displays information that a confirmation is sent to the user's Email along with a brief Order Summary. A link to the new arrivals page is also provided under the order summary.
 
 <img src="static/media/checkout-successfull.jpg" width="80%" align = "center"> <br>
 
 ### My Profile Page
 
 Inside My Profile the users can find the Order History and can find all the orders placed.
-There the User is also provided a form in order to update the address if need to do so.
+There the user is also provided a form in order to update the address in case they need to do so.
 
 <img src="static/media/order-history.jpg" width="80%" align = "center"> <br>
 
 
 ### Newsletter Page
 
-This Page is accessable only to the Owner of this website. The Owner can send Newsletters regarding updates, special offers and any Upcoming events to all the Subscribers.
+This page is accessable only to the owner(admin) of this website. The owner(admin) can send Newsletters regarding updates, special offers and any upcoming events to all the Subscribers.
 
 <img src="static/media/newsletter.jpg" width="80%" align = "center"> <br>
 
-A Success message appears after sending newsletter email to the subscribers.
+A success message appears after sending a newsletter email to the subscribers.
 
 <img src="static/media/newsletter-sent-msg.jpg" width="50%" align = "center"> <br>
 
@@ -409,20 +412,20 @@ A Success message appears after sending newsletter email to the subscribers.
 
 ### Subscribe
 
-Users can Subscribe for Newsletters in order to keep themselves updated with the events.
+Users can subscribe for newsletters in order to keep themselves updated with the events.
 
 <img src="static/media/subscribe-email.jpg" width="80%" align = "center"> <br>
 
-After Subscribing Successfully the user is informed through a message.
+After subscribing successfully the user is informed through a message.
 
 <img src="static/media/subscription-success.jpg" width="80%" align = "center"> <br>
 
-One Email Address Can be subscribed only once otherwise an error message displays if a user tries to subscribe the same email address again. 
+One Email address can be subscribed only once otherwise an error message displays if a user tries to subscribe the same email address again. 
 <img src="static/media/subscription-error.jpg" width="80%" align = "center"> <br>
 
 ### User Account Page
 
-Users are allowed to sign up for an account if they can provide a valid, verifiable, email address.
+Users are allowed to sign up for an account if they can provide a valid, verifiable, Email address.
 
 Once registered, users can log in and out of the site to enjoy extra features and benefits, such as access to favourites and the ability to store delivery information to their user profile and to update it.
 
@@ -438,7 +441,7 @@ Everytime a user login or logout a notification message appears.
 
 ### Admin Site
 
-A super user was created to allow access to the admin panel of the website. Once logged in as an admin, the Admin Site link is accessable on the top Navigation Bar by clicking on the account icon.
+A super user was created to allow access to the admin panel of the website. Once logged in as an admin, the Admin Site link is accessable on the top navigation bar by clicking on the account icon.
 
 ### Product Management
 
@@ -446,11 +449,11 @@ A super user was created to allow access to the admin panel of the website. Once
 <img src="static/media/product-management-mid.jpg" width="80%" align = "center"> 
 <img src="static/media/product-management-bottom.jpg" width="80%" align = "center"> 
 
-Once signed in as an Admin, a link in the Upper Navigation Bar under the Accounts section. This link takes the Admin to a form where they can add new Products. There is the option to choose an image as well.
+Once signed in as an Admin, a link in the upper navigation bar under the accounts section. This link takes the Admin to a form where they can add new products. There is the option to choose an image as well.
 
-On the Product Detail Page Edit or Delete buttons are also visible only for an Admin User. Admin can Update any information related to a Product by clicking the Edit button or can simply Delete it.
+On the Product Detail Page Edit or Delete buttons are also visible only for an Admin User. Admin can update any information related to a product by clicking the edit button or can simply delete it.
 
-Admin can Verify an Email Address, can view or delete orders, Confirm or delete the Subscribers request and can perform other tasks as per requirement.
+Admin can verify an Email address, can view or delete orders, confirm or delete the subscribers request and can perform other tasks as per requirement.
 
 <img src="static/media/admin-site.jpg" width="80%" align = "center"> <br>
 
@@ -464,21 +467,21 @@ Admin can Verify an Email Address, can view or delete orders, Confirm or delete 
 
 ### Error Page
 
-Custom Error Page was created to make it convinient to the user and ensure an appropriate link back to the main site to guide users who come across these messages.
+Custom Error Page was created to make it convenient for the user and ensure an appropriate link back to the main site to guide users who come across these messages.
 
 <img src="static/media/error-page.jpg" width="80%" align = "center"> <br>
 
 [Back to Top](#table-of-contents)
 ## Features to be Implemented
 
-In the Future i want to implement an Out of stock functionality which will inform the customer if a product is out of stock. I tried to implement it in this Project. At the moment it works only for a product which is in stock but the Out of Stock functionality isn't complete yet.
+In the future i want to implement an out of stock functionality which will inform the customer if a product is out of stock. I tried to implement it in this Project. At the moment it works only for a product which is in stock but the out of stock functionality is partially implemented.
 
 # Testing
 
 The testing documentation is provided in [TESTING.md](TESTING.md)
 # Web Marketing
 
-The purpose of this site is a B2C relationship and it's main goal is to provide the oppurtunity to the Women especially those who have busy schedules and does'nt have enough time to go store to store to buy Beauty Products. Web marketing is the process of marketing, and it's a cost-effective way to reach people who are interested.
+The purpose of this site is a B2C relationship and it's main goal is to provide the oppurtunity to those Women especially who have busy schedules and do not have enough time to go store to store to buy beauty products. Web marketing is the process of marketing, and it's a cost-effective way to reach people who are interested.
 
 
 ## SEO
@@ -497,7 +500,7 @@ Keywords determined which were most important to the sites potential customers. 
 
 Content marketing refers to the strategic planning, creation and distribution of content to reach a pre-defined audience. In contrast to classic marketing approaches, content marketing  does not focus on the products, but rather on the potential customers and their concerns.
 
-Beauty Boutique gives the users the option to subscribe to the Newsletter.  Newsletter are sent to attract new customers and also keep the existing customers up to date with special offers. One disadvantage to this could be that the Newsletter will be seen as spam and not reach the user.
+Beauty Boutique gives the users the option to subscribe to the newsletter.  Newsletters are sent to attract new customers and also keep the existing customers up to date with special offers. One disadvantage to this could be that the newsletter will be seen as spam and not reach the user.
 
 Social media marketing is also chosen for this project because it's free. The link of our Facebook Page is here: <br>
 [Beauty Boutique Facebook Page](https://www.facebook.com/profile.php?id=61552478260348)
@@ -693,7 +696,7 @@ This will create a copy of the repository for you.
 This project is build with the help of the Code Institute's "Boutique Ado" Walk-through Project.
 
 ### Favourites App  
-To create Favourites app i took help from here:
+To create Favourites app i took help from here: <br>
 [Stackoverflow](https://stackoverflow.com/questions/67493992/django-add-products-to-favorite-list?rq=3)
 
 ### Newsletter App
@@ -719,6 +722,11 @@ To Create Back to top functionality on README file, I took help from here: <br>
 [Github](https://github.com/orgs/community/discussions/42712#section-1)
 
 # Acknowledgement
+I would like to acknowledge my heartfelt gratitude to my family members for all their help, support and patience during the period of this course. 
+
+Finally, i would like to thank Code Institute for providing students with a tremendous oppurtunity to change their life by teaching them outstanding skills in a short period of time. 
+
+Special thanks to all those active members in the slack community who got me out of problems where i was stuck and could not find a solution. 
 
 [Back to Top](#table-of-contents)
 
