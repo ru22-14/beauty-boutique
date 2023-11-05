@@ -1,5 +1,5 @@
 return to [README.md](README.md)
-# Index - Table of Contents
+# [Table of Contents](#table-of-contents)
 
 - [Manual Testing](#manual-testing)
 - [Validation Tests](#validation-tests)

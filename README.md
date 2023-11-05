@@ -539,7 +539,7 @@ Social media marketing is also chosen for this project because it's free. The li
 - [Google mail](https://mail.google.com/) : os secure, smart and easy-to-use email solution 
 - [AWS](https://aws.amazon.com/) : hosting server for static files and images
 - [Balsamiq](https://balsamiq.cloud/): used to create the wireframes for design
-- [ER Diagram](https://dbdiagram.io/): used to create the entity relationship diagram between models.
+- [DB Diagram](https://dbdiagram.io/): used to create the entity relationship diagram between models.
 - [Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/install.html) : let you control the behavior of form in a very elegent way.
 - [psycopg2](https://pypi.org/project/psycopg2/) :  Python-PostgreSQL Database Adapter
 - [Unsplash](https://unsplash.com/) : is used to get the  beautiful, free images and photos for this project.
@@ -698,23 +698,25 @@ To create Favourites app i took help from here:
 
 ### Newsletter App
 
-To create Newsletter app i took help from here : 
+To create Newsletter app i took help from here : <br>
 [Twilio.com](https://www.twilio.com/blog/build-email-newsletter-django-twilio-sendgrid) <br>
 [Django](https://docs.djangoproject.com/en/4.2/topics/email/)<br>
 [Pylessons](https://pylessons.com/django-subscribe/)
 
 ### Timeout
 
-To set the timeout functionality on toast messages, I took help from here: [Stackoverflow](https://stackoverflow.com/questions/316278/timeout-jquery-effects)
+To set the timeout functionality on toast messages, I took help from here: <br>
+[Stackoverflow](https://stackoverflow.com/questions/316278/timeout-jquery-effects)
 
 ### Hide/ Show
 
-On the Product Detail page the help to implement the functionality of show and hide the product detail is taken from here:
+On the Product Detail page the help to implement the functionality of show and hide the product detail is taken from here: <br>
 [Stackoverflow](https://stackoverflow.com/questions/20735726/show-more-less-text-with-just-html-and-javascript)
 
 ### Back to Top
 
-To Create Back to top functionality on README file, I took help from here: [Github](https://github.com/orgs/community/discussions/42712#section-1)
+To Create Back to top functionality on README file, I took help from here: <br> 
+[Github](https://github.com/orgs/community/discussions/42712#section-1)
 
 # Acknowledgement
 
